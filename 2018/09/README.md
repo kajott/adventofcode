@@ -42,7 +42,7 @@ For example, suppose there are 9 players. After the marble with value `0` is pla
     [7]  0 16  8 17  4 18 19  2 24 20(25)10 21  5 22 11  1 12  6 13  3 14  7 15
     
 
-The goal is to be the _player with the highest score_ after the last marble is used up. Assuming the example above ends after the marble numbered `25`, the winning score is `23+9=_32_` (because player 5 kept marble `23` and removed marble `9`, while no other player got any points in this very short example game).
+The goal is to be the _player with the highest score_ after the last marble is used up. Assuming the example above ends after the marble numbered `25`, the winning score is `23+9=`_`32`_ (because player 5 kept marble `23` and removed marble `9`, while no other player got any points in this very short example game).
 
 Here are a few more examples:
 
@@ -71,7 +71,9 @@ This puzzle was a nicely put trap which I and certainly a lot other participants
 
 But then part 2 came and blow everything apart. Item insertion and deletion on arrays are _O(n)_ operations, making the whole puzzle _O(n²)_ when implemented this way. Instead of taking 100 times longer, it takes 10k times longer; too much to be manageable, let alone in a relatively slow language like Python!
 
-So I had no other choice than to re-implement the whole thing with a *proper* circular doubly-linked list, after a frustating failed attempt at splitting the large list into multiple smaller sub-list (i.e. a two-level tree). For whatever reason (hey, it was 7 AM and I was tired!) I made the proper implementation in C first and only "backport" it to Python later.
+So I had no other choice than to re-implement the whole thing with a *proper* circular doubly-linked list, after a frustating failed attempt at splitting the large list into multiple smaller sub-list (i.e. a two-level tree). For whatever reason (hey, it was 7 AM and I was tired!) I made the proper implementation in C first and only "backported" it to Python later.
+
+_(Fun fact: Juggling around with references in (doubly-)linked lists never ceases to inflict headaches, no matter how often you implemented that already!)_
 
 The C version is more than two orders of magnitude faster than the Python version, by the way -- so much so, that part 2 in C is twice as fast as part 1 in Python (with lists)! And that's without optimization. (Optimization didn't buy me anything, as I include the compilation time in the runtime here -- sure, `gcc -O4` generates 30% faster code, but it takes twice as long to do so ...)
 
