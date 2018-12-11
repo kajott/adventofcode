@@ -88,10 +88,14 @@ This is one of the "hah, your naive solution won't scale for part 2" puzzles. In
 
 The first optimization step is to pre-compute a matrix with NxN sub-square sums for each size and then finding the maximum. This already reduced the computation time to 3% of the initial approach for me. But the pre-computation itself was still implemented in a naive manner, so I optimized this again and got down to less than five seconds for the full solution in Python.
 
-In C, I got down to less than 100 milliseconds, *including* compilation (40 ms without). This time, compiler optimization was a net win, i.e. it makes the code so much faster (~3x) that the longer compile times are more than compensated.
+An alternate solution is making use of a [summed-area table](https://en.wikipedia.org/wiki/Summed-area_table), and this is indeed the optimal approach in terms of code size and performance.
+
+In C, I got the two fastest Python implementations down to less than 100 milliseconds each, *including* compilation. (Without that, the SAT solution takes are mere 20 milliseconds to run.) This time, compiler optimization was a net win, i.e. it makes the code so much faster (~3x) that the longer compile times are more than compensated.
 
 * Part 1, Python: 216 bytes, ~100 ms
 * Part 2, Python (naive): 281 bytes, ~10 minutes
 * Part 2, Python (pre-summed matrix): 335 bytes, ~15 s
 * Part 2, Python (optimized pre-summed matrix): 385 bytes, ~3.5 s
-* Part 2, C: 438 bytes, <100 ms
+* Part 2, Python (SAT): 331 bytes, ~2.5 s
+* Part 2, C (optimized pre-summed matrix): 438 bytes, <100 ms
+* Part 2, C (SAT): 381 bytes, <100 ms
