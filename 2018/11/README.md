@@ -94,7 +94,7 @@ In C, I got the two fastest Python implementations down to less than 100 millise
 
 * Part 1, Python: 216 bytes, ~100 ms
 * Part 2, Python (naive): 281 bytes, ~10 minutes
-* Part 2, Python (pre-summed matrix): 335 bytes, ~15 s
+* Part 2, Python (pre-summed matrix): 330 bytes, ~15 s
 * Part 2, Python (optimized pre-summed matrix): 385 bytes, ~3.5 s
 * Part 2, Python (SAT): 331 bytes, ~2.5 s
 * Part 2, C (optimized pre-summed matrix): 438 bytes, <100 ms

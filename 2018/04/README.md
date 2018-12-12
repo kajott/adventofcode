@@ -74,5 +74,5 @@ The most complex task in this puzzle is converting the input into nice (guard ID
 
 The funny thing is how similar parts 1 and 2 are: In my implementation, I just had to change a `sum` into a `max`, and that was it!
 
-* Part 1, Python: 364 bytes, <100 ms
-* Part 2, Python: 364 bytes, <100 ms
+* Part 1, Python: 363 bytes, <100 ms
+* Part 2, Python: 363 bytes, <100 ms

@@ -1,6 +1,6 @@
 import re
 f=open("input.txt")
-def C(c):return int(c=='#')
+C=lambda c:int(c=='#')
 b=4*[0]
 s=b+map(C,f.readline()[15:].strip())+b
 m=dict((tuple(map(C,p)),C(r)) for p,r in re.findall('([.#]+) => ([.#])',f.read()))
