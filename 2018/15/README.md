@@ -397,4 +397,4 @@ This is an extraordinarily complex and extremely frustrating puzzle. Not because
 
 This time, I did not write the implementation in the usual code golf style; I needed much more expressiveness and debugging facilities to preserve my sanity. That's why there's a "non-golf" version here that even has some rudimentary visualization. The compact version has been ported from this, and even then it's over 1 kilobyte. Furthermore, it didn't make much sense to provide a separate solution for parts 1 and 2 here, as they would share 99% of the code; only the outer simulation loop would be slightly different.
 
-* Parts 1+2, Python: 1150 bytes, ~15 s
+* Parts 1+2, Python: 1125 bytes, ~15 s
