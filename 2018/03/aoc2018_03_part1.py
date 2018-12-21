@@ -1,7 +1,8 @@
+_=range
 import re
-from collections import *
+from collections import*
 d=defaultdict(int)
-for i,x,y,w,h in (map(int,re.findall('\d+',x)) for x in open("input.txt")):
- for y in xrange(y,y+h):
-  for j in xrange(x,x+w):d[(j,y)]+=1
-print sum(1 for v in d.values() if v>1)
+for i,x,y,w,h in(map(int,re.findall('\d+',x))for x in open("input.txt")):
+ for y in _(y,y+h):
+  for j in _(x,x+w):d[(j,y)]+=1
+print sum(v>1for v in d.values())

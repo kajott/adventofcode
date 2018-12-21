@@ -168,5 +168,5 @@ I participated in the "advent of golf" contest too; the version I submitted ther
 
 Both parts are combined here, because part 2 is just an additional line at the end.
 
-* Part 1, Python (shortcut): 379 bytes, ~200 ms
-* Part 1, Python (correct): 433 bytes, ~250 ms
+* Part 1, Python (shortcut): 371 bytes, ~200 ms
+* Part 1, Python (correct): 426 bytes, ~250 ms

@@ -55,5 +55,5 @@ My initial implementation (and seemingly the ones from many other participants a
 
 In the end, I found out that the reduction can be done in a single pass -- you just need to go back one additional position after removing a reacting pair of units! This makes the code more than an order of magnitude faster, as can be seen in my implementations: part 1 still uses the repeated partial reaction algorithm, while part 2 performs 26 iterations of the faster algorithm, and is still twice as fast.
 
-* Part 1, Python (multi-pass): 185 bytes, ~3 s
-* Part 2, Python (single-pass): 270 bytes, ~2 s
+* Part 1, Python (multi-pass): 181 bytes, ~3 s
+* Part 2, Python (single-pass): 260 bytes, ~2 s

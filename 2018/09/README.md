@@ -77,6 +77,6 @@ _(Fun fact: Juggling around with references in (doubly-)linked lists never cease
 
 The C version is more than two orders of magnitude faster than the Python version, by the way -- so much so, that part 2 in C is twice as fast as part 1 in Python (with lists)! And that's without optimization. (Optimization didn't buy me anything, as I include the compilation time in the runtime here -- sure, `gcc -O4` generates 30% faster code, but it takes twice as long to do so ...)
 
-* Part 1, Python (array): 205 bytes, ~500 ms
-* Part 2, Python (CDLL): 277 bytes, ~30 s
+* Part 1, Python (array): 204 bytes, ~500 ms
+* Part 2, Python (CDLL): 276 bytes, ~30 s
 * Part 2, C (CDLL): 427 bytes, ~200 ms (including compilation)

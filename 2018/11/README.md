@@ -92,10 +92,10 @@ An alternate solution is making use of a [summed-area table](https://en.wikipedi
 
 In C, I got the two fastest Python implementations down to less than 100 milliseconds each, *including* compilation. (Without that, the SAT solution takes are mere 20 milliseconds to run.) This time, compiler optimization was a net win, i.e. it makes the code so much faster (~3x) that the longer compile times are more than compensated.
 
-* Part 1, Python: 216 bytes, ~100 ms
-* Part 2, Python (naive): 281 bytes, ~10 minutes
-* Part 2, Python (pre-summed matrix): 330 bytes, ~15 s
-* Part 2, Python (optimized pre-summed matrix): 385 bytes, ~3.5 s
-* Part 2, Python (SAT): 331 bytes, ~2.5 s
+* Part 1, Python: 201 bytes, ~100 ms
+* Part 2, Python (naive): 260 bytes, ~10 minutes
+* Part 2, Python (pre-summed matrix): 305 bytes, ~15 s
+* Part 2, Python (optimized pre-summed matrix): 361 bytes, ~3.5 s
+* Part 2, Python (SAT): 303 bytes, ~2.5 s
 * Part 2, C (optimized pre-summed matrix): 438 bytes, <100 ms
 * Part 2, C (SAT): 381 bytes, <100 ms

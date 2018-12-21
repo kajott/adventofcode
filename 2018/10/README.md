@@ -163,4 +163,4 @@ A quick glance at the inputs shows coordinates in the positive or negative 10000
 
 This puzzle is a little unusual in that the solution for part 2 is actually an interim result of part 1, so there's not even a separate implementation required for it.
 
-* Parts 1+2, Python: 384 bytes, <100 ms
+* Parts 1+2, Python: 365 bytes, <100 ms

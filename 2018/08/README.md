@@ -65,5 +65,5 @@ Your puzzle answer was `22608`.
 
 This was a refreshingly simple and straighforward puzzle for a change. Nothing particular to report here.
 
-* Part 1, Python: 166 bytes, <100 ms
-* Part 2, Python: 238 bytes, <100 ms
+* Part 1, Python: 163 bytes, <100 ms
+* Part 2, Python: 232 bytes, <100 ms

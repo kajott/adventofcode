@@ -1,7 +1,7 @@
-import itertools as I
+from itertools import*
 s,f=set(),0
-for d in I.cycle([int(x.strip()) for x in open("input.txt")]):
+for d in cycle([int(x.strip())for x in open("input.txt")]):
  f+=d
  if f in s:break
- s.add(f)
+ s|={f}
 print f

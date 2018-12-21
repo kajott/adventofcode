@@ -79,15 +79,18 @@ def mergelines(data, lines):
 def extraspace(data, lines):
     "extra space between tokens"
     def main(line):
-        i, l = 1, len(line) - 1
-        while i < l:
+        i, llen = 1, len(line) - 1
+        while i < llen:
             if not(line[i].isspace()):
                 i += 1
                 continue
             j = i + 1
-            while (j <= l) and line[j].isspace():
+            while (j <= llen) and line[j].isspace():
                 j += 1
-            if not((line[i - 1] in _es_left) and (line[j] in _es_right)):
+            l = line[i-1]
+            r = line[j]
+            if not((l in _es_left) and (r in _es_right)) \
+            and not((l+r) in ("0x", "0o", "0b")):
                 yield (i, j)
             i = j
     return line_checker(lines, main)
@@ -101,7 +104,7 @@ _es_right = set(_alpha + "0123456789")
 @checker
 def methodname(data, lines):
     "operator can be used instead of method"
-    return regex_checker(lines, r'(\.(append|update|(union|difference|intersection)(_update)?))')
+    return regex_checker(lines, r'(\.(append|extend|update|add|(union|difference|intersection)(_update)?))')
 
 ###############################################################################
 
