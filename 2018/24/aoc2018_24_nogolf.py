@@ -1,4 +1,4 @@
-DEBUG = 0
+DEBUG = 1
 # 0 = silent
 # 1 = print match summary
 # 2 = report as in example
@@ -79,8 +79,6 @@ def simulate_round(n):
         print_header("round %d" % n)
         print_group_stats()
 
-    print "- round"
-
     # clear all target selections
     for g in groups:
         g.target = None
@@ -101,16 +99,12 @@ def simulate_round(n):
             total_targets += 1
             if DEBUG >= 2:
                 print team_names[g.team], "group", g.no, "would deal defending group", g.target.no, damage, "damage"
-            print "atksel", g.initiative, t.initiative, damage
-        else:
-            print "atksel", g.initiative, "none"
     if DEBUG >= 2: print
 
     # attack
     for g in sorted(groups, key=Group.sortkey_attack):
         t = g.target
         if not t: continue
-        print "atk", g.initiative, t.initiative, g.power * t.modifiers[g.attack]
         kill = min(t.units, g.power * t.modifiers[g.attack] / t.hp)
         t.units -= kill
         if DEBUG >= 2:
@@ -125,7 +119,6 @@ def simulate_round(n):
 
 def simulate_match(boost=0):
     global groups
-    print "# match", boost
     orig_groups = groups
     groups = [g.copy(boost * (g.team == 1)) for g in groups]
     if DEBUG >= 2:
@@ -138,7 +131,6 @@ def simulate_match(boost=0):
         rounds += 1
         if not simulate_round(rounds):
             break  # stalemate detected
-    fsdsdgsgssfd
     if DEBUG >= 2:
         print_header("end of match")
         print_group_stats()

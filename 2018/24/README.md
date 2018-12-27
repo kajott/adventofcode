@@ -352,11 +352,11 @@ Still, the complexity of the task description made me write a non-golf version f
 | `[3]` | `hp`           | unit hit points |
 | `[4]` | `modifiers`    | dictionary of attack type score modifiers (value 0 = immune, 2 = weak) |
 | `[5]` | `attack`       | attack type |
-| `[6]` | `damage`       | how many damage an attack deals |
+| `[6]` | `damage`       | how many damage an attack deals |
 | `[7]` | `target`       | reference to the attack target group |
-| `[8]` | `not targeted` | whether the group is available as an attack target |
+| `[8]` | `not targeted` | whether the group is available as an attack target |
 
 Indices 7 and 8 are reset after every round of the battle.
 
 
-* Parts 1+2, Python: 865 bytes, ~500 ms
+* Parts 1+2, Python: 865 bytes, ~5 s
