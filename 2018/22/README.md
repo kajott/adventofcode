@@ -354,4 +354,4 @@ I have two versions: A straightforward BFS implementation, and another version t
 
 * Part 1, Python: 279 bytes, <100 ms
 * Part 2, Python (simple): 646 bytes, ~10 s
-* Part 2, Python (optimized): 633 bytes, ~3 s
+* Part 2, Python (optimized): 633 bytes, ~4 s

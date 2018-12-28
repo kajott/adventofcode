@@ -67,6 +67,6 @@ A rather straightforward puzzle. I implemented part 1 with Python lists, but swi
 
 For fun (and because the Python version is rather slow), I also made a C implementation that's naturally around 50 times faster.
 
-* Part 1, Python: 158 bytes, ~300 ms
-* Part 2, Python: 177 bytes, ~15 s
+* Part 1, Python: 158 bytes, ~400 ms
+* Part 2, Python: 177 bytes, ~20 s
 * Part 2, C: 314 bytes, ~500 ms

@@ -181,4 +181,4 @@ The rules are moderately easy to understand, but the details are hard to get rig
 
 As the difference between the solutions for parts 1 and 2 would really just be a single byte, I didn't bother to generate separate implementations. Instead, the one program here generates the answers for both parts. As a bonus, there's a simple visualization script that renders the final water map into a `ppm` file.
 
-* Parts 1+2, Python: 725 bytes, ~1.5 s
+* Parts 1+2, Python: 725 bytes, ~2 s

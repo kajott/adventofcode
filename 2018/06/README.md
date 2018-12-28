@@ -105,5 +105,5 @@ I used a neat little (though probably obvious) trick to detect the infinite-area
 
 This is also one of the puzzles where part 2 is actually easier to implement (and compute) than part 1.
 
-* Part 1, Python: 357 bytes, ~1.5 s
+* Part 1, Python: 357 bytes, ~2 s
 * Part 2, Python: 255 bytes, ~750 ms
