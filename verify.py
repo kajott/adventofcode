@@ -18,6 +18,7 @@ def is_relevant_file(name):
        and name.endswith((".py", ".c")) \
        and not("_vis" in name) \
        and not("_trace" in name) \
+       and not("_test" in name) \
        and not("nogolf" in name)
 
 LANGUAGE_EXTS = { "python": "py", "c": "c" }
