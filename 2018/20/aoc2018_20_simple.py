@@ -1,8 +1,8 @@
 D,N=set(),{'N':-1j,'E':1,'W':-1,'S':1j};p=[0]
 for c in open("input.txt").read().strip("^$\n"):
- if c=='|':p[-1]=p[-2]
- elif c=='(':p+=[p[-1]]
- elif c==')':p.pop()
+ if'|'==c:p[-1]=p[-2]
+ elif'('==c:p+=[p[-1]]
+ elif')'==c:p.pop()
  else:o=N[c];D|={p[-1]+o};p[-1]+=2*o
 d,a,q=0,set(),[{0}]
 while q[d]:

@@ -102,6 +102,13 @@ _es_right = set(_alpha + "0123456789")
 ###############################################################################
 
 @checker
+def comporder(data, lines):
+    "can eliminate whitespace by swapping comparison order"
+    return regex_checker(lines, r'[a-zA-Z0-9_](\s+\w+([=!]=|<=?|>=?)([\'"]).*?\3)[^a-zA-Z_]')
+
+###############################################################################
+
+@checker
 def methodname(data, lines):
     "operator can be used instead of method"
     return regex_checker(lines, r'(\.(append|extend|update|add|(union|difference|intersection)(_update)?))')

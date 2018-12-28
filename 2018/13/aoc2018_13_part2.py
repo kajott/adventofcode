@@ -13,9 +13,9 @@ while 1:
  z=[j for j,q in _(c)if q[:2]==(y,x)]
  if z:c=[q for j,q in _(c)if j!=i and j!=z[0]];i-=z[0]<i
  else:
-  if b=='+':r=d;d=d+1-3*(d>0)
-  elif b=='/':r=1-2*(v==0)
-  elif b=='\\':r=1-2*(h==0)
+  if'+'==b:r=d;d=d+1-3*(d>0)
+  elif'/'==b:r=1-2*(v==0)
+  elif'\\'==b:r=1-2*(h==0)
   if r:h,v=-r*v,r*h
   c[i]=(y,x,h,v,d);i+=1
 print c[0][:2][::-1]

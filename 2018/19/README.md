@@ -65,5 +65,5 @@ This is one of the puzzles where part 1 is a simple simulation (that nevertheles
 
 Note that this puzzle isn't really amenable to code golf, since the opcodes need to be declared somewhere, which takes up more than half of the whole program size.
 
-* Part 1, Python (plain simulation): 662 bytes, ~3 s
-* Part 2, Python (host computation): 705 bytes, ~1 s
+* Part 1, Python (plain simulation): 661 bytes, ~3 s
+* Part 2, Python (host computation): 704 bytes, ~1 s

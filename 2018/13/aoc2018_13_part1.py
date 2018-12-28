@@ -10,8 +10,8 @@ while 1:
  for i,q in _(c):
   y,x,h,v,d=q;y+=v;x+=h;b=t[y][x];r=0
   if any(q[:2]==(y,x)for q in c):print(x,y);sys.exit(0)
-  if b=='+':r=d;d=d+1-3*(d>0)
-  elif b=='/':r=1-2*(v==0)
-  elif b=='\\':r=1-2*(h==0)
+  if'+'==b:r=d;d=d+1-3*(d>0)
+  elif'/'==b:r=1-2*(v==0)
+  elif'\\'==b:r=1-2*(h==0)
   if r:h,v=-r*v,r*h
   c[i]=(y,x,h,v,d)
