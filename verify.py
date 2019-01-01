@@ -9,6 +9,7 @@ import multiprocessing, threading, Queue
 g_run = True
 g_update_times = False
 g_update = True
+g_create = False
 
 ###############################################################################
 
@@ -21,7 +22,8 @@ def is_relevant_file(name):
        and not("_test" in name) \
        and not("nogolf" in name)
 
-LANGUAGE_EXTS = { "python": "py", "c": "c" }
+LANGUAGES_INV = { "py": "Python", "c": "C" }
+LANGUAGE_EXTS = dict((n.lower(), x) for x,n in LANGUAGES_INV.items())
 TIME_UNITS = { "s": 1, "ms": 1E-3, "m": 60, "min": 60, "h": 3600, "hrs": 3600 }
 INTERPRETERS = { "py": ["python"], "c": ["sh"] }
 
@@ -287,11 +289,18 @@ def check_dir(root, files):
         log_warning("directory '%s' doesn't contain any puzzle answers, ignoring" % root)
         return
     notes = SolutionNote.findall(readme, readme_path)
-    if not notes:
-        log_warning("no solution note lines found in " + readme_path)
+    create = False
+    if not(notes):
+        if g_create:
+            log_info("creating solution notes in " + readme_path)
+            create = True
+        else:
+            log_warning("no solution note lines found in " + readme_path)
 
     # match files and solution notes
     for group in set(f.group for f in files) | set(n.group for n in notes):
+        if create: break
+
         # get a list of available files and notes first
         part, lang = group
         sub_files = sorted(f for f in files if f.group == group)
@@ -328,12 +337,20 @@ def check_dir(root, files):
                        + ''.join("\n note: " + n.raw for n in sub_notes))
 
     # run and check the files
+    changed = False
     for f in sorted(files):
         if g_exit:
             return
         t_raw, size, ok = get_run_result(f, expect=answers)
         n = f.note
-        if not(ok) or not(n):
+        if not ok:
+            continue
+        if create:
+            if not readme.endswith("\n"):
+                results += "\n"
+            readme += "* %s, %s: %d bytes, %s\n" % ("Part %s" % f.part if f.part else "Parts 1+2", LANGUAGES_INV[f.lang], size, quantize_time(t_raw)[-1])
+            changed = True
+        if not n:
             continue
         if size != n.size:
             log_info("size of %s changed from %d to %d bytes" % (f.path, n.size, size))
@@ -348,7 +365,6 @@ def check_dir(root, files):
                 log_info("runtime of %s seems to be %s instead of %s" % (f.path, t_str.replace(' ', ''), n.rawtime))
 
     # apply the README changes
-    changed = False
     for n in sorted(notes, key=lambda n: -n.pos):
         if n.changed:
             changed = True
@@ -390,7 +406,11 @@ if __name__ == "__main__":
                         help="check and update runtimes")
     parser.add_argument("-k", "--no-update", action="store_true",
                         help="don't update README.md")
+    parser.add_argument("-c", "--create", action="store_true",
+                        help="create solution notes from scratch where applicable (implies -t, conflicts with -n)")
     args = parser.parse_args()
+    if args.no_run and args.create:
+        parser.error("options -n/--no-run and -c/--create are mutually exclusive")
 
     # apply command-line configuration
     if args.chdir:
@@ -407,6 +427,8 @@ if __name__ == "__main__":
         g_update = False
     if args.update_times:
         g_update_times = True
+    if args.create:
+        g_create = True
 
     # load configuration
     cwd = os.getcwd()
