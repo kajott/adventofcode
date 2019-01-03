@@ -28,15 +28,36 @@ def line_checker(lines, func):
             res.append((lineno + 1, start, end, False))
     return res
 
-def regex_checker(lines, regex):
+def regex_checker(lines, regex, flags=0):
     def main(line):
-        for m in re.finditer(regex, line):
+        for m in re.finditer(regex, line, flags=flags):
             gid = 1  # TODO
             yield (m.start(gid), m.end(gid))
     return line_checker(lines, main)
 
 def whiten_strings(line):
     return re.sub(r'(["\'])(.*?[^\\])\1', lambda m: m.group(1) + '0' * (m.end(2) - m.start(2)) + m.group(1), line)
+
+###############################################################################
+
+@checker
+def comment(data, lines):
+    "comment"
+    return regex_checker(lines, r'(\s*#.*)')
+
+###############################################################################
+
+@checker
+def emptyline(data, lines):
+    "empty line"
+    return regex_checker(lines, r'^()$')
+
+###############################################################################
+
+@checker
+def trailwhite(data, lines):
+    "trailing whitespace"
+    return regex_checker(lines, r'(\s+)$')
 
 ###############################################################################
 
