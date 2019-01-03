@@ -443,6 +443,8 @@ if __name__ == "__main__":
         dirs.sort()
         if "README.md" in files:
             g_queue.put((os.path.normpath(root), files))
+    if g_queue.qsize() < 2:
+        jobs = 1  # no need to parallelize if there's only one task to do
 
     # process jobs
     if jobs > 1:
