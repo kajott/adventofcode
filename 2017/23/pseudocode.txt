@@ -1,0 +1,134 @@
+Import input, turn into pseudocode, resolve jump labels, remove unused labels:
+
+    b = 57
+    c = b
+    a ? goto 4
+    goto 8
+ 4: b *= 100
+    b -= -100000
+    c = b
+    c -= -17000
+ 8: f = 1
+    d = 2
+10: e = 2
+11: g = d
+    g *= e
+    g -= b
+    g ? goto 16
+    f = 0
+16: e -= -1
+    g = e
+    g -= b
+    g ? goto 11
+    d -= -1
+    g = d
+    g -= b
+    g ? goto 10
+    f ? goto 26
+    h -= -1
+26: g = b
+    g -= c
+    g ? goto 30
+    exit
+30: b -= -17
+    goto 8
+
+--------------------------------------------------------------------------------
+
+Merge compound statements, detect part2 complication code, detect increments:
+
+b = c = 57
+if part2:
+    b = b * 100 + 100000
+    c = b + 17000
+
+loop:
+    f = 1
+    d = 2
+10: e = 2
+11: g = d * e - b
+    g ? goto 16
+    f = 0
+16: e++
+    g = e - b
+    g ? goto 11
+    d++
+    g = d - b
+    g ? goto 10
+    f ? goto 26
+    h++
+26: g = b - c
+    g ? goto 30
+    exit
+30: b += 17
+
+--------------------------------------------------------------------------------
+
+Extract and optimize if statements:
+
+b = c = 57
+if part2:
+    b = b * 100 + 100000
+    c = b + 17000
+loop8:
+    f = 1
+    d = 2
+10: e = 2
+11: if d * e == b:
+        f = 0
+    e++
+    if e != b:
+        goto 11
+    d++
+    if d != b:
+        goto 10
+    if f == 0:
+        h++
+    if b == c:
+        exit
+    b += 17
+
+--------------------------------------------------------------------------------
+
+Extract loops:
+
+b = c = 57
+if part2:
+    b = b * 100 + 100000
+    c = b + 17000
+loop8:
+    f = 1
+    d = 2
+    loop10:
+        e = 2
+        loop11:
+            if d * e == b:
+                f = 0
+            e++
+            if e == b:
+                break
+        d++
+        if d == b:
+            break
+    if f == 0:
+        h++
+    if b == c:
+        exit
+    b += 17
+
+--------------------------------------------------------------------------------
+
+Detect counting loops:
+
+b = c = 57
+if part2:
+    b = b * 100 + 100000
+    c = b + 17000
+for b1 in b .. c step 17:
+    flag = False
+    for d in 2 .. b1:
+        for e in 2 .. b1:
+            if d * e == b1:
+                flag = True
+    if flag:
+        h++
