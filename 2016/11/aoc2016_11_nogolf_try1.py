@@ -1,6 +1,6 @@
 import re, sys
 
-PART = 2
+PART = 1
 
 INPUT = """
 The first floor contains a hydrogen-compatible microchip and a lithium-compatible microchip.
@@ -10,7 +10,7 @@ The fourth floor contains nothing relevant.
 """.strip('\n').split('\n')
 INPUT = open("input.txt")
 
-MAXDEPTH = 2
+MAXDEPTH = 0
 
 elements = {}
 def get_element_id(name):
@@ -36,6 +36,8 @@ while current or moves:
         moves = set()
         depth += 1
         print "depth %d: %d moves" % (depth, len(current))
+        if MAXDEPTH and (depth > MAXDEPTH):
+            break
     state = current.pop()
     pos = state[-1]
 
@@ -60,3 +62,5 @@ while current or moves:
 
                 moves.add(newstate)
                 visited.add(newstate)
+
+print "no solution found :("
