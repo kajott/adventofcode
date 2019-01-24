@@ -25,6 +25,8 @@ So, with _five_ Elves, the Elf that sits starting in position `3` gets all the p
 
 With the number of Elves given in your puzzle input, _which Elf gets all the presents?_
 
+Your puzzle input was `3014603`.
+
 Your puzzle answer was `1834903`.
 
 ## Part 2
@@ -72,6 +74,8 @@ For example, with five Elves (again numbered `1` to `5`):
 So, with _five_ Elves, the Elf that sits starting in position `2` gets all the presents.
 
 With the number of Elves given in your puzzle input, _which Elf now gets all the presents?_
+
+Your puzzle input was still `3014603`.
 
 Your puzzle answer was `1420280`.
 
