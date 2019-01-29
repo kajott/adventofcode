@@ -347,7 +347,7 @@ def check_dir(root, files):
             continue
         if create:
             if not readme.endswith("\n"):
-                results += "\n"
+                readme += "\n"
             readme += "* %s, %s: %d bytes, %s\n" % ("Part %s" % f.part if f.part else "Parts 1+2", LANGUAGES_INV[f.lang], size, quantize_time(t_raw)[-1])
             changed = True
         if not n:
