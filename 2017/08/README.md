@@ -1,6 +1,6 @@
 # 2017, Day 8: I Heard You Like Registers
 
-You receive a signal directly from the CPU. Because of your recent assistance with [jump instructions](5), it would like you to compute the result of a series of unusual register instructions.
+You receive a signal directly from the CPU. Because of your recent assistance with [jump instructions](../5), it would like you to compute the result of a series of unusual register instructions.
 
 ## Part 1
 

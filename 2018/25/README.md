@@ -90,7 +90,7 @@ Your puzzle answer was `331`.
 
 A small glowing portal opens above the mug you prepared and just enough hot chocolate streams in to fill it. You suspect the reindeer has never encountered hot chocolate before, but seems to enjoy it anyway. You hope it works.
 
-It's time to start worrying about that _integer underflow in time itself_ you [set up a few days ago](21). You check the status of the device: "Insufficient chronal energy for activation. Energy required: _50 stars_."
+It's time to start worrying about that _integer underflow in time itself_ you [set up a few days ago](../21). You check the status of the device: "Insufficient chronal energy for activation. Energy required: _50 stars_."
 
 The reindeer bumps the device with its nose.
 

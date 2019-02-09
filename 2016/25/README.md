@@ -18,7 +18,7 @@ You ask if the antenna can handle a clock signal at the frequency you would need
 
 ## Part 1
 
-You've extracted the antenna's clock signal generation [assembunny](12) code (your puzzle input); it looks mostly compatible with code you worked on [just recently](23).
+You've extracted the antenna's clock signal generation [assembunny](../12) code (your puzzle input); it looks mostly compatible with code you worked on [just recently](../23).
 
 This antenna code, being a signal generator, uses one extra instruction:
 

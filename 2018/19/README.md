@@ -4,7 +4,7 @@ With the Elves well on their way constructing the North Pole base, you turn your
 
 ## Part 1
 
-You can't help but notice that the [device's opcodes](16) don't contain any _flow control_ like jump instructions. The device's [manual](16) goes on to explain:
+You can't help but notice that the [device's opcodes](../16) don't contain any _flow control_ like jump instructions. The device's [manual](../16) goes on to explain:
 
 "In programs where flow control is required, the [instruction pointer](https://en.wikipedia.org/wiki/Program_counter) can be _bound to a register_ so that it can be manipulated directly. This way, `setr`/`seti` can function as absolute jumps, `addr`/`addi` can function as relative jumps, and other opcodes can cause truly fascinating effects."
 
