@@ -84,7 +84,7 @@ Your puzzle answer was `233,288,12`.
 
 ## Solution Notes
 
-This is one of the "hah, your naive solution won't scale for part 2" puzzles. Indeed, my first approach runs almost 10 minutes in total, though the correct result is already produced after little more than 2 seconds -- but what if a there's a better result at a larger summation size?. (It's unlikely, as the overall matrix has a small negative bias, favoring smaller summations, but you can't be sure.)
+This is one of the "hah, your naive solution won't scale for part 2" puzzles. Indeed, my first approach runs almost 10 minutes in total, though the correct result is already produced after little more than 2 seconds -- but what if a there's a better result at a larger summation size? (It's unlikely, as the overall matrix has a small negative bias, favoring smaller summations, but you can't be sure.)
 
 The first optimization step is to pre-compute a matrix with NxN sub-square sums for each size and then finding the maximum. This already reduced the computation time to 3% of the initial approach for me. But the pre-computation itself was still implemented in a naive manner, so I optimized this again and got down to less than five seconds for the full solution in Python.
 

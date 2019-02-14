@@ -71,7 +71,7 @@ This puzzle was a nicely put trap which I and certainly a lot other participants
 
 But then part 2 came and blow everything apart. Item insertion and deletion on arrays are _O(n)_ operations, making the whole puzzle _O(n²)_ when implemented this way. Instead of taking 100 times longer, it takes 10k times longer; too much to be manageable, let alone in a relatively slow language like Python!
 
-So I had no other choice than to re-implement the whole thing with a *proper* circular doubly-linked list, after a frustating failed attempt at splitting the large list into multiple smaller sub-list (i.e. a two-level tree). For whatever reason (hey, it was 7 AM and I was tired!) I made the proper implementation in C first and only "backported" it to Python later.
+So I had no other choice than to re-implement the whole thing with a *proper* circular doubly-linked list, after a frustrating failed attempt at splitting the large list into multiple smaller sub-list (i.e. a two-level tree). For whatever reason (hey, it was 7 AM and I was tired!) I made the proper implementation in C first and only "backported" it to Python later.
 
 _(Fun fact: Juggling around with references in (doubly-)linked lists never ceases to inflict headaches, no matter how often you implemented that already!)_
 

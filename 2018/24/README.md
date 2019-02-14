@@ -340,7 +340,7 @@ Your puzzle answer was `6149`.
 
 ## Solution Notes
 
-This puzzle is superficially very similar to [day 15's](../15), except that it significantly less complex and requires less algorithm knowledge. In the end, all that needs to be done is write the rules down as code and let the simulation run. There are still some fine details that can easily be overlooked, and parsing the input file is quite larorious, but there's really nothing special about it.
+This puzzle is superficially very similar to [day 15's](../15), except that it significantly less complex and requires less algorithm knowledge. In the end, all that needs to be done is write the rules down as code and let the simulation run. There are still some fine details that can easily be overlooked, and parsing the input file is quite laborious, but there's really nothing special about it.
 
 Still, the complexity of the task description made me write a non-golf version first and shrink it down later, into one common implementation for both parts. Since I use lists instead of classes in golf, keeping track of the various fields in the group list can be a little frustrating. Here's the key (mainly for my own reference):
 

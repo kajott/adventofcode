@@ -79,7 +79,7 @@ Your puzzle answer was `7adfd64c2a03a4968cf708d1b7fd418d`.
 
 ## Solution Notes
 
-The most complicated thing of this puzzle is correctly keeping track of the current list state after all the movment and rotation, and correctly interpreting the misleading wording of part 2 that jumps back and forth between examples.
+The most complicated thing of this puzzle is correctly keeping track of the current list state after all the movement and rotation, and correctly interpreting the misleading wording of part 2 that jumps back and forth between examples.
 
 * Part 1, Python: 170 bytes, <100 ms
 * Part 2, Python: 253 bytes, <100 ms
