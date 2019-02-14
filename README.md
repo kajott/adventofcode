@@ -6,6 +6,7 @@ My solutions are mostly written in Python 2.7, with the occasional C implementat
 
 * The code is still meant to be reasonably efficient in terms of runtime performance.
 * The name of the input file is `input.txt`, not just a single letter.
+* Dimensions are only hard-coded when a flexible solution is significantly longer or more complex.
 * C code is "self-compiling" when marked executable on Unix (i.e. it compiles and runs itself, making the C program more or less behave like a script).
 * A "she-bang" is however *not* included for Python files.
 * C code uses the occasional line break where it's not strictly necessary to make it at least a tiny bit readable.
