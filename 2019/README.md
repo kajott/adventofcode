@@ -3,3 +3,4 @@
 | Day      | Fun   | Difficulty | Task Description |
 | -------: | :---: | :--------: | :---------- |
 |  [1](01) | ★★★☆☆ | ★☆☆☆☆      | addition, simple math, light recursion |
+|  [2](02) | ★★★★☆ | ★★☆☆☆      | von Neumann machine emulation |
