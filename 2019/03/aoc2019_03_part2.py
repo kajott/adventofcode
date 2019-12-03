@@ -5,4 +5,4 @@ def W(x):
   for i in range(int(i[1:])):p+=d;s+=1;v[p]=s
  return v
 a,b=map(W,open("input.txt"))
-print int(min(a[p]+b[p]for p in set(a)&set(b)))
+print min(a[p]+b[p]for p in set(a)&set(b))

@@ -90,4 +90,4 @@ Your puzzle answer was `56410`.
 A fun puzzle with 2D grids that can be solved using sets and dictionaries.
 
 * Part 1, Python: 210 bytes, ~150 ms
-* Part 2, Python: 219 bytes, ~150 ms
+* Part 2, Python: 214 bytes, ~150 ms
