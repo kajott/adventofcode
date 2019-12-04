@@ -5,4 +5,4 @@
 |  [1](01) | ★★★☆☆ | ★☆☆☆☆      | addition, simple math, light recursion
 |  [2](02) | ★★★★☆ | ★★☆☆☆      | von Neumann machine emulation
 |  [3](03) | ★★★★☆ | ★★★☆☆      | 2D grid traversal and intersection
-
+|  [4](04) | ★★★★☆ | ★★★☆☆      | string matching
