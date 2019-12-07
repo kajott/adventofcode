@@ -80,7 +80,7 @@ def indent(data, lines):
 def mergelines(data, lines):
     "line can be merged with previous line"
     indent = [re.match(r'\s*', line).end(0) for line in lines] + [0]
-    block = [bool(re.search(r'\b(if|else|elif|for|while|with|try|except)\b', line)) for line in lines] + [False]
+    block = [bool(re.search(r'\b(def|class|if|else|elif|for|while|with|try|except)\b', line)) for line in lines] + [False]
     colon = [line.rstrip().endswith(':') for line in lines] + [False]
     def has_subblocks(n):
         for i in xrange(n+1, len(lines)):

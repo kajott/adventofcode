@@ -174,6 +174,12 @@ When assigning the same value to multiple variables, chain the assignments toget
 
 
 
+## Avoid classes
+
+Object-oriented programming may be nice and all, but it's quite verbose with the `class` keyword, indented methods and all. However, if a class is indeed the best option, exploit the fact that the `self` parameter is not a keyword, but a mere convention in Python, and use a single-letter identifier instead.
+
+
+
 ## Use arithmetic as logic
 
 Pythons `and`, `or` and `not` operators are quite expensive in terms of code size; not only are they quite long themselves, in most cases they require at least one additional whitespace around them. However, boolean expressions like comparion results are freely convertible into integers in Python, which makes it possible to emulate the effect of `and`/`or`/`not` with `*`/`+`/`^`:

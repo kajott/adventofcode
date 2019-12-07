@@ -8,3 +8,4 @@
 |  [4](04) | ★★★☆☆ | ★★★☆☆      | string matching
 |  [5](05) | ★★★☆☆ | ★★★☆☆      | extended von Neumann machine emulation
 |  [6](06) | ★★★★☆ | ★★☆☆☆      | graph depth computation
+|  [7](07) | ★★★☆☆ | ★★★☆☆      | multi-processor pipe emulation
