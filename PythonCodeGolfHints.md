@@ -168,7 +168,7 @@ When assigning the same value to multiple variables, chain the assignments toget
 
 
 
-## Don't use None
+## Don't use `None`
 
 `None` is nice and useful, but long. In many cases, a simple integer literal zero (`0`) does the job just as well.
 
@@ -177,6 +177,12 @@ When assigning the same value to multiple variables, chain the assignments toget
 ## Avoid classes
 
 Object-oriented programming may be nice and all, but it's quite verbose with the `class` keyword, indented methods and all. However, if a class is indeed the best option, exploit the fact that the `self` parameter is not a keyword, but a mere convention in Python, and use a single-letter identifier instead.
+
+
+
+## Don't use `pass`
+
+Sometimes a loop with an empty body is required. Instead of using `pass` as intended, just writing `0` works just as fine. This even works with empty (i.e. pure data) classes.
 
 
 
