@@ -153,7 +153,7 @@ def alias(data, lines):
         if (freq + l + 3) < (freq * l):
             s, e = location[name]
             yield (0, s, e, True)
-_kwset = set(keyword.kwlist)
+_kwset = set(keyword.kwlist) | set("count index values items".split())
 
 ###############################################################################
 
