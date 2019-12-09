@@ -106,4 +106,4 @@ Intcode slowly evolves to a properly usable ISA; whith the comparison and `jz`/`
 As for the puzzle itself, it's just straightforward emulation, with no surprises whatsoever.
 
 * Part 1, Python: 271 bytes, <100 ms
-* Part 2, Python: 346 bytes, <100 ms
+* Part 2, Python: 342 bytes, <100 ms

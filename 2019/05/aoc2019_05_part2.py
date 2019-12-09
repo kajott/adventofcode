@@ -4,8 +4,7 @@ while M[p]!=99:
  if o<2:M[k]=a+b
  elif o<3:M[k]=a*b
  elif o<4:M[i]=5
- elif o<5:R=a
+ elif o<5:print a
  elif o>7:M[k]=a==b
  elif o>6:M[k]=a<b
  elif(o>5)^(a!=0):p=b
-print R
