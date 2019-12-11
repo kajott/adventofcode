@@ -12,3 +12,4 @@
 |  [8](08) | ★★★★☆ | ★★☆☆☆      | image layer compositing
 |  [9](09) | ★★★☆☆ | ★★☆☆☆      | machine emulation with stack feature
 | [10](10) | ★★★☆☆ | ★★★★☆      | working with angles in an integer 2D grid
+| [11](11) | ★★★★★ | ★★☆☆☆      | program-controlled 2D grid traversal
