@@ -6,7 +6,7 @@ On the way to Jupiter, you're [pulled over](https://www.youtube.com/watch?v=KwY2
 
 ## Part 1
 
-Not wanting to be sent to Space Jail, you radio back to the Elves on Earth for help. Although it takes almost three hours for their reply signal to reach you, they send instructions for how to power up the _emergency hull painting robot_ and even provide a small [Intcode program](9) (your puzzle input) that will cause it to paint your ship appropriately.
+Not wanting to be sent to Space Jail, you radio back to the Elves on Earth for help. Although it takes almost three hours for their reply signal to reach you, they send instructions for how to power up the _emergency hull painting robot_ and even provide a small [Intcode program](../09) (your puzzle input) that will cause it to paint your ship appropriately.
 
 There's just one problem: you don't have an emergency hull painting robot.
 
