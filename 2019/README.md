@@ -15,3 +15,4 @@
 | [11](11) | ★★★★☆ | ★★☆☆☆      | program-controlled 2D grid traversal
 | [12](12) | ★★★★☆ | ★★★★☆      | N-body simulation
 | [13](13) | ★★★★★ | ★★★☆☆      | write an 'AI' for Breakout
+| [14](14) | ★★★☆☆ | ★★★☆☆      | traverse resource dependency tree
