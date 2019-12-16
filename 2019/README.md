@@ -17,3 +17,4 @@
 | [13](13) | ★★★★★ | ★★★☆☆      | write an 'AI' for Breakout
 | [14](14) | ★★★☆☆ | ★★★☆☆      | traverse resource dependency tree
 | [15](15) | ★★★☆☆ | ★★★☆☆      | maze exploration with DFS *and* BFS
+| [16](16) | ★★☆☆☆ | ★★★★★      | insanely large matrix multiplication
