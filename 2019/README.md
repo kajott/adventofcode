@@ -18,3 +18,4 @@
 | [14](14) | ★★★☆☆ | ★★★☆☆      | traverse resource dependency tree
 | [15](15) | ★★★☆☆ | ★★★☆☆      | maze exploration with DFS *and* BFS
 | [16](16) | ★★☆☆☆ | ★★★★★      | insanely large matrix multiplication
+| [17](17) | ★★★★☆ | ★★★★☆      | LZ-like data compression / optimal parsing
