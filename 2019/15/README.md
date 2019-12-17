@@ -151,5 +151,5 @@ I say "properly implemented", because my initial implementation was *not* perfec
 
 While recoding the solution in golf form, I fixed my DFS bug and don't require a BFS for part 1 any longer. Moreover, I removed the "relative base" functionality from the Intcode interpreter, as it's not used by the program.
 
-* Part 1, Python: 687 bytes, ~300 ms
-* Part 2, Python: 795 bytes, ~300 ms
+* Part 1, Python: 665 bytes, ~300 ms
+* Part 2, Python: 773 bytes, ~300 ms

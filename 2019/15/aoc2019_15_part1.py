@@ -1,11 +1,9 @@
-from collections import*
-_=int
-M=defaultdict(_,enumerate(map(_,open("input.txt").read().split(','))))
+M=dict(enumerate(map(int,open("input.txt").read().split(','))))
 D,R,G,L,P=[0,-1j,1j,-1,1],[0,2,1,4,3],{0:2},0,[0]
 def W(d):
  global L,P;L+=D[d];p=r=0
  while r<1:
-  o=M[p];l=map(_,str(o)[-3::-1]+"000");o%=100;n=_("0331122331"[o]);i,j,k=[M[p+x]for x,m in zip((1,2,3),l)];a,b=[(M[x]if m-1else x)for x,m in zip((i,j),l)];p+=n+1
+  o=M[p];l=map(int,str(o)[-3::-1]+"000");o%=100;n=int("0331122331"[o]);i,j,k=[M.get(p+x,0)for x,m in zip((1,2,3),l)];a,b=[(M.get(x,0)if m-1else x)for x,m in zip((i,j),l)];p+=n+1
   if o<2:M[k]=a+b
   elif o<3:M[k]=a*b
   elif o<4:M[i]=d

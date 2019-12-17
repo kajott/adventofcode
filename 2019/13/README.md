@@ -49,5 +49,5 @@ The non-golf implementation contains a console visualization:
 
     ./intcode.py 13.2-vis
 
-* Part 1, Python: 454 bytes, ~100 ms
-* Part 2, Python: 539 bytes, ~3 s
+* Part 1, Python: 432 bytes, ~100 ms
+* Part 2, Python: 517 bytes, ~3 s

@@ -110,10 +110,10 @@ When importing from modules with short names (like `re`), it's usually best to u
     import re
     N=[map(int,re.findall('-?\d+',l)for l in open("input.txt")]
 
-This is optimal unless the number of calls to this module's functions gets too large or the module name gets too long. The latter is typically the case for the very useful `itertools` or `collections`, in which case just importing all functions into the global namespace works best:
+This is optimal unless the number of calls to this module's functions gets too large or the module name gets too long. The latter is typically the case for the very useful `itertools`, in which case just importing all functions into the global namespace works best:
 
-    from collections import*
-    x=defaultdict(int)
+    from itertools import*
+    for p in product(A,B,C):[...]
 
 (Note the missing whitespace after `import`; it's simply not needed!)
 
@@ -183,6 +183,12 @@ Object-oriented programming may be nice and all, but it's quite verbose with the
 ## Don't use `pass`
 
 Sometimes a loop with an empty body is required. Instead of using `pass` as intended, just writing `0` works just as fine. This even works with empty (i.e. pure data) classes.
+
+
+
+## Don't use `defaultdict`
+
+There's no denying that the `defaultdict` class in the `collections` module is genuinely useful. However, it comes at a high cost, because the identifiers are awkwardly long. As long as the `defaultdict` is only used to provide immutable default values (like integers or strings), it's often shorter to just use the `.get()` method with a suitable default when reading. More than 4 or 5 of such accesses (depending on context) are required to make the import and use of `defaultdict` worthwhile.
 
 
 

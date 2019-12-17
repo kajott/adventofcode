@@ -66,5 +66,5 @@ Your puzzle answer was `656`.
 
 The apparent 1Kx1K problem size turned out to be a much smaller problem than it seemed, as the patches are very small and the resulting list of occupied fields is quite sparse.
 
-* Part 1, Python: 222 bytes, ~350 ms
+* Part 1, Python: 197 bytes, ~350 ms
 * Part 2, Python: 291 bytes, ~1 s

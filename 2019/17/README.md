@@ -150,5 +150,5 @@ Part 2 is where the meat is. Fortunately, the inputs are constructed in a way th
 
 All this adds up to a significant amount of code that's not very amenable to golfing, hence I ended up with well above a kilobyte for part 2 (including the Intcode interpreter).
 
-* Part 1, Python: 568 bytes, ~250 ms
-* Part 2, Python: 1150 bytes, ~500 ms
+* Part 1, Python: 546 bytes, ~250 ms
+* Part 2, Python: 1128 bytes, ~500 ms

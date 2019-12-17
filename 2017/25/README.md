@@ -87,4 +87,4 @@ The _garbage collector_ winks at you, then continues sweeping.
 
 The most complicated part of this puzzle is parsing the input; the actual simulation is just a single line.
 
-* Part 1, Python: 319 bytes, ~5 s
+* Part 1, Python: 292 bytes, ~5 s

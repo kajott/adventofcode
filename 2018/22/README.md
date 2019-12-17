@@ -353,5 +353,5 @@ Part 2 is quite different: On the surface, it's a normal pathfinding puzzle, but
 I have two versions: A straightforward BFS implementation, and another version that strictly decomposes the tool changing and moving steps. The latter version turned out smaller and three times faster.
 
 * Part 1, Python: 279 bytes, <100 ms
-* Part 2, Python (simple): 646 bytes, ~10 s
-* Part 2, Python (optimized): 633 bytes, ~4 s
+* Part 2, Python (simple): 614 bytes, ~10 s
+* Part 2, Python (optimized): 601 bytes, ~4 s

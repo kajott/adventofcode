@@ -60,5 +60,5 @@ With this, the Intcode machine gets a proper stack, and the program of part 2 ma
 
 The golf implementations are almost identical, only the input parameter changes.
 
-* Part 1, Python: 440 bytes, <100 ms
-* Part 2, Python: 440 bytes, ~2.5 s
+* Part 1, Python: 418 bytes, <100 ms
+* Part 2, Python: 418 bytes, ~2.5 s

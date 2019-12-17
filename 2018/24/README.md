@@ -359,4 +359,4 @@ Still, the complexity of the task description made me write a non-golf version f
 Indices 7 and 8 are reset after every round of the battle.
 
 
-* Parts 1+2, Python: 865 bytes, ~5 s
+* Parts 1+2, Python: 839 bytes, ~5 s
