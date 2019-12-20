@@ -20,3 +20,4 @@
 | [16](16) | ★★☆☆☆ | ★★★★★      | insanely large matrix multiplication
 | [17](17) | ★★★★☆ | ★★★★☆      | LZ-like data compression / optimal parsing
 | [18](18) | ★★★☆☆ | ★★★★☆      | very complex maze / graph search
+| [19](19) | ★★★★☆ | ★★★☆☆      | 2D box search in non-axis-aligned triangle
