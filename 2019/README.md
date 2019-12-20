@@ -21,3 +21,4 @@
 | [17](17) | ★★★★☆ | ★★★★☆      | LZ-like data compression / optimal parsing
 | [18](18) | ★★★☆☆ | ★★★★☆      | very complex maze / graph search
 | [19](19) | ★★★★☆ | ★★★☆☆      | 2D box search in non-axis-aligned triangle
+| [20](20) | ★★★★☆ | ★★★☆☆      | BFS of 2D and 3D maze with portals
