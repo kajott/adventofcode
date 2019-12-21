@@ -19,6 +19,7 @@
 | [15](15) | ★★★☆☆ | ★★★☆☆      | maze exploration with DFS *and* BFS
 | [16](16) | ★★☆☆☆ | ★★★★★      | insanely large matrix multiplication
 | [17](17) | ★★★★☆ | ★★★★☆      | LZ-like data compression / optimal parsing
-| [18](18) | ★★★☆☆ | ★★★★☆      | very complex maze / graph search
+| [18](18) | ★★★☆☆ | ★★★★☆      | complex BFS + TSP combination
 | [19](19) | ★★★★☆ | ★★★☆☆      | 2D box search in non-axis-aligned triangle
 | [20](20) | ★★★★☆ | ★★★☆☆      | BFS of 2D and 3D maze with portals
+| [21](21) | ★★☆☆☆ | ★★★★☆      | boolean pattern matching logic
