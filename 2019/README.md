@@ -23,3 +23,4 @@
 | [19](19) | ★★★★☆ | ★★★☆☆      | 2D box search in non-axis-aligned triangle
 | [20](20) | ★★★★☆ | ★★★☆☆      | BFS of 2D and 3D maze with portals
 | [21](21) | ★★☆☆☆ | ★★★★☆      | boolean pattern matching logic
+| [22](22) | ★★☆☆☆ | ★★★★★      | compilcated modular arithmetic
