@@ -24,3 +24,4 @@
 | [20](20) | ★★★★☆ | ★★★☆☆      | BFS of 2D and 3D maze with portals
 | [21](21) | ★★☆☆☆ | ★★★★☆      | boolean pattern matching logic
 | [22](22) | ★★☆☆☆ | ★★★★★      | compilcated modular arithmetic
+| [23](23) | ★★★★☆ | ★★☆☆☆      | computer network simulation
