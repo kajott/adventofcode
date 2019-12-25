@@ -26,3 +26,4 @@
 | [22](22) | ★★☆☆☆ | ★★★★★      | compilcated modular arithmetic
 | [23](23) | ★★★★☆ | ★★☆☆☆      | computer network simulation
 | [24](24) | ★★★★☆ | ★★★☆☆      | fractal 2.5D cellular automaton
+| [25](25) | ★★★★☆ | ★★★☆☆      | text adventure with an item combination puzzle
