@@ -13,7 +13,7 @@
 |  [9](09) | ★★★☆☆ | ★★☆☆☆      | machine emulation with stack feature
 | [10](10) | ★★★☆☆ | ★★★★☆      | working with angles in an integer 2D grid
 | [11](11) | ★★★★☆ | ★★☆☆☆      | program-controlled 2D grid traversal
-| [12](12) | ★★★★☆ | ★★★★☆      | N-body simulation
+| [12](12) | ★★★★☆ | ★★★★★      | N-body simulation
 | [13](13) | ★★★★★ | ★★★☆☆      | write an 'AI' for Breakout
 | [14](14) | ★★★☆☆ | ★★★☆☆      | traverse resource dependency tree
 | [15](15) | ★★★☆☆ | ★★★☆☆      | maze exploration with DFS *and* BFS
@@ -21,9 +21,9 @@
 | [17](17) | ★★★★☆ | ★★★★☆      | LZ-like data compression / optimal parsing
 | [18](18) | ★★★☆☆ | ★★★★☆      | complex BFS + TSP combination
 | [19](19) | ★★★★☆ | ★★★☆☆      | 2D box search in non-axis-aligned triangle
-| [20](20) | ★★★★☆ | ★★★☆☆      | BFS of 2D and 3D maze with portals
+| [20](20) | ★★★★☆ | ★★★☆☆      | BFS of 2.5D maze with portals
 | [21](21) | ★★☆☆☆ | ★★★★☆      | boolean pattern matching logic
-| [22](22) | ★★☆☆☆ | ★★★★★      | compilcated modular arithmetic
+| [22](22) | ★★☆☆☆ | ★★★★★      | complicated modular arithmetic
 | [23](23) | ★★★★☆ | ★★☆☆☆      | computer network simulation
 | [24](24) | ★★★★☆ | ★★★☆☆      | fractal 2.5D cellular automaton
 | [25](25) | ★★★★☆ | ★★★☆☆      | text adventure with an item combination puzzle

@@ -282,7 +282,7 @@ The first step is what took longest to get right. A straight BFS is not sufficie
 
 The second step is classical DFS, but with a naive implementation, the runtime for more than approx. 10 keys is far too long. Caching already explored states helped to get the runtime down comfortably into the sub-second zone.
 
-Based on that framework, part 2 of the puzzle isn't a large problem. Step 1 doesn't change at all, and step 2 simply needs to track four current locations instead of just one.
+Based on that framework, part 2 of the puzzle isn't much of a problem. Step 1 doesn't change at all, and step 2 simply needs to track four current locations instead of just one.
 
 * Part 1, Python: 666 bytes, ~300 ms
 * Part 2, Python: 842 bytes, ~700 ms
