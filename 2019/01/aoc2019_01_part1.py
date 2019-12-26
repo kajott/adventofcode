@@ -1,1 +1,1 @@
-print sum(x/3-2for x in map(int,open("input.txt")))
+print sum(int(x)/3-2for x in open("input.txt"))

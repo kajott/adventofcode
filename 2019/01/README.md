@@ -46,5 +46,5 @@ Your puzzle answer was `5010211`.
 
 A straightforward starter: Summing values after doing some light math on them, with some slight recursion in part 2.
 
-* Part 1, Python: 52 bytes, <100 ms
-* Part 2, Python: 88 bytes, <100 ms
+* Part 1, Python: 48 bytes, <100 ms
+* Part 2, Python: 80 bytes, <100 ms
