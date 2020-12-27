@@ -15,3 +15,7 @@
 | [11](11) | ★★★★☆ | ★★★☆☆      | 2D cellular automaton simulation
 | [12](12) | ★★★★☆ | ★★☆☆☆      | follow 2D motion instructions
 | [13](13) | ★★★☆☆ | ★★★★☆      | modular arithmetic search
+| [14](14) | ★★★★☆ | ★★★☆☆      | bitmasks and combinatorics
+| [15](15) | ★★★☆☆ | ★★★☆☆      | rule-based number game simulation
+| [16](16) | ★★★★★ | ★★★★☆      | constraint-based field order guessing
+| [17](17) | ★★★★☆ | ★★★★☆      | 3D and 4D cellular automaton
