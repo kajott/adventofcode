@@ -19,3 +19,4 @@
 | [15](15) | ★★★☆☆ | ★★★☆☆      | rule-based number game simulation
 | [16](16) | ★★★★★ | ★★★★☆      | constraint-based field order guessing
 | [17](17) | ★★★★☆ | ★★★★☆      | 3D and 4D cellular automaton
+| [18](18) | ★★☆☆☆ | ★★★★☆      | operator precedence parsing
