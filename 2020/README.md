@@ -21,3 +21,4 @@
 | [17](17) | ★★★★☆ | ★★★★☆      | 3D and 4D cellular automaton
 | [18](18) | ★★☆☆☆ | ★★★★☆      | operator precedence parsing
 | [19](19) | ★★★☆☆ | ★★★★★      | recursive regular expression matching
+| [20](20) | ★★★★★ | ★★★★☆      | jigsaw puzzle solving and 2D pattern matching
