@@ -1,4 +1,5 @@
 .vscode
 a.c
 a.out
+a.o
 *vis*.p[gp]m

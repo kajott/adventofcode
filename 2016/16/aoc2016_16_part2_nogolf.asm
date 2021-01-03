@@ -1,4 +1,4 @@
-; nasm -felf64 aoc2016_16_part2.asm -oa.o && ld a.o && ./a.out ; exit
+; nasm -felf64 aoc2016_16_part2_nogolf.asm -oa.o && ld a.o && ./a.out
 
 section .rodata
 init: db "10010000000110000",0
