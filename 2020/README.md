@@ -24,3 +24,4 @@
 | [20](20) | ★★★★★ | ★★★★☆      | jigsaw puzzle solving and 2D pattern matching
 | [21](21) | ★★★☆☆ | ★★★★☆      | logic puzzle solver
 | [22](22) | ★★★☆☆ | ★★★☆☆      | game simulation
+| [23](23) | ★★☆☆☆ | ★★★★☆      | cyclic list operations
