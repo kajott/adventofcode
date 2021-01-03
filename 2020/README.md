@@ -25,3 +25,5 @@
 | [21](21) | ★★★☆☆ | ★★★★☆      | logic puzzle solver
 | [22](22) | ★★★☆☆ | ★★★☆☆      | game simulation
 | [23](23) | ★★☆☆☆ | ★★★★☆      | cyclic list operations
+| [24](24) | ★★★★☆ | ★★★☆☆      | cellular automaton on hexagonal grid
+| [25](25) | ★★★☆☆ | ★★☆☆☆      | break (weak) Diffie-Hellman key exchange
