@@ -20,7 +20,7 @@
 | [16](16) | ★★★☆☆ | ★★★☆☆      | protocol parsing
 | [17](17) | ★★★☆☆ | ★★★☆☆      | ballistic trajectory simulation
 | [18](18) | ★★☆☆☆ | ★★★☆☆      | nested list processing
-| [19](19) | ★★★☆☆ | ★★★★★      | 
+| [19](19) | ★★★☆☆ | ★★★★★      | fuzzy set matching and 3D vector math
 | [20](20) | ★★★★★ | ★★★★☆      | 
 | [21](21) | ★★★☆☆ | ★★★★☆      | 
 | [22](22) | ★★★☆☆ | ★★★☆☆      | 
