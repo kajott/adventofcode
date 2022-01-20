@@ -21,8 +21,8 @@
 | [17](17) | ★★★☆☆ | ★★★☆☆      | ballistic trajectory simulation
 | [18](18) | ★★☆☆☆ | ★★★☆☆      | nested list processing
 | [19](19) | ★★★☆☆ | ★★★★★      | fuzzy set matching and 3D vector math
-| [20](20) | ★★★★★ | ★★★★☆      | 
-| [21](21) | ★★★☆☆ | ★★★★☆      | 
+| [20](20) | ★★★☆☆ | ★★★☆☆      | arbitrary 2D cellular automaton simulation
+| [21](21) | ★★★☆☆ | ★★★★★      | game simulation with dynamic programming
 | [22](22) | ★★★☆☆ | ★★★☆☆      | 
 | [23](23) | ★★☆☆☆ | ★★★★☆      | 
 | [24](24) | ★★★★☆ | ★★★☆☆      | 
