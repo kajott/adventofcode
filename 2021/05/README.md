@@ -41,7 +41,7 @@ So, the horizontal and vertical lines from the above list would produce the foll
 
 In this diagram, the top left corner is `0,0` and the bottom right corner is `9,9`. Each position is shown as _the number of lines which cover that point_ or `.` if no line covers that point. The top-left pair of `1`s, for example, comes from `2,2 -> 2,1`; the very bottom row is formed by the overlapping lines `0,9 -> 5,9` and `0,9 -> 2,9`.
 
-To avoid the most dangerous areas, you need to determine _the number of points where at least two lines overlap_. In the above example, this is anywhere in the diagram with a `2` or larger - a total of `_5_` points.
+To avoid the most dangerous areas, you need to determine _the number of points where at least two lines overlap_. In the above example, this is anywhere in the diagram with a `2` or larger - a total of _`5`_ points.
 
 Consider only horizontal and vertical lines. _At how many points do at least two lines overlap?_
 
@@ -70,7 +70,7 @@ Considering all lines from the above example would now produce the following dia
     222111....
     
 
-You still need to determine _the number of points where at least two lines overlap_. In the above example, this is still anywhere in the diagram with a `2` or larger - now a total of `_12_` points.
+You still need to determine _the number of points where at least two lines overlap_. In the above example, this is still anywhere in the diagram with a `2` or larger - now a total of _`12`_ points.
 
 Consider all of the lines. _At how many points do at least two lines overlap?_
 

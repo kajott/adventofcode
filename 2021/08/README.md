@@ -70,7 +70,7 @@ For now, _focus on the easy digits_. Consider this larger example:
     fgae cfgab fg bagce
     
 
-Because the digits `1`, `4`, `7`, and `8` each use a unique number of segments, you should be able to tell which combinations of signals correspond to those digits. Counting _only digits in the output values_ (the part after `|` on each line), in the above example, there are `_26_` instances of digits that use a unique number of segments (highlighted above).
+Because the digits `1`, `4`, `7`, and `8` each use a unique number of segments, you should be able to tell which combinations of signals correspond to those digits. Counting _only digits in the output values_ (the part after `|` on each line), in the above example, there are _`26`_ instances of digits that use a unique number of segments (highlighted above).
 
 _In the output values, how many times do digits `1`, `4`, `7`, or `8` appear?_
 

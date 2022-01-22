@@ -31,7 +31,7 @@ Each change of 1 step in horizontal position of a single crab costs 1 fuel. You 
 *   Move from `2` to `2`: `0` fuel
 *   Move from `14` to `2`: `12` fuel
 
-This costs a total of `_37_` fuel. This is the cheapest possible outcome; more expensive outcomes include aligning at position `1` (`41` fuel), position `3` (`39` fuel), or position `10` (`71` fuel).
+This costs a total of _`37`_ fuel. This is the cheapest possible outcome; more expensive outcomes include aligning at position `1` (`41` fuel), position `3` (`39` fuel), or position `10` (`71` fuel).
 
 Determine the horizontal position that the crabs can align to using the least fuel possible. _How much fuel must they spend to align to that position?_
 
@@ -56,7 +56,7 @@ As each crab moves, moving further becomes more expensive. This changes the best
 *   Move from `2` to `5`: `6` fuel
 *   Move from `14` to `5`: `45` fuel
 
-This costs a total of `_168_` fuel. This is the new cheapest possible outcome; the old alignment position (`2`) now costs `206` fuel instead.
+This costs a total of _`168`_ fuel. This is the new cheapest possible outcome; the old alignment position (`2`) now costs `206` fuel instead.
 
 Determine the horizontal position that the crabs can align to using the least fuel possible so they can make you an escape route! _How much fuel must they spend to align to that position?_
 

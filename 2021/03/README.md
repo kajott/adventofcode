@@ -30,9 +30,9 @@ The most common second bit of the numbers in the diagnostic report is `0`, so th
 
 The most common value of the third, fourth, and fifth bits are `1`, `1`, and `0`, respectively, and so the final three bits of the gamma rate are `110`.
 
-So, the gamma rate is the binary number `10110`, or `_22_` in decimal.
+So, the gamma rate is the binary number `10110`, or _`22`_ in decimal.
 
-The epsilon rate is calculated in a similar way; rather than use the most common bit, the least common bit from each position is used. So, the epsilon rate is `01001`, or `_9_` in decimal. Multiplying the gamma rate (`22`) by the epsilon rate (`9`) produces the power consumption, _`198`_.
+The epsilon rate is calculated in a similar way; rather than use the most common bit, the least common bit from each position is used. So, the epsilon rate is `01001`, or _`9`_ in decimal. Multiplying the gamma rate (`22`) by the epsilon rate (`9`) produces the power consumption, _`198`_.
 
 Use the binary numbers in your diagnostic report to calculate the gamma rate and epsilon rate, then multiply them together. _What is the power consumption of the submarine?_ (Be sure to represent your answer in decimal, not binary.)
 
