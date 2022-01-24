@@ -24,6 +24,6 @@
 | [20](20) | ★★★☆☆ | ★★★☆☆      | arbitrary 2D cellular automaton simulation
 | [21](21) | ★★★☆☆ | ★★★★★      | game simulation with dynamic programming
 | [22](22) | ★★★★☆ | ★★★★★      | cuboid intersection
-| [23](23) | ★★☆☆☆ | ★★★★☆      | 
+| [23](23) | ★★★☆☆ | ★★★★★      | Towers of Hanoi like game solver
 | [24](24) | ★★★★☆ | ★★★☆☆      | 
 | [25](25) | ★★★☆☆ | ★★☆☆☆      | 
