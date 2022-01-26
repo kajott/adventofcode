@@ -25,5 +25,5 @@
 | [21](21) | ★★★☆☆ | ★★★★★      | game simulation with dynamic programming
 | [22](22) | ★★★★☆ | ★★★★★      | cuboid intersection
 | [23](23) | ★★★☆☆ | ★★★★★      | Towers of Hanoi like game solver
-| [24](24) | ★★★★☆ | ★★★☆☆      | 
+| [24](24) | ★★☆☆☆ | ★★★★★      | reverse engineering
 | [25](25) | ★★★☆☆ | ★★☆☆☆      | 
