@@ -25,7 +25,7 @@ def is_relevant_file(name):
 LANGUAGES_INV = { "py": "Python", "c": "C" }
 LANGUAGE_EXTS = dict((n.lower(), x) for x,n in LANGUAGES_INV.items())
 TIME_UNITS = { "s": 1, "ms": 1E-3, "m": 60, "min": 60, "h": 3600, "hrs": 3600 }
-INTERPRETERS = { "py": ["python"], "c": ["sh"] }
+INTERPRETERS = { "py": ["python2"], "c": ["sh"] }
 
 def log(msg):
     sys.stdout.write(msg + "\n")

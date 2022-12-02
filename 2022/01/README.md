@@ -65,4 +65,4 @@ The largest technical struggle in this implementation is the fact that everythin
 
 * Part 1, Python: 82 bytes, <100 ms
 * Part 2, Python: 95 bytes, <100 ms
-* Parts 1+2, 16-bit DOS Assembler: 256 bytes (compiled), ~2 s
+* Parts 1+2, x86 DOS Assembly: 256 bytes (assembled), ~2 s

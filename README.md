@@ -1,6 +1,15 @@
 # Advent of Code Puzzle Solutions
 
-This repository contains the puzzles and my solutions for the popular [Advent of Code](https://adventofcode.com/) online programming puzzle tournament.
+This repository contains the puzzles and my solutions for the popular [Advent of Code](https://adventofcode.com/) online programming puzzle tournament:
+
+[2015](2015) &bull;
+[2016](2016) &bull;
+[2017](2017) &bull;
+[2018](2018) &bull;
+[2019](2019) &bull;
+[2020](2020) &bull;
+[2021](2021) &bull;
+[2022](2022)
 
 My solutions are mostly written in Python 2.7, with the occasional C implementations where Python's performance is problematic. In both cases, the solutions are attempts at [code golf](https://en.wikipedia.org/wiki/Code_golf), so please don't expect any well-commented, easily understandable, extensible code here! The following exceptions are made:
 
