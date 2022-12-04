@@ -4,3 +4,5 @@ a.out
 a.o
 *vis*.p[gp]m
 *.com
+*.lst
+*.OUT

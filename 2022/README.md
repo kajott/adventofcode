@@ -4,3 +4,5 @@
 | -------: | :---: | :--------: | :---------------
 |  [1](01) | ★★★☆☆ | ★☆☆☆☆      | sub-list maximum and partial sum
 |  [2](02) | ★★☆☆☆ | ★★☆☆☆      | rock-paper-scissors game
+|  [3](03) | ★★★☆☆ | ★☆☆☆☆      | set intersection
+|  [4](04) | ★★★☆☆ | ★★☆☆☆      | 1D range overlap checking
