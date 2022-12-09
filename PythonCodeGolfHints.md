@@ -64,14 +64,14 @@ If the body of a block (`def`, `class`, `if`, `for`, `while` etc.) doesn't conta
 
 When manipulating lists and sets, the overloaded operators are usually much shorter than the equivalent methods:
 
-| operation           | non-golf            | golf     |
-| ------------------- | ------------------- | -------- |
-| extend list by list | `x.extend(y)`       | `x+=y`   |
-| append item to list | `x.append(i)`       | `x+=[i]` |
-| add item to set     | `x.add(i)`          | `x|={i}` |
-| set union           | `a.union(b)`        | `a|b`    |
-| set difference      | `a.difference(b)`   | `a-b`    |
-| set intersection    | `a.intersection(b)` | `a&b`    |
+| operation           | non-golf            | golf      |
+| ------------------- | ------------------- | --------- |
+| extend list by list | `x.extend(y)`       | `x+=y`    |
+| append item to list | `x.append(i)`       | `x+=[i]`  |
+| add item to set     | `x.add(i)`          | `x\|={i}` |
+| set union           | `a.union(b)`        | `a\|b`    |
+| set difference      | `a.difference(b)`   | `a-b`     |
+| set intersection    | `a.intersection(b)` | `a&b`     |
 
 
 
