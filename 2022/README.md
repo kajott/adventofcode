@@ -11,3 +11,4 @@
 |  [7](07) | ★★★★☆ | ★★★☆☆      | directory tree size statistics
 |  [8](08) | ★★★☆☆ | ★★★☆☆      | 2D number field traversal
 |  [9](09) | ★★★★☆ | ★★★☆☆      | rope physics simulation
+| [10](10) | ★★★☆☆ | ★★★☆☆      | precisely timed "beam racing" simulation
