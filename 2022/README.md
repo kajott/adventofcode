@@ -12,3 +12,4 @@
 |  [8](08) | ★★★☆☆ | ★★★☆☆      | 2D number field traversal
 |  [9](09) | ★★★★☆ | ★★★☆☆      | rope physics simulation
 | [10](10) | ★★★☆☆ | ★★★☆☆      | precisely timed "beam racing" simulation
+| [11](11) | ★★☆☆☆ | ★★★★☆      | rule-based simulation + complexity bomb
