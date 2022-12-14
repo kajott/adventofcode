@@ -14,3 +14,5 @@
 | [10](10) | ★★★☆☆ | ★★★☆☆      | precisely timed "beam racing" simulation
 | [11](11) | ★★☆☆☆ | ★★★★☆      | rule-based simulation + complexity bomb
 | [12](12) | ★★★★☆ | ★★★☆☆      | BFS pathfinding
+| [13](13) | ★★☆☆☆ | ★★★☆☆      | custom rules for nested list comparison
+| [14](14) | ★★★★☆ | ★★★☆☆      | sand pouring simulation
