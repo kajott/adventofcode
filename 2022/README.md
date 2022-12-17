@@ -15,4 +15,7 @@
 | [11](11) | ★★☆☆☆ | ★★★★☆      | rule-based simulation + complexity bomb
 | [12](12) | ★★★★☆ | ★★★☆☆      | BFS pathfinding
 | [13](13) | ★★☆☆☆ | ★★★☆☆      | custom rules for nested list comparison
-| [14](14) | ★★★★☆ | ★★★☆☆      | sand pouring simulation
+| [14](14) | ★★★★★ | ★★★☆☆      | sand pouring simulation
+| [15](15) | ★★★☆☆ | ★★★★★      | L^1 metric overlap finding in 2D
+| [16](16) | ★★☆☆☆ | ★★★★★      | complex pathfinding
+| [17](17) | ★★★★☆ | ★★★★☆      | Tetris simulation + periodic pattern detection
