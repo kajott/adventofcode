@@ -19,3 +19,4 @@
 | [15](15) | ★★★☆☆ | ★★★★★      | L^1 metric overlap finding in 2D
 | [16](16) | ★★☆☆☆ | ★★★★★      | complex pathfinding
 | [17](17) | ★★★★☆ | ★★★★☆      | Tetris simulation + periodic pattern detection
+| [18](18) | ★★★★☆ | ★★☆☆☆      | 3D grid flood-filling
