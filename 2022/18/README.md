@@ -52,4 +52,4 @@ Your puzzle answer was `2058`.
 This is a relatively easy task: Count how many of the eight neighbors of each block are air, and that's already it for part 1. Part 2 requires filling the space with (BFS-generated) "confirmed air" first, but is otherwise near-identical. The fact that the inputs only use a 20x20x20 grid is very helpful here - if the space was much larger, clusters of rock would need to be identified first in order to still be runtime-efficient.
 
 * Part 1, Python: 153 bytes, <100 ms
-* Part 2, Python: 295 bytes, ~150 ms
+* Part 2, Python: 266 bytes, ~150 ms
