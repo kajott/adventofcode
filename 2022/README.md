@@ -20,3 +20,4 @@
 | [16](16) | ★★☆☆☆ | ★★★★★      | complex pathfinding
 | [17](17) | ★★★★☆ | ★★★★☆      | Tetris simulation + periodic pattern detection
 | [18](18) | ★★★★☆ | ★★☆☆☆      | 3D grid flood-filling
+| [19](19) | ★★☆☆☆ | ★★★★★      | more complex pathfinding
