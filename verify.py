@@ -25,7 +25,7 @@ def is_relevant_file(name):
 LANGUAGES_INV = { "py": "Python", "c": "C" }
 LANGUAGE_EXTS = dict((n.lower(), x) for x,n in LANGUAGES_INV.items())
 TIME_UNITS = { "s": 1, "ms": 1E-3, "m": 60, "min": 60, "h": 3600, "hrs": 3600 }
-INTERPRETERS = { "py": ["python2"], "c": ["sh"] }
+INTERPRETERS = { "py": ["python2"], "c": ["sh"], "cpp": ["sh"] }
 
 def log(msg):
     sys.stdout.write(msg + "\n")
@@ -78,6 +78,8 @@ CONFIG_STATEMENTS = {
     "check2only": ('check-only', 2),
     "nocheck":    ('check', False),
     "norun":      ('run', False),
+    "python2":    ('interpreter', ["python2"]),
+    "python3":    ('interpreter', ["python3"]),
 }
 
 def load_config(basedir, filter_path=""):
@@ -234,7 +236,7 @@ def get_run_result(file, lines=0, expect=None):
     size = os.path.getsize(file.path)
     if not(run and g_run):
         return 0, size, True
-    cmdline = INTERPRETERS.get(file.lang) + [file.filename]
+    cmdline = file.config.get('interpreter', INTERPRETERS.get(file.lang)) + [file.filename]
 
     # prepare result capture and verification
     if not lines:
