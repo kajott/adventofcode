@@ -23,3 +23,4 @@
 | [19](19) | ★★☆☆☆ | ★★★★★      | more complex pathfinding
 | [20](20) | ★★★☆☆ | ★★★☆☆      | cyclic list manipulation
 | [21](21) | ★★★★☆ | ★★★☆☆      | arithmetic operator tree reversing
+| [22](22) | ★★★★★ | ★★★★☆      | cube net traversal
