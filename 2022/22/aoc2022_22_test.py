@@ -2,6 +2,8 @@
 """scratchpad for my AoC 2022/22 solution"""
 import re
 
+bmp = vis = None
+
 infile, facesize = "input.txt",50
 #infile, facesize = "input2.txt",4
 
@@ -40,16 +42,36 @@ def move(px,py,dx,dy):
 
 ipx,ipy,*dummy = move(9999,1,1,0)
 
+class Colors:
+    Wall   = ( 64,  64,  64)
+    Space  = (192, 192, 192)
+    Trail  = (128, 128, 192)
+    Player = (128, 192, 255)
+
 def run():
     global px,py
     px,py,dx,dy = ipx,ipy, 1,0
-    for ins in I:
-        if ins.isdigit():
-            for s in range(int(ins)):
-                px,py,dx,dy,wall = move(px,py,dx,dy)
-                if wall: break
-        elif ins == 'R': dx,dy=(-dy,dx)
-        elif ins == 'L': dx,dy=(dy,-dx)
+    if vis:
+        bmp.put(px, py, Colors.Player)
+        vis.start(bmp)
+        vis.write(initial=True)
+    try:
+        for ins in I:
+            if ins.isdigit():
+                for s in range(int(ins)):
+                    if bmp: bmp.put(px, py, trail(vis.ticks))
+                    px,py,dx,dy,wall = move(px,py,dx,dy)
+                    if bmp: bmp.put(px, py, Colors.Player)
+                    if wall: break
+                    if vis: vis.write()
+            elif ins == 'R': dx,dy=(-dy,dx)
+            elif ins == 'L': dx,dy=(dy,-dx)
+    except (EnvironmentError, KeyboardInterrupt):
+        pass
+    if vis:
+        vis.write(final=True)
+        vis.stop()
+        print(vis.ticks, "ticks", vis.frames, "frames")
     f = [(1,0), (0,1), (-1,0), (0,-1)].index((dx,dy))
     print(px,py, dx,dy, f, "=>", 1000*py + 4*px + f)
 run()
@@ -102,4 +124,15 @@ for cx in range(facesize, facesize*10, facesize):
         if corner == 0b1110: print(f"|~ corner at {cx+1},{cy+1}"); walk(cx+1,cy+1, +1,0, 0,+1)
 print(len(P) / facesize, "sides")
 D()
+
+if 0:  # set to 1 to enable visualization
+    import sys, os
+    sys.path.append(os.path.join(os.path.dirname(sys.argv[0]), "../../lib"))
+    import visutil
+    vis = visutil.Visualizer(default_zoom=4, default_speed=1000, title="AoC Cube Net")
+    bmp = visutil.Bitmap(M, border=1)
+    trail = visutil.ColorInterpolator((96, 96, 160), (96, 160, 240), 13100)
+    for p, n in M.items():
+        bmp.put(p, Colors.Wall if n else Colors.Space)
+
 run()
