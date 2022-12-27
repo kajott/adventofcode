@@ -6,5 +6,5 @@ for l in open("input.txt"):
  else:F[l[0][:4]]=l[1:]
 E=lambda n:V[n]if(n in V)else{'+':O.add,'-':O.sub,'*':O.mul,'/':O.div}[F[n][1]](E(F[n][0]),E(F[n][2]))
 print E(R)
-F[R][1]='-';V[H]=0;a=E(R);V[H]=1E15
-print int(a*1E15*1./(a-E(R)))
+F[R][1]='-';V[H]=0.;a=E(R);V[H]=1E15
+print int(a*V[H]/(a-E(R))+.5)

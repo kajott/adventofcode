@@ -73,11 +73,12 @@ The golf solutions for parts 1 and 2 are nearly identical for the part that eval
 
 A few hours later, I learned from a very different approach to solve part 1: Just abuse Python's `exec` function and let it run through the whole input until all variables have been resolved. That's an evil hack if there ever was one, but it *does* the job with very little code, so there's that.
 
-Another novel approach I learned about much later is concerning part 2: Since the operators form a proper tree and all operations are linear, the result must be linear function with respect to the `humn` parameter. Hence, it's sufficient to take two samples (at zero and some large-enough number) and the target value can be computed directly by solving the linear system. The math is a bit shaky though: I only managed to get stable results on my and the example inputs on Python 2 and with a very specific combination of floating-point and integer arithmetic; otherwise, off-by-one errors occur. That's why the combined solution for this approach is, again, Python 2 only.
+Another novel approach I learned about much later is concerning part 2: Since the operators form a proper tree and all operations are linear, the result must be linear function with respect to the `humn` parameter. Hence, it's sufficient to take two samples (at zero and some large-enough number) and the target value can be computed directly by solving the linear system. Care needs to be taken to do the math with sufficient precision; it worked out for me after a bit of twiddling, but I cant't guarantee that it won't produce off-by-one errors on other inputs. <br>
+Anyway, the combined code of this approach is **not** Python 3 compatible, because the overhead of 11 bytes is a bit too much for my taste this time.
 
 * Part 1, Python: 250 bytes, <100 ms
 * Part 2, Python (equation inversion): 472 bytes, <100 ms
 * Parts 1+2, Python (equation inversion): 492 bytes, <100 ms
 * Part 2, Python (linear solver): 318 bytes, <100 ms
-* Parts 1+2, Python (linear solver): 329 bytes, <100 ms
+* Parts 1+2, Python (linear solver): 330 bytes, <100 ms
 * Part 1, Python (evil `exec` hackery): 106 bytes, ~500 ms
