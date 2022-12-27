@@ -17,13 +17,7 @@ class Colors:
     Falling  = (240, 224,  64)
     Resting0 = (160, 128,  48)
     Resting1 = ( 64,  48,   8)
-
-    @classmethod
-    def make_resting(self, grains):
-        t = 1.0 - min(1, max(0, grains / ExpectedGrainCount))
-        t *= t
-        t *= t
-        return tuple(int(a * t + b * (1.0 - t)) for a,b in zip(self.Resting0, self.Resting1))
+    make_resting = visutil.ColorInterpolator(Resting0, Resting1, ExpectedGrainCount, power=-4)
 
 class LandOfSand:
     def __init__(self, x0,y0, x1,y1, rate=3):
@@ -83,7 +77,7 @@ def extra_args(parser):
 
 
 if __name__ == "__main__":
-    vis = visutil.Visualizer(input_arg=True, extra_args=extra_args)
+    vis = visutil.Visualizer(default_zoom=4, input_arg=True, extra_args=extra_args, title="AoC Sand Simulation")
     args = vis.args
 
     lines = []
@@ -120,8 +114,7 @@ if __name__ == "__main__":
 
     vis.start(sim.bmp)
     try:
-        # generate 1/2 second of initial state (or 1 frame if just viewing)
-        vis.write(n=((vis.fps // 2) if args.output else 1))
+        vis.write(initial=True)
         while sim.step(cpf):
             vis.write()
             expect_dps = args.dps + args.accel * sim.resting
@@ -132,7 +125,7 @@ if __name__ == "__main__":
             if speed_changed:
                 real_dps = get_real_dps()
                 print(f"timing changed: {cpf} cycle(s)/frame -> {real_dps:.1f} drops/second")
-        vis.write(n=vis.fps*2)  # generate 2 second of final state
+        vis.write(final=True)
     except (EnvironmentError, KeyboardInterrupt):
         pass
     vis.stop()
