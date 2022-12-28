@@ -252,6 +252,8 @@ This approach works nicely, but it ain't exactly fast, as there's a lot of loopi
 
 The code size is dominated by the simulation aspect, hence it makes a lot of sense to combine both parts into a common solution. Part 1 alone is larger than Part 2, because determining the bounding box is always a tedious process in Python, let alone when complex numbers (which I used here extensively) need to be unpacked.
 
+An experimental (non-golf) C implementation that works on a grid instead of a set of coordinates runs both parts in less than 200 milliseconds including compilation, and less than 100 ms without.
+
 * Part 1, Python: 424 bytes, ~150 ms
 * Part 2, Python: 333 bytes, ~15 s
 * Parts 1+2, Python: 441 bytes, ~15 s
