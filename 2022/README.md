@@ -24,3 +24,4 @@
 | [20](20) | ★★★☆☆ | ★★★☆☆      | cyclic list manipulation
 | [21](21) | ★★★★☆ | ★★★☆☆      | arithmetic operator tree reversing
 | [22](22) | ★★★★★ | ★★★★☆      | cube net traversal
+| [23](23) | ★★★★☆ | ★★★☆☆      | cellular automaton with more complex rules
