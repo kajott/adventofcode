@@ -44,6 +44,34 @@ class ColorInterpolator:
 
 ################################################################################
 
+def get_extent(seq, exclusive=False, size_only=False):
+    """
+    Determine the extent (bounding box) of a sequence, dict, set or generator
+    expression of 2-tuples or complex numbers.
+      - default: return upper-left and lower-right corner coordinates (inclusive)
+                 as a tuple ((x0,y0), (x1,y1))
+      - with exclusive=True: as above, but use non-inclusive lower-right corner
+      - with size_only=True: return a tuple (width, height)
+    """
+    keys = set(seq)
+    any_item = keys.pop()
+    cplx = isinstance(any, complex)
+    keys.add(any_item)
+    if cplx:
+        xx = {int(p.real) for p in keys}
+        yy = {int(p.imag) for p in keys}
+    else:
+        xx = {x for x,y in keys}
+        yy = {y for x,y in keys}
+    x0, x1 = min(xx), max(xx) + (1 if (exclusive or size_only) else 0)
+    y0, y1 = min(yy), max(yy) + (1 if (exclusive or size_only) else 0)
+    if size_only:
+        return (x1-x0, y1-y0)
+    else:
+        return ((x0,y0), (x1,y1))
+
+################################################################################
+
 class Bitmap:
     "A single still frame."
 
@@ -75,18 +103,7 @@ class Bitmap:
         if c2 and isinstance(c1, int) and isinstance(c2, int):
             c1, c2 = (c1, c2), None
         if (c2 is None) and not(isinstance(c1, int) or (isinstance(c1, tuple) and (len(c1) == 2))):
-            keys = set(c1)
-            any_item = keys.pop()
-            cplx = isinstance(any, complex)
-            keys.add(any_item)
-            if cplx:
-                xx = {int(p.real) for p in keys}
-                yy = {int(p.imag) for p in keys}
-            else:
-                xx = {x for x,y in keys}
-                yy = {y for x,y in keys}
-            c1 = (min(xx), min(yy))
-            c2 = (max(xx), max(yy))
+            c1, c2 = get_extent(c1)
         if isinstance(c1, complex):
             c1 = (int(c1.real), int(c1.imag))
         if isinstance(c2, complex):
@@ -106,20 +123,33 @@ class Bitmap:
             self.y1 += border
         self.width  = self.x1 - self.x0 + 1
         self.height = self.y1 - self.y0 + 1
-        if not background:
-            background = (0, 0, 0)
-        self.exterior = tuple(exterior or background)
+        self.background = background or (0,0,0)
+        self.exterior = tuple(exterior or self.background)
         if init:
             if hasattr(init, 'tobytes'):
                 init = init.tobytes()
             self.data = bytearray(init)
             assert len(self.data) == (self.width * self.height * 3), "invalid initialization data size"
         else:
-            self.data = bytearray(bytes(background) * (self.width * self.height))
+            self.data = bytearray(bytes(self.background) * (self.width * self.height))
 
     @property
     def size(self):
         return (self.width, self.height)
+
+    def clear(self, *color):
+        """
+        Clear with the default background color, or a specified 8-bit sRGB color
+        (either as distinct parameters or a tuple).
+        """
+        if not color:
+            color = self.background
+        elif (len(color) == 1) and isinstance(color, int):
+            color = (color, color, color)
+        elif len(color) == 1:
+            color = color[0]
+        assert len(color) == 3, "invalid number of color components"
+        self.data = bytearray(bytes(color) * (self.width * self.height))
 
     def get(self, x,y=None):
         """
@@ -193,7 +223,7 @@ class Visualizer:
     a live preview will be shown instead.
     """
 
-    def __init__(self, default_zoom=1, default_speed=None, source=None, extra_args=None, input_arg=False, title="Visualization"):
+    def __init__(self, default_zoom=1, default_speed=None, source=None, extra_args=None, input_arg=False, novis_arg=False, title="Visualization"):
         """
         Read command-line options.
           - default_zoom: default zoom factor
@@ -205,6 +235,9 @@ class Visualizer:
           - input_arg: set to nonzero to include the -i/--input argument;
                        if set to a string, this will be the default argument
                        (result will be available as Visualizer.input)
+          - novis_arg: set to true to include the -n/--novis argument;
+                       if this is used, the visualizer will be inactive,
+                       and start() and write() will do nothing except count ticks
           - title: window title
         """
         parser = argparse.ArgumentParser()
@@ -212,6 +245,9 @@ class Visualizer:
         if input_arg:
             parser.add_argument("-i", "--input", metavar="FILE", default=(input_arg if isinstance(input_arg, str) else "input.txt"),
                                 help="input file name")
+        if novis_arg:
+            parser.add_argument("-n", "--novis", action='store_true',
+                                help="disable visualization")
         parser.add_argument("-o", "--output", metavar="VIDEO.mp4",
                             help="save result into video file [default: show on screen]")
         parser.add_argument("-z", "--zoom", metavar="N", type=int, default=default_zoom,
@@ -237,6 +273,12 @@ class Visualizer:
         self.input = self.args.input if input_arg else None
         self.proc = None
         self.title = title
+        self.novis = self.args.novis if novis_arg else False
+
+    def __nonzero__(self):
+        return not(self.novis)
+    def __bool__(self):
+        return not(self.novis)
 
     def start(self, source=None, frameskip=0, verbose=False):
         """
@@ -245,6 +287,14 @@ class Visualizer:
           - frameskip: override frameskip value that's been set in the constructor
           - verbose: set to True to show the FFmpeg/FFplay command line
         """
+        self.ticks = 0
+        self.frames = 0
+        if frameskip:
+            self.frameskip = frameskip
+        self.skipcount = self.frameskip
+        if self.novis:
+            return
+
         if source:
             self.source = self.bmp = source
         w, h = getattr(self.source, 'width', 0), getattr(self.source, 'height', 0)
@@ -269,12 +319,6 @@ class Visualizer:
             print(os.getenv("PS4", "+ ") + ' '.join((f'"{a}"' if (' ' in a) else a) for a in cmdline))
         self.proc = subprocess.Popen(cmdline, stdin=subprocess.PIPE)
 
-        if frameskip:
-            self.frameskip = frameskip
-        self.skipcount = self.frameskip
-        self.frames = 0
-        self.ticks = 0
-
     def write(self, source=None, n=0, initial=False, final=False):
         """
         Send a frame to the display or encoder. start() must have been called
@@ -289,7 +333,8 @@ class Visualizer:
         intercepted by the host application and be treated as if the output
         finished normally, i.e. stop()/close() should *still* be called.
         """
-        assert self.proc, "no output running"
+        if not self.novis:
+            assert self.proc, "no output running"
         if initial: n = max(1, (self.fps // 2)) if self.args.output else 1
         if final:   n = self.fps * 2
         if not n:
@@ -299,15 +344,16 @@ class Visualizer:
                 return
             self.skipcount = self.frameskip
             n = 1
-        if not source:
-            source = self.source
-        if hasattr(source, 'tofile'):
-            for i in range(n):
-                source.tofile(self.proc.stdin)
-        else:
-            frame = source.tobytes()
-            for i in range(n):
-                self.proc.stdin.write(frame)
+        if not self.novis:
+            if not source:
+                source = self.source
+            if hasattr(source, 'tofile'):
+                for i in range(n):
+                    source.tofile(self.proc.stdin)
+            else:
+                frame = source.tobytes()
+                for i in range(n):
+                    self.proc.stdin.write(frame)
         self.frames += n
 
     def stop(self):
