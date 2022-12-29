@@ -26,3 +26,4 @@
 | [22](22) | ★★★★★ | ★★★★☆      | cube net traversal
 | [23](23) | ★★★★☆ | ★★★☆☆      | cellular automaton with more complex rules
 | [24](24) | ★★★★☆ | ★★★☆☆      | pathfinding with moving obstacles
+| [25](25) | ★★★★☆ | ★★★☆☆      | balanced quinary addition or conversion
