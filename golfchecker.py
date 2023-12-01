@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 """
 check Python scripts (or a whole directory tree of them)
 for a few(!) simple code golf possibilities
@@ -83,10 +83,10 @@ def mergelines(data, lines):
     block = [bool(re.search(r'\b(def|class|if|else|elif|for|while|with|try|except)\b', line)) for line in lines] + [False]
     colon = [line.rstrip().endswith(':') for line in lines] + [False]
     def has_subblocks(n):
-        for i in xrange(n+1, len(lines)):
+        for i in range(n+1, len(lines)):
             if indent[i] < indent[n]: break
             if block[i]: return True
-    for n in xrange(len(lines)):
+    for n in range(len(lines)):
         indent_delta = indent[n] - indent[n-1]
         if block[n]: continue  # can't merge a new block statement
         if not indent[n]: continue  # not indented, merging wouldn't save anything
@@ -148,7 +148,7 @@ def alias(data, lines):
         freq[name] += 1
         if not(name in location):
             location[name] = (m.start(0), m.end(0))
-    for name, freq in freq.iteritems():
+    for name, freq in freq.items():
         l = len(name)
         if (freq + l + 3) < (freq * l):
             s, e = location[name]
@@ -158,10 +158,10 @@ _kwset = set(keyword.kwlist) | set("count index values items".split())
 ###############################################################################
 
 def check_file(filename):
-    data = open(filename, "rb").read()
+    data = open(filename, "rb").read().decode()
     lines = data.split('\n')
     if not lines[-1]: del lines[-1]
-    clean_lines = map(whiten_strings, lines)
+    clean_lines = list(map(whiten_strings, lines))
     clean_data = '\n'.join(clean_lines) + '\n'
     res = []
     for ckidx, checker in enumerate(checkers):
@@ -189,10 +189,10 @@ def check_file(filename):
                 loc = filename
                 if hiline and not(last_hide):
                     loc += ":%d" % last_ln
-                print "\x1b[100;95m%s: \x1b[91m(%s)\x1b[37m %s\x1b[K\x1b[0m" % (loc, checkers[last_ckidx].__name__, checkers[last_ckidx].__doc__)
+                print("\x1b[100;95m%s: \x1b[91m(%s)\x1b[37m %s\x1b[K\x1b[0m" % (loc, checkers[last_ckidx].__name__, checkers[last_ckidx].__doc__))
                 if hiline:
-                    print "\x1b[35m> \x1b[0m" + hiline
-                print
+                    print("\x1b[35m> \x1b[0m" + hiline)
+                print()
             if ckidx < 0:
                 break
             hiline = lines[lineno - 1] if lineno else None

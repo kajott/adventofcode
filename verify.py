@@ -1,10 +1,10 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 """
 Run all AoC solutions, verify the results, sizes and runtimes,
 and update README.md accordingly.
 """
 import sys, os, time, re, subprocess, argparse
-import multiprocessing, threading, Queue
+import multiprocessing, threading, queue
 
 g_run = True
 g_update_times = False
@@ -22,10 +22,14 @@ def is_relevant_file(name):
        and not("_test" in name) \
        and not("nogolf" in name)
 
+def auto_python_interpreter(filename):
+    year = re.search('(^|\D)(20\d\d)\D', filename)
+    return ["python3"] if (year and (int(year.group(2)) >= 2023)) else ["python2"]
+
 LANGUAGES_INV = { "py": "Python", "c": "C" }
 LANGUAGE_EXTS = dict((n.lower(), x) for x,n in LANGUAGES_INV.items())
 TIME_UNITS = { "s": 1, "ms": 1E-3, "m": 60, "min": 60, "h": 3600, "hrs": 3600 }
-INTERPRETERS = { "py": ["python2"], "c": ["sh"], "cpp": ["sh"] }
+INTERPRETERS = { "py": auto_python_interpreter, "c": ["sh"], "cpp": ["sh"] }
 
 def log(msg):
     sys.stdout.write(msg + "\n")
@@ -121,8 +125,8 @@ def load_config(basedir, filter_path=""):
 ###############################################################################
 
 class Sortable(object):
-    def __cmp__(self, other):
-        return cmp(self.sortkey, other.sortkey)
+    def __lt__(self, other):
+        return (self.sortkey < other.sortkey)
 
 class SolutionFile(Sortable):
     def __init__(self, root, filename):
@@ -236,7 +240,12 @@ def get_run_result(file, lines=0, expect=None):
     size = os.path.getsize(file.path)
     if not(run and g_run):
         return 0, size, True
-    cmdline = file.config.get('interpreter', INTERPRETERS.get(file.lang)) + [file.filename]
+    interpreter = file.config.get('interpreter', INTERPRETERS.get(file.lang))
+    if not isinstance(interpreter, (list, str)):
+        interpreter = interpreter(file.filename)
+    if isinstance(interpreter, str):
+        interpreter = [interpreter]
+    cmdline = interpreter + [file.filename]
 
     # prepare result capture and verification
     if not lines:
@@ -253,21 +262,22 @@ def get_run_result(file, lines=0, expect=None):
     try:
         proc = subprocess.Popen(cmdline, cwd=file.dirname, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
         for line in proc.stdout:
-            output.append(line.rstrip())
+            output.append(line.rstrip().decode(errors='replace'))
         res = proc.wait()
         if res:
             res = "exit code %d" % res
-    except EnvironmentError, e:
+    except EnvironmentError as e:
         res = str(e)
     t = time.time() - t
 
     # summarize
     if res:
-        log_error("error running %s: %s" % (file.path, res))
+        log_error("error running %s with %s: %s" % (file.path, ' '.join(interpreter), res))
+        raise ValueError("meh")
         return 0, size, False
     if len(output) > lines:
         output = output[-lines:]
-    if check and expect and (map(clean_result_line, output) != expect):
+    if check and expect and (list(map(clean_result_line, output)) != expect):
         log_error("result mismatch for %s: expected '%s', got '%s'" % (file.path, ' | '.join(expect), ' | '.join(output)))
         return t, size, False
     return t, size, output
@@ -285,7 +295,7 @@ def check_dir(root, files):
     # read and parse the README file (search for puzzle answers and solution notes)
     readme_path = os.path.normpath(os.path.join(root, "README.md"))
     with open(readme_path, "rb") as f:
-        readme = f.read()
+        readme = f.read().decode(encoding='utf-8', errors='replace')
     answers = re.findall(r'^your puzzle answer was `([^`]+)`', readme, flags=re.I+re.M)
     if not answers:
         log_warning("directory '%s' doesn't contain any puzzle answers, ignoring" % root)
@@ -374,11 +384,11 @@ def check_dir(root, files):
     if changed and g_update:
         log_info("updating %s" % readme_path)
         with open(readme_path, 'wb') as f:
-            f.write(readme)
+            f.write(readme.encode('utf-8'))
 
 ###############################################################################
 
-g_queue = Queue.Queue()
+g_queue = queue.Queue()
 
 class WorkerThread(threading.Thread):
     def run(self):
@@ -388,10 +398,10 @@ class WorkerThread(threading.Thread):
                 check_dir(*g_queue.get_nowait())
                 g_queue.task_done()
         except KeyboardInterrupt:
-            print
+            print()
             log_warning("aborted by user")
             g_exit = True
-        except Queue.Empty:
+        except queue.Empty:
             pass
 
 ###############################################################################
@@ -418,10 +428,10 @@ if __name__ == "__main__":
     if args.chdir:
         try:
             os.chdir(args.chdir)
-        except EnvironmentError, e:
+        except EnvironmentError as e:
             log_error("can not change into target directory '%s' - %s" % (args.chdir, e))
             sys.exit(1)
-    jobs = args.jobs or (multiprocessing.cpu_count() / 2)
+    jobs = args.jobs or (multiprocessing.cpu_count() // 2)
     if args.no_run:
         g_run = False
         jobs = 1
@@ -451,14 +461,14 @@ if __name__ == "__main__":
     # process jobs
     if jobs > 1:
         log_info("processing in %d parallel jobs ..." % jobs)
-        threads = [WorkerThread() for x in xrange(jobs)]
+        threads = [WorkerThread() for x in range(jobs)]
         for t in threads:
             t.daemon = True
             t.start()
         try:
             g_queue.join()
         except KeyboardInterrupt:
-            print
+            print()
             log_warning("aborted by user")
             g_exit = True
         if g_exit:
@@ -472,7 +482,7 @@ if __name__ == "__main__":
             while not g_queue.empty():
                 check_dir(*g_queue.get())
         except KeyboardInterrupt:
-            print
+            print()
             log_warning("aborted by user")
             g_exit = True
     log_info("done.")

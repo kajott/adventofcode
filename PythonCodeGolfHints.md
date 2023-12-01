@@ -64,20 +64,15 @@ If the body of a block (`def`, `class`, `if`, `for`, `while` etc.) doesn't conta
 
 When manipulating lists and sets, the overloaded operators are usually much shorter than the equivalent methods:
 
-| operation           | non-golf            | golf      |
-| ------------------- | ------------------- | --------- |
-| extend list by list | `x.extend(y)`       | `x+=y`    |
-| append item to list | `x.append(i)`       | `x+=[i]`  |
-| add item to set     | `x.add(i)`          | `x\|={i}` |
-| set union           | `a.union(b)`        | `a\|b`    |
-| set difference      | `a.difference(b)`   | `a-b`     |
-| set intersection    | `a.intersection(b)` | `a&b`     |
-
-
-
-## Don't use xrange
-
-Sure, it's good practice to use `xrange` wherever possible, but in code golf, runtime micro-optimization is less important than saving the `x`. In other words: if the range isn't ridiculously large, just use `range`.
+| operation                | non-golf            | golf      |
+| ------------------------ | ------------------- | --------- |
+| extend list by list      | `x.extend(y)`       | `x+=y`    |
+| append item to list      | `x.append(i)`       | `x+=[i]`  |
+| add item to set          | `x.add(i)`          | `x\|={i}` |
+| set union                | `a.union(b)`        | `a\|b`    |
+| set difference           | `a.difference(b)`   | `a-b`     |
+| set intersection         | `a.intersection(b)` | `a&b`     |
+| convert iterable to list | `list(x)`           | `[*x]`    |
 
 
 
