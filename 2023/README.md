@@ -4,3 +4,4 @@
 | -------: | :---: | :--------: | :---------------
 |  [1](01) | ★★☆☆☆ | ★★★☆☆      | parse numbers and numerals from strings
 |  [2](02) | ★★★☆☆ | ★★☆☆☆      | simple number processing
+|  [3](03) | ★★★★☆ | ★★★☆☆      | 1D connected component analysis
