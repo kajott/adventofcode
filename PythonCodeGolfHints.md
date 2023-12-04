@@ -38,8 +38,6 @@ instead of
 
     x = [a + "foo" for a, b in X if b * c > 7]
 
-In general, remove any whitespace except where letters or numbers follow letters. Some syntax highlighters go crazy when seeing stuff like `7and`, but for the Python tokenizer, this is just a `7` followed by `and`, no trouble. One exception is the combination `0 or`: this can *not* be joined together, because anything starting with `0o` looks like an octal integer literal to it and it'll bail out on the following `r`.
-
 Also, use Unix-style line endings (LF) instead of DOS/Windows-style (CR LF), regardless of which platform you're on.
 
 

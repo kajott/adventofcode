@@ -62,6 +62,13 @@ def trailwhite(data, lines):
 ###############################################################################
 
 @checker
+def extraspace(data, lines):
+    "extraneous whitespace"
+    return regex_checker(lines, r'(\s{2,})')
+
+###############################################################################
+
+@checker
 def indent(data, lines):
     "block more indented than necessary"
     stack = [0]
@@ -98,7 +105,7 @@ def mergelines(data, lines):
 ###############################################################################
 
 @checker
-def extraspace(data, lines):
+def tokenspace(data, lines):
     "extra space between tokens"
     def main(line):
         i, llen = 1, len(line) - 1
@@ -111,15 +118,12 @@ def extraspace(data, lines):
                 j += 1
             l = line[i-1]
             r = line[j]
-            if not((l in _es_left) and (r in _es_right)) \
-            and not((l+r) in ("0x", "0o", "0b")):
+            if not((l in _alnum) and (r in _alnum)):
                 yield (i, j)
             i = j
     return line_checker(lines, main)
-_alpha = "abcdefghijklmnopqrstuvwxyz"
-_alpha += _alpha.upper() + "_"
-_es_left = set(_alpha + " \t\r\n\f\v")
-_es_right = set(_alpha + "0123456789")
+_alnum = "abcdefghijklmnopqrstuvwxyz"
+_alnum = set(_alnum + _alnum.upper() + "_0123456789")
 
 ###############################################################################
 
