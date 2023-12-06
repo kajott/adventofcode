@@ -64,7 +64,7 @@ def trailwhite(data, lines):
 @checker
 def extraspace(data, lines):
     "extraneous whitespace"
-    return regex_checker(lines, r'(\s{2,})')
+    return regex_checker(lines, r'\S\s(\s+)\S')
 
 ###############################################################################
 
@@ -118,12 +118,13 @@ def tokenspace(data, lines):
                 j += 1
             l = line[i-1]
             r = line[j]
-            if not((l in _alnum) and (r in _alnum)):
+            if not((l in _ts_left) and (r in _ts_right)):
                 yield (i, j)
             i = j
     return line_checker(lines, main)
 _alnum = "abcdefghijklmnopqrstuvwxyz"
-_alnum = set(_alnum + _alnum.upper() + "_0123456789")
+_ts_right = set(_alnum + _alnum.upper() + "_0123456789")
+_ts_left = _ts_right | {" "}
 
 ###############################################################################
 
