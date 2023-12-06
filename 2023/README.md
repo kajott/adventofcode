@@ -6,3 +6,5 @@
 |  [2](02) | ★★★☆☆ | ★★☆☆☆      | simple number processing
 |  [3](03) | ★★★★☆ | ★★★☆☆      | 1D connected component analysis
 |  [4](04) | ★★★★☆ | ★★☆☆☆      | set intersection
+|  [5](05) | ★★★☆☆ | ★★★☆☆      | interval splitting
+|  [6](06) | ★★★☆☆ | ★☆☆☆☆      | quadratic equation evaluation or solving
