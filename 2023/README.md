@@ -8,3 +8,22 @@
 |  [4](04) | ★★★★☆ | ★★☆☆☆      | set intersection
 |  [5](05) | ★★★☆☆ | ★★★☆☆      | interval splitting
 |  [6](06) | ★★★☆☆ | ★☆☆☆☆      | quadratic equation evaluation or solving
+|  [7](07) | ★★★★☆ | ★★★☆☆      | Poker card deck ranking
+|  [8](08) | ★★★☆☆ | ★★★★☆      | period recognition, least common multiple
+|  [9](09) | ★★★☆☆ | ★★☆☆☆      | polynomial extrapolation
+| [10](10) | ★★★★☆ | ★★★☆☆      | trace a loop and find enclosed space
+| [11](11) | ★★★☆☆ | ★★★☆☆      | point distance with space expansion
+| [12](12) | ★★☆☆☆ | ★★★★☆      | 1D [nonogram](https://en.wikipedia.org/wiki/Nonogram) solver
+| [13](13) | ★★★★☆ | ★★★☆☆      | find reflections in a 2D grid
+| [14](14) | ★★★★☆ | ★★★☆☆      | sliding puzzle game simulation
+| [15](15) | ????? | ?????      | 
+| [16](16) | ????? | ?????      | 
+| [17](17) | ????? | ?????      | 
+| [18](18) | ????? | ?????      | 
+| [19](19) | ????? | ?????      | 
+| [20](20) | ????? | ?????      | 
+| [21](21) | ????? | ?????      | 
+| [22](22) | ????? | ?????      | 
+| [23](23) | ????? | ?????      | 
+| [24](24) | ????? | ?????      | 
+| [25](25) | ????? | ?????      | 
