@@ -18,3 +18,4 @@
 | [14](14) | ★★★★☆ | ★★★☆☆      | sliding puzzle game simulation
 | [15](15) | ★★★☆☆ | ★☆☆☆☆      | hashing; list manipulation
 | [16](16) | ★★★★☆ | ★★☆☆☆      | raytracing a maze of mirrors
+| [17](17) | ★★★☆☆ | ★★★★☆      | Dijkstra's algorithm pathfinding with extra steps
