@@ -233,5 +233,8 @@ Part 2 is a little more involved and it can be tricky to get the conditions exac
 
 My approach is slightly different: While tracing through the loop, keep track of all coordinates of the loop itself (A) and the left (B) and right (C) neighbors in traversal direction. Then use B and C as seeds for a flood-fill operation, with A as boundaries. One of those fills will spill outside the map; this is the wrong one. The other one will eventually stabilize with a finite area, and this is the solution.
 
+Eight days later, I revisited the puzzle again, because [for reasons](../18), I learned about the [shoelace formula](https://en.wikipedia.org/wiki/Shoelace_formula) and [Pick's law](https://en.wikipedia.org/wiki/Pick%27s_theorem), which, in combination, make the entire task shockingly simple, fast, and short.
+
 * Part 1, Python: 343 bytes, <100 ms
-* Part 2, Python: 529 bytes, ~300 ms
+* Part 2, Python (flood fill): 529 bytes, ~300 ms
+* Part 2, Python (shoelace/Pick): 396 bytes, <100 ms
