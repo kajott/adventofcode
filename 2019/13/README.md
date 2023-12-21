@@ -6,7 +6,7 @@ It's a new game for the ship's [arcade cabinet](https://en.wikipedia.org/wiki/Ar
 
 ## Part 1
 
-The arcade cabinet runs [Intcode](9) software like the game the Elves sent (your puzzle input). It has a primitive screen capable of drawing square _tiles_ on a grid. The software draws tiles to the screen with output instructions: every three output instructions specify the `x` position (distance from the left), `y` position (distance from the top), and `tile id`. The `tile id` is interpreted as follows:
+The arcade cabinet runs [Intcode](../09) software like the game the Elves sent (your puzzle input). It has a primitive screen capable of drawing square _tiles_ on a grid. The software draws tiles to the screen with output instructions: every three output instructions specify the `x` position (distance from the left), `y` position (distance from the top), and `tile id`. The `tile id` is interpreted as follows:
 
 *   `0` is an _empty_ tile. No game object appears in this tile.
 *   `1` is a _wall_ tile. Walls are indestructible barriers.

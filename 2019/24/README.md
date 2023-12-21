@@ -68,7 +68,7 @@ Your puzzle answer was `32506764`.
 
 After careful analysis, one thing is certain: _you have no idea where all these bugs are coming from_.
 
-Then, you remember: Eris is an old [Plutonian](20) settlement! Clearly, the bugs are coming from recursively-folded space.
+Then, you remember: Eris is an old [Plutonian](../20) settlement! Clearly, the bugs are coming from recursively-folded space.
 
 This 5x5 grid is _only one_ level in an _infinite_ number of recursion levels. The tile in the middle of the grid is actually another 5x5 grid, the grid in your scan is contained as the middle tile of a larger 5x5 grid, and so on. Two levels of grids look like this:
 
