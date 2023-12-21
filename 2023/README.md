@@ -21,4 +21,5 @@
 | [17](17) | ★★★☆☆ | ★★★★☆      | Dijkstra's algorithm pathfinding with extra steps
 | [18](18) | ★★★★☆ | ★★★★☆      | trace a very large loop and determine total area
 | [19](19) | ★★★★☆ | ★★★☆☆      | perform 1D splits of 4D hypercube
-| [20](20) | ★★★☆☆ | ★★★★☆      | logic circuit reverse engineering
+| [20](20) | ★★★★☆ | ★★★★☆      | logic circuit reverse engineering
+| [21](21) | ★★★☆☆ | ★★★★☆      | infinite grid traversal
