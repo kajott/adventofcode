@@ -23,3 +23,4 @@
 | [19](19) | ★★★★☆ | ★★★☆☆      | perform 1D splits of 4D hypercube
 | [20](20) | ★★★★☆ | ★★★★☆      | logic circuit reverse engineering
 | [21](21) | ★★★☆☆ | ★★★★☆      | infinite grid traversal
+| [22](22) | ★★★★☆ | ★★★★☆      | 3D Tetris simulation, complex graph traversal

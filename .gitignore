@@ -5,6 +5,7 @@ a.out
 a.o
 *vis*.p[gp]m
 .vis*
+graph.*
 *.com
 *.lst
 *.OUT
