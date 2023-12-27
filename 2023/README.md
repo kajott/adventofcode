@@ -24,3 +24,4 @@
 | [20](20) | ★★★★☆ | ★★★★☆      | logic circuit reverse engineering
 | [21](21) | ★★★☆☆ | ★★★★☆      | infinite grid traversal
 | [22](22) | ★★★★☆ | ★★★★☆      | 3D Tetris simulation, complex graph traversal
+| [23](23) | ★★★★☆ | ★★★★☆      | longest path problem
