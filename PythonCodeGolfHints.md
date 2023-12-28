@@ -148,7 +148,6 @@ This also works with strings: If `x` can either be `"foo"` or `"bar"`, don't wri
 In some cases, swapping the order of the operands in a comparison can save a byte of whitespace:
 
 * `if x>"a"` becomes `if"a"<x`
-* `5>y or` becomes `y<5or`
 * `if z>(1,2)` becomes `if(1,2)<z`
 
 
@@ -191,9 +190,9 @@ Pythons `and`, `or` and `not` operators are quite expensive in terms of code siz
 
 * `f(x)and f(y)` becomes `f(x)*f(y)`
 * `f(x)or f(y)` becomes `f(x)+f(y)`
-* `not f(x)` becomes `f(x)^1`
+* `not f(x)` becomes `f(x)^1` or `f(x)-1` or `1-f(x)`
 
-Note that this is usually *not* the optimal way for simple comparisons: `(a<5)*(b>7)` is a byte *longer* than the equivalent `and` expression! However, if only one of the operands is a function call that comes with its own braces anyway, it's a net win.
+Note that this is usually *not* the optimal way for simple comparisons: `(a<5)*(b>7)` is a byte *longer* than the equivalent `and` expression! However, if only one of the operands is a function call that comes with its own braces anyway, or if an `if` or `while` is nearby, it's a net win.
 
 One particular application of the arithmetic-as-logic principle is forcing values to zero if a specific condition is not met. This is useful especially in scenarios where values are `sum`med oder `max`ed `if` they fulfill some condition. The following two expressions are equal (if `f()` returns a boolean):
 
@@ -213,11 +212,11 @@ Python's ternary operator (a.k.a. [conditional expression](https://docs.python.o
 thus becomes
 
     def F(x):
-     return1 if x<1else F(x-1)
+     return F(x-1)if 1>x else 1
 
 and, in extension,
 
-    F=lambda x:1if x<1else F(x-1)
+    F=lambda x:F(x-1)if 1>x else 1
 
 In some situations, `and` and `or` can be used to similar effects:
 
@@ -261,10 +260,41 @@ A better way is to (ab-?)use complex numbers. Python supports them out of the bo
     for n in(p-1,p+1,p-1j,p+1j):[...]  # get neighbors
     p*1j  # rotate a direction vector by 90 degrees
 
-They are immutable and can thus be used as keys in dictionaries and sets. Don't worry that they are based on floating-point values; when using pure integer coordinates, they work fine for values up to +/- 2^53.
+They are immutable and can thus be used as keys in dictionaries and sets. Don't worry that they are based on floating-point values; when using pure integer coordinates, they work fine for values up to $\pm 2^{53}$.
 
 
 
 ## Use the `translate` string method
 
 When parsing inputs, it's sometimes useful to clean certain characters first. For a single character, `x.replace(',','')`  is fine, but starting from two characters `x.translate(None,",.")` is shorter.
+
+
+
+## Use dictionaries as sets
+
+If a sets is only used for inserting elements and checking element presence with the `in` operator and not any of the other set operations (`|`, `&`, `-`), it's better to use a dictionary instead:
+
+    s={0};s|={x};x in s   # set: initialize with dummy, add element, check
+    d={};d[x]=0;d in s    # dict: initialize empty, add element, check
+
+Since the assigned value doesn't matter at all, adding an element can save even more bytes if there's also some other scalar variable set to some value nearby:
+
+    s|={x};y=z  # set: add element and set variable in two statements
+    d[x]=y=z    # dict: add element and set variable in a single statement
+
+
+
+## Use default arguments to initialize local variables
+
+Consider a function that requires initialization of some local variables:
+
+    def F(x,y):
+     t=0;c=1
+     [...]
+
+If the initial values of these variables don't depend on the parameters and are all different, they can be declared with default arguments instead:
+
+    def F(x,y,t=0,c=1):
+     [...]
+
+This only really saves space if it eliminates an entire line of code though.
