@@ -121,7 +121,7 @@ Running the same DFS directly for part 2 is futile; it *will* eventually termina
 
 With this simplified representation, the final DFS becomes a little quicker: one minute instead of several hours. This is still too long to be _really_ practical, so I thought of another optimization: Instead of having an actual Python set of visited nodes, a bitfield of visited nodes is also possible. This can be constructed by mapping each junction / graph node to a power of two (which is easy, as there's only 36 nodes). This does indeed make things faster, but only by a factor of two. Python itself seems to be a limitation here, so I escalated one step further and made the Python code generate a small C program that contains the distance matrix in a long `switch`...`case` statement. With this, I get down to sub-second runtimes for everything from Python graph generation and C compilation to execution of the compiled program.
 
-* Part 1, Python: 417 bytes (direct maze DFS), ~400 ms
-* Part 2, Python: 425 bytes (graph DFS using sets), ~60 s
-* Part 2, Python: 503 bytes (graph DFS using bitfields), ~35 s
-* Part 2, Python: 789 bytes (generating and running C code), ~700 ms
+* Part 1, Python (direct maze DFS): 417 bytes, ~400 ms
+* Part 2, Python (graph DFS using sets): 425 bytes, ~60 s
+* Part 2, Python (graph DFS using bitfields): 503 bytes, ~35 s
+* Part 2, Python (generating and running C code): 789 bytes, ~700 ms
