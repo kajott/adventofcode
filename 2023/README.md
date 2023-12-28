@@ -13,16 +13,17 @@
 |  [9](09) | ★★★☆☆ | ★★☆☆☆      | polynomial extrapolation
 | [10](10) | ★★★★☆ | ★★★☆☆      | trace a loop and determine enclosed area
 | [11](11) | ★★★☆☆ | ★★★☆☆      | point distance with space expansion
-| [12](12) | ★★☆☆☆ | ★★★★☆      | 1D [nonogram](https://en.wikipedia.org/wiki/Nonogram) solver
+| [12](12) | ★★★☆☆ | ★★★★☆      | 1D [nonogram](https://en.wikipedia.org/wiki/Nonogram) solver
 | [13](13) | ★★★★☆ | ★★★☆☆      | find reflections in a 2D grid
 | [14](14) | ★★★★☆ | ★★★☆☆      | sliding puzzle game simulation
 | [15](15) | ★★★☆☆ | ★☆☆☆☆      | hashing; list manipulation
 | [16](16) | ★★★★☆ | ★★☆☆☆      | raytracing a maze of mirrors
 | [17](17) | ★★★☆☆ | ★★★★☆      | Dijkstra's algorithm pathfinding with extra steps
 | [18](18) | ★★★★☆ | ★★★★☆      | trace a very large loop and determine total area
-| [19](19) | ★★★★☆ | ★★★☆☆      | perform 1D splits of a 4D hypercube
+| [19](19) | ★★★☆☆ | ★★★☆☆      | perform 1D splits of a 4D hypercube
 | [20](20) | ★★★★☆ | ★★★★☆      | logic circuit reverse engineering
 | [21](21) | ★★★☆☆ | ★★★★☆      | infinite grid traversal
 | [22](22) | ★★★★☆ | ★★★★☆      | 3D Tetris simulation, complex graph traversal
-| [23](23) | ★★★★☆ | ★★★★☆      | longest path problem
+| [23](23) | ★★★☆☆ | ★★★★☆      | longest path problem
 | [24](24) | ★★☆☆☆ | ★★★★★      | advanced vector algebra
+| [25](25) | ★★★★☆ | ★★★☆☆      | minimum cut problem
