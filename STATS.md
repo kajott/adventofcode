@@ -489,6 +489,18 @@
 |  601 bytes | ██▊   | <100 ms | ▏     | [2023, Day 24](2023/24), Part 2, Python (single hailstone triple)
 |  674 bytes | ███   | <100 ms | ▏     | [2023, Day 24](2023/24), Part 2, Python (better numerical stability)
 |  452 bytes | ██▏   |    ~5 s | █▋    | [2023, Day 25](2023/25), Part 1, Python
+|  102 bytes | ▋     | <100 ms | ▏     | [2024, Day 01](2024/01), Part 1, Python
+|   92 bytes | ▌     | <100 ms | ▏     | [2024, Day 01](2024/01), Part 2, Python
+|  138 bytes | ▊     | <100 ms | ▏     | [2024, Day 02](2024/02), Part 1, Python
+|  193 bytes | █     | <100 ms | ▏     | [2024, Day 02](2024/02), Part 2, Python
+|  105 bytes | ▋     | <100 ms | ▏     | [2024, Day 03](2024/03), Part 1, Python
+|  149 bytes | ▊     | <100 ms | ▏     | [2024, Day 03](2024/03), Part 2, Python
+|  180 bytes | ▉     | ~250 ms | ▌     | [2024, Day 04](2024/04), Part 1, Python
+|  172 bytes | ▉     | <100 ms | ▏     | [2024, Day 04](2024/04), Part 2, Python
+|  199 bytes | █     | <100 ms | ▏     | [2024, Day 05](2024/05), Part 1, Python
+|  283 bytes | █▍    | ~150 ms | ▎     | [2024, Day 05](2024/05), Part 2, Python
+|  193 bytes | █     | <100 ms | ▏     | [2024, Day 06](2024/06), Part 1, Python
+|  318 bytes | █▌    |   ~10 s | █▉    | [2024, Day 06](2024/06), Part 2, Python
 
 
 ## Solutions by Size
@@ -669,6 +681,7 @@
 |  321 bytes | █▌    | [2021, Day 11](2021/11), Part 2, Python
 |  320 bytes | █▌    | [2016, Day 10](2016/10), Part 1, Python
 |  318 bytes | █▌    | [2022, Day 21](2022/21), Part 2, Python (linear solver)
+|  318 bytes | █▌    | [2024, Day 06](2024/06), Part 2, Python
 |  315 bytes | █▌    | [2023, Day 11](2023/11), Part 2, Python (coordinate translation)
 |  314 bytes | █▌    | [2015, Day 11](2015/11), Part 2, Python
 |  314 bytes | █▌    | [2018, Day 14](2018/14), Part 2, C
@@ -699,6 +712,7 @@
 |  287 bytes | █▍    | [2015, Day 13](2015/13), Part 1, Python
 |  286 bytes | █▍    | [2016, Day 17](2016/17), Part 2, Python
 |  286 bytes | █▍    | [2021, Day 13](2021/13), Part 2, Python
+|  283 bytes | █▍    | [2024, Day 05](2024/05), Part 2, Python
 |  282 bytes | █▍    | [2022, Day 05](2022/05), Part 1, Python
 |  281 bytes | █▍    | [2015, Day 19](2015/19), Part 2, Python (greedy DFS)
 |  281 bytes | █▍    | [2021, Day 24](2021/24), Part 1, Python
@@ -799,6 +813,7 @@
 |  199 bytes | █     | [2017, Day 06](2017/06), Part 1, Python
 |  199 bytes | █     | [2021, Day 15](2021/15), Part 1, Python
 |  199 bytes | █     | [2022, Day 25](2022/25), Part 1, Python (direct addition)
+|  199 bytes | █     | [2024, Day 05](2024/05), Part 1, Python
 |  198 bytes | █     | [2016, Day 14](2016/14), Part 1, Python
 |  197 bytes | █     | [2017, Day 12](2017/12), Part 2, Python
 |  197 bytes | █     | [2018, Day 03](2018/03), Part 1, Python
@@ -808,6 +823,8 @@
 |  195 bytes | █     | [2018, Day 21](2018/21), Part 2, Python (host computation)
 |  194 bytes | █     | [2017, Day 11](2017/11), Part 2, Python
 |  194 bytes | █     | [2021, Day 21](2021/21), Part 1, Python
+|  193 bytes | █     | [2024, Day 02](2024/02), Part 2, Python
+|  193 bytes | █     | [2024, Day 06](2024/06), Part 1, Python
 |  191 bytes | █     | [2020, Day 12](2020/12), Part 2, Python
 |  191 bytes | █     | [2023, Day 21](2023/21), Part 1, Python
 |  189 bytes | █     | [2022, Day 20](2022/20), Part 2, Python (order table)
@@ -827,6 +844,7 @@
 |  181 bytes | ▉     | [2021, Day 25](2021/25), Part 1, Python (strings)
 |  180 bytes | ▉     | [2016, Day 16](2016/16), Part 2, Python
 |  180 bytes | ▉     | [2023, Day 09](2023/09), Part 2, Python
+|  180 bytes | ▉     | [2024, Day 04](2024/04), Part 1, Python
 |  179 bytes | ▉     | [2016, Day 20](2016/20), Part 2, Python
 |  179 bytes | ▉     | [2019, Day 16](2019/16), Part 2, Python
 |  179 bytes | ▉     | [2020, Day 14](2020/14), Part 1, Python
@@ -840,6 +858,7 @@
 |  174 bytes | ▉     | [2023, Day 18](2023/18), Part 2, Python (shoelace/Pick)
 |  173 bytes | ▉     | [2016, Day 16](2016/16), Part 1, Python
 |  172 bytes | ▉     | [2016, Day 05](2016/05), Part 2, Python
+|  172 bytes | ▉     | [2024, Day 04](2024/04), Part 2, Python
 |  170 bytes | ▉     | [2017, Day 10](2017/10), Part 1, Python
 |  170 bytes | ▉     | [2022, Day 20](2022/20), Part 1, Python (order table)
 |  169 bytes | ▉     | [2022, Day 25](2022/25), Part 1, Python (with conversions)
@@ -869,6 +888,7 @@
 |  149 bytes | ▊     | [2017, Day 13](2017/13), Part 1, Python
 |  149 bytes | ▊     | [2017, Day 23](2017/23), Part 2, Python
 |  149 bytes | ▊     | [2019, Day 02](2019/02), Part 1, Python
+|  149 bytes | ▊     | [2024, Day 03](2024/03), Part 2, Python
 |  148 bytes | ▊     | [2015, Day 20](2015/20), Part 2, Python
 |  147 bytes | ▊     | [2016, Day 07](2016/07), Part 1, Python
 |  147 bytes | ▊     | [2016, Day 15](2016/15), Part 2, Python
@@ -884,6 +904,7 @@
 |  142 bytes | ▊     | [2020, Day 05](2020/05), Part 2, Python
 |  141 bytes | ▊     | [2015, Day 20](2015/20), Part 1, Python
 |  138 bytes | ▊     | [2021, Day 06](2021/06), Part 2, Python
+|  138 bytes | ▊     | [2024, Day 02](2024/02), Part 1, Python
 |  137 bytes | ▊     | [2020, Day 02](2020/02), Part 1, Python
 |  137 bytes | ▊     | [2020, Day 10](2020/10), Part 2, Python
 |  137 bytes | ▊     | [2020, Day 13](2020/13), Part 2, Python
@@ -933,10 +954,12 @@
 |  106 bytes | ▋     | [2022, Day 21](2022/21), Part 1, Python (evil `exec` hackery)
 |  105 bytes | ▋     | [2021, Day 02](2021/02), Part 1, Python (using separate components)
 |  105 bytes | ▋     | [2023, Day 06](2023/06), Part 2, Python (quadratic equation solving)
+|  105 bytes | ▋     | [2024, Day 03](2024/03), Part 1, Python
 |  104 bytes | ▋     | [2020, Day 10](2020/10), Part 1, Python
 |  104 bytes | ▋     | [2021, Day 07](2021/07), Part 1, Python
 |  103 bytes | ▋     | [2022, Day 04](2022/04), Part 2, Python
 |  102 bytes | ▋     | [2017, Day 05](2017/05), Part 1, Python
+|  102 bytes | ▋     | [2024, Day 01](2024/01), Part 1, Python
 |  101 bytes | ▌     | [2022, Day 02](2022/02), Part 1, Python
 |  100 bytes | ▌     | [2016, Day 23](2016/23), Part 2, Python
 |  100 bytes | ▌     | [2017, Day 01](2017/01), Part 2, Python
@@ -952,6 +975,7 @@
 |   92 bytes | ▌     | [2016, Day 06](2016/06), Part 1, Python
 |   92 bytes | ▌     | [2016, Day 06](2016/06), Part 2, Python
 |   92 bytes | ▌     | [2021, Day 01](2021/01), Part 2, Python
+|   92 bytes | ▌     | [2024, Day 01](2024/01), Part 2, Python
 |   91 bytes | ▌     | [2022, Day 02](2022/02), Part 2, Python
 |   90 bytes | ▌     | [2017, Day 17](2017/17), Part 2, Python (tracking)
 |   89 bytes | ▌     | [2015, Day 04](2015/04), Part 1, Python
@@ -1019,6 +1043,7 @@
 |   ~10 s | █▉    | [2021, Day 20](2021/20), Part 2, Python
 |   ~10 s | █▉    | [2021, Day 24](2021/24), Part 1, Python
 |   ~10 s | █▉    | [2023, Day 16](2023/16), Part 2, Python
+|   ~10 s | █▉    | [2024, Day 06](2024/06), Part 2, Python
 |    ~8 s | █▊    | [2016, Day 19](2016/19), Part 2, Python
 |    ~8 s | █▊    | [2017, Day 15](2017/15), Part 2, Python
 |  ~7.5 s | █▊    | [2019, Day 10](2019/10), Part 2, Python
@@ -1158,6 +1183,7 @@
 | ~250 ms | ▌     | [2020, Day 09](2020/09), Part 2, Python
 | ~250 ms | ▌     | [2021, Day 05](2021/05), Part 2, Python
 | ~250 ms | ▌     | [2021, Day 21](2021/21), Part 2, Python
+| ~250 ms | ▌     | [2024, Day 04](2024/04), Part 1, Python
 | ~200 ms | ▍     | [2016, Day 22](2016/22), Part 1, Python
 | ~200 ms | ▍     | [2017, Day 18](2017/18), Part 2, Python
 | ~200 ms | ▍     | [2018, Day 09](2018/09), Part 2, C (CDLL)
@@ -1187,6 +1213,7 @@
 | ~150 ms | ▎     | [2022, Day 22](2022/22), Part 2, Python (automatic portals)
 | ~150 ms | ▎     | [2022, Day 23](2022/23), Part 1, Python
 | ~150 ms | ▎     | [2023, Day 18](2023/18), Part 1, Python (BFS filling)
+| ~150 ms | ▎     | [2024, Day 05](2024/05), Part 2, Python
 | ~100 ms | ▏     | [2015, Day 09](2015/09), Part 1, Python
 | ~100 ms | ▏     | [2015, Day 09](2015/09), Part 2, Python
 | ~100 ms | ▏     | [2016, Day 17](2016/17), Part 1, Python
@@ -1459,3 +1486,12 @@
 | <100 ms | ▏     | [2023, Day 21](2023/21), Part 1, Python
 | <100 ms | ▏     | [2023, Day 24](2023/24), Part 2, Python (single hailstone triple)
 | <100 ms | ▏     | [2023, Day 24](2023/24), Part 2, Python (better numerical stability)
+| <100 ms | ▏     | [2024, Day 01](2024/01), Part 1, Python
+| <100 ms | ▏     | [2024, Day 01](2024/01), Part 2, Python
+| <100 ms | ▏     | [2024, Day 02](2024/02), Part 1, Python
+| <100 ms | ▏     | [2024, Day 02](2024/02), Part 2, Python
+| <100 ms | ▏     | [2024, Day 03](2024/03), Part 1, Python
+| <100 ms | ▏     | [2024, Day 03](2024/03), Part 2, Python
+| <100 ms | ▏     | [2024, Day 04](2024/04), Part 2, Python
+| <100 ms | ▏     | [2024, Day 05](2024/05), Part 1, Python
+| <100 ms | ▏     | [2024, Day 06](2024/06), Part 1, Python
