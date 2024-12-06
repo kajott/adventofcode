@@ -23,7 +23,7 @@ def is_relevant_file(name):
        and not("nogolf" in name)
 
 def auto_python_interpreter(filename):
-    year = re.search('(^|\D)(20\d\d)\D', filename)
+    year = re.search(r'(^|\D)(20\d\d)\D', filename)
     return ["python3"] if (year and (int(year.group(2)) >= 2023)) else ["python2"]
 
 LANGUAGES_INV = { "py": "Python", "c": "C" }
@@ -139,7 +139,7 @@ class SolutionFile(Sortable):
         if 'part-alias' in self.config:
             self.part = self.config['part-alias']
         else:
-            m = re.search('_part(\d+)($|[_.])', filename)
+            m = re.search(r'_part(\d+)($|[_.])', filename)
             self.part = int(m.group(1)) if m else 0
         self.group = (self.part, self.lang)
         self.sortkey = (self.part, self.lang, filename)

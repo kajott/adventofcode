@@ -147,7 +147,7 @@ def alias(data, lines):
     "long identifier can be aliased"
     location = {}
     freq = collections.defaultdict(int)
-    for m in re.finditer('\.?([a-zA-Z]\w+)', data):
+    for m in re.finditer(r'\.?([a-zA-Z]\w+)', data):
         name = m.group(1)
         if name in _kwset: continue
         freq[name] += 1
