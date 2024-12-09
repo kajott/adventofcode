@@ -27,7 +27,6 @@ for l in open("input2.txt"):
 """.lstrip()),
     "aoc{year}_{day}_part2.py",
     ("README.md", """
-# {year},
 
 ## Solution Notes
 
