@@ -12,4 +12,4 @@
 |  [8](08) | ★★☆☆☆ | ★★☆☆☆      | 2D plane coordinate extrapolation
 |  [9](09) | ★★★☆☆ | ★★★☆☆      | disk defragmentation simulation
 | [10](10) | ★★★☆☆ | ★★☆☆☆      | 2D depth-first search
-| [11](11) | ★☆☆☆☆ | ★★★★☆      | part-2 bomb / dynamic programming
+| [11](11) | ★☆☆☆☆ | ★★★★☆      | exponential expansion
