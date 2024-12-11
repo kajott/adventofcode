@@ -506,6 +506,13 @@
 |  209 bytes | █     |    ~2 s | █▎    | [2024, Day 07](2024/07), Part 2, Python (optimized)
 |  247 bytes | █▎    | <100 ms | ▏     | [2024, Day 08](2024/08), Part 1, Python
 |  233 bytes | █▏    | <100 ms | ▏     | [2024, Day 08](2024/08), Part 2, Python
+|  195 bytes | █     | <100 ms | ▏     | [2024, Day 09](2024/09), Part 1, Python
+|  246 bytes | █▎    |    ~6 s | █▊    | [2024, Day 09](2024/09), Part 2, Python (minimum size)
+|  335 bytes | █▋    | <100 ms | ▏     | [2024, Day 09](2024/09), Part 2, Python (speed-optimized)
+|  219 bytes | █▏    | <100 ms | ▏     | [2024, Day 10](2024/10), Part 1, Python
+|  202 bytes | █     | <100 ms | ▏     | [2024, Day 10](2024/10), Part 2, Python
+|  182 bytes | ▉     | ~250 ms | ▌     | [2024, Day 11](2024/11), Part 1, Python
+|  233 bytes | █▏    | ~200 ms | ▍     | [2024, Day 11](2024/11), Part 2, Python
 
 
 ## Solutions by Size
@@ -668,6 +675,7 @@
 |  337 bytes | █▋    | [2021, Day 25](2021/25), Part 1, Python (sets)
 |  336 bytes | █▋    | [2016, Day 10](2016/10), Part 2, Python
 |  335 bytes | █▋    | [2015, Day 21](2015/21), Part 1, Python
+|  335 bytes | █▋    | [2024, Day 09](2024/09), Part 2, Python (speed-optimized)
 |  334 bytes | █▋    | [2015, Day 21](2015/21), Part 2, Python
 |  334 bytes | █▋    | [2022, Day 14](2022/14), Part 1, Python (coordinate tuples)
 |  333 bytes | █▋    | [2022, Day 23](2022/23), Part 2, Python
@@ -766,6 +774,7 @@
 |  247 bytes | █▎    | [2024, Day 08](2024/08), Part 1, Python
 |  246 bytes | █▎    | [2018, Day 07](2018/07), Part 1, Python
 |  246 bytes | █▎    | [2023, Day 01](2023/01), Part 2, Python
+|  246 bytes | █▎    | [2024, Day 09](2024/09), Part 2, Python (minimum size)
 |  244 bytes | █▏    | [2020, Day 23](2020/23), Part 2, Python
 |  242 bytes | █▏    | [2017, Day 19](2017/19), Part 2, Python
 |  241 bytes | █▏    | [2022, Day 20](2022/20), Part 1, Python (linked list)
@@ -780,6 +789,7 @@
 |  234 bytes | █▏    | [2022, Day 09](2022/09), Part 1, Python (complex numbers)
 |  233 bytes | █▏    | [2021, Day 14](2021/14), Part 1, Python
 |  233 bytes | █▏    | [2024, Day 08](2024/08), Part 2, Python
+|  233 bytes | █▏    | [2024, Day 11](2024/11), Part 2, Python
 |  232 bytes | █▏    | [2015, Day 24](2015/24), Part 1, Python (brute-force)
 |  232 bytes | █▏    | [2018, Day 08](2018/08), Part 2, Python
 |  232 bytes | █▏    | [2021, Day 17](2021/17), Part 1, Python
@@ -794,6 +804,7 @@
 |  220 bytes | █▏    | [2017, Day 22](2017/22), Part 1, Python
 |  220 bytes | █▏    | [2021, Day 12](2021/12), Part 1, Python
 |  220 bytes | █▏    | [2022, Day 08](2022/08), Part 1, Python
+|  219 bytes | █▏    | [2024, Day 10](2024/10), Part 1, Python
 |  217 bytes | █▏    | [2020, Day 22](2020/22), Part 1, Python
 |  216 bytes | █     | [2021, Day 17](2021/17), Part 2, Python
 |  214 bytes | █     | [2019, Day 03](2019/03), Part 2, Python
@@ -814,6 +825,7 @@
 |  202 bytes | █     | [2017, Day 03](2017/03), Part 2, Python
 |  202 bytes | █     | [2020, Day 07](2020/07), Part 1, Python
 |  202 bytes | █     | [2023, Day 08](2023/08), Part 1, Python
+|  202 bytes | █     | [2024, Day 10](2024/10), Part 2, Python
 |  201 bytes | █     | [2018, Day 11](2018/11), Part 1, Python
 |  201 bytes | █     | [2023, Day 14](2023/14), Part 1, Python (string processing)
 |  200 bytes | █     | [2019, Day 08](2019/08), Part 2, Python
@@ -829,6 +841,7 @@
 |  197 bytes | █     | [2020, Day 23](2020/23), Part 1, Python
 |  195 bytes | █     | [2017, Day 15](2017/15), Part 2, Python
 |  195 bytes | █     | [2018, Day 21](2018/21), Part 2, Python (host computation)
+|  195 bytes | █     | [2024, Day 09](2024/09), Part 1, Python
 |  194 bytes | █     | [2017, Day 11](2017/11), Part 2, Python
 |  194 bytes | █     | [2021, Day 21](2021/21), Part 1, Python
 |  193 bytes | █     | [2024, Day 02](2024/02), Part 2, Python
@@ -847,6 +860,7 @@
 |  184 bytes | ▉     | [2023, Day 02](2023/02), Part 2, Python
 |  184 bytes | ▉     | [2023, Day 14](2023/14), Part 1, Python (coordinate tuples)
 |  182 bytes | ▉     | [2024, Day 07](2024/07), Part 2, Python (naive)
+|  182 bytes | ▉     | [2024, Day 11](2024/11), Part 1, Python
 |  181 bytes | ▉     | [2016, Day 22](2016/22), Part 2, Python
 |  181 bytes | ▉     | [2018, Day 05](2018/05), Part 1, Python (multi-pass)
 |  181 bytes | ▉     | [2021, Day 03](2021/03), Part 2, Python
@@ -1068,6 +1082,7 @@
 |    ~6 s | █▊    | [2018, Day 11](2018/11), Part 2, Python (optimized pre-summed matrix)
 |    ~6 s | █▊    | [2019, Day 12](2019/12), Part 2, Python (full axis separation)
 |    ~6 s | █▊    | [2019, Day 25](2019/25), Part 1, Python
+|    ~6 s | █▊    | [2024, Day 09](2024/09), Part 2, Python (minimum size)
 |    ~5 s | █▋    | [2015, Day 06](2015/06), Part 2, Python
 |    ~5 s | █▋    | [2015, Day 22](2015/22), Part 2, Python
 |    ~5 s | █▋    | [2017, Day 13](2017/13), Part 2, Python
@@ -1196,9 +1211,11 @@
 | ~250 ms | ▌     | [2021, Day 05](2021/05), Part 2, Python
 | ~250 ms | ▌     | [2021, Day 21](2021/21), Part 2, Python
 | ~250 ms | ▌     | [2024, Day 04](2024/04), Part 1, Python
+| ~250 ms | ▌     | [2024, Day 11](2024/11), Part 1, Python
 | ~200 ms | ▍     | [2016, Day 22](2016/22), Part 1, Python
 | ~200 ms | ▍     | [2017, Day 18](2017/18), Part 2, Python
 | ~200 ms | ▍     | [2018, Day 09](2018/09), Part 2, C (CDLL)
+| ~200 ms | ▍     | [2024, Day 11](2024/11), Part 2, Python
 | ~150 ms | ▎     | [2015, Day 04](2015/04), Part 1, Python
 | ~150 ms | ▎     | [2015, Day 11](2015/11), Part 1, Python
 | ~150 ms | ▎     | [2015, Day 13](2015/13), Part 1, Python
@@ -1510,3 +1527,7 @@
 | <100 ms | ▏     | [2024, Day 06](2024/06), Part 1, Python
 | <100 ms | ▏     | [2024, Day 08](2024/08), Part 1, Python
 | <100 ms | ▏     | [2024, Day 08](2024/08), Part 2, Python
+| <100 ms | ▏     | [2024, Day 09](2024/09), Part 1, Python
+| <100 ms | ▏     | [2024, Day 09](2024/09), Part 2, Python (speed-optimized)
+| <100 ms | ▏     | [2024, Day 10](2024/10), Part 1, Python
+| <100 ms | ▏     | [2024, Day 10](2024/10), Part 2, Python
