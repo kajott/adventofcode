@@ -18,6 +18,9 @@ N=[*map(int,open("input2.txt"))]
 # comma-separated numbers per line (2D array)
 N=[[*map(int,l.split(','))]for l in open("input2.txt")]
 
+# all numbers in each line
+import re;N=[[*map(int,re.findall(r'\d+',l))]for l in open("input.txt")]
+
 # every character in a dict, indexed by complex numbers
 E=enumerate;M={x+1j*y:c for y,l in E(open("input2.txt"))for x,c in E(l.strip())}
 

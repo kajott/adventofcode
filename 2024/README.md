@@ -12,4 +12,7 @@
 |  [8](08) | ★★☆☆☆ | ★★☆☆☆      | 2D plane coordinate extrapolation
 |  [9](09) | ★★★☆☆ | ★★★☆☆      | disk defragmentation simulation
 | [10](10) | ★★★☆☆ | ★★☆☆☆      | 2D depth-first search
-| [11](11) | ★☆☆☆☆ | ★★★★☆      | exponential expansion
+| [11](11) | ★★☆☆☆ | ★★★★☆      | exponential expansion
+| [12](12) | ★★★★☆ | ★★★★☆      | (nested) connected component analysis
+| [13](13) | ★★☆☆☆ | ★★★☆☆      | integer 2x2 linear system solving
+| [14](14) | ★★★★★ | ★★★★☆      | image recognition heuristics

@@ -4,6 +4,8 @@ a.c
 a.out
 a.o
 *vis*.p[gp]m
+*vis*.svg
+*vis*.png
 .vis*
 graph.*
 *.com
