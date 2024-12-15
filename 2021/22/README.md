@@ -4,7 +4,7 @@ Operating at these extreme ocean depths has overloaded the submarine's reactor; 
 
 ## Part 1
 
-The reactor core is made up of a large 3-dimensional grid made up entirely of cubes, one cube per integer 3-dimensional coordinate (`x,y,z`). Each cube can be either _on_ or _off_; at the start of the reboot process, they are all _off_. (Could it be an old model of a reactor you've seen [before](/2020/day/17)?)
+The reactor core is made up of a large 3-dimensional grid made up entirely of cubes, one cube per integer 3-dimensional coordinate (`x,y,z`). Each cube can be either _on_ or _off_; at the start of the reboot process, they are all _off_. (Could it be an old model of a reactor you've seen [before](../../2020/17)?)
 
 To reboot the reactor, you just need to set all of the cubes to either _on_ or _off_ by following a list of _reboot steps_ (your puzzle input). Each step specifies a [cuboid](https://en.wikipedia.org/wiki/Cuboid) (the set of all cubes that have coordinates which fall within ranges for `x`, `y`, and `z`) and whether to turn all of the cubes in that cuboid _on_ or _off_.
 
