@@ -523,6 +523,8 @@
 |  222 bytes | █▏    |    ~6 s | █▊    | [2024, Day 14](2024/14), Part 2, Python (Run of Adjacent Spots)
 |  235 bytes | █▏    |  ~1.5 s | █▏    | [2024, Day 14](2024/14), Part 2, Python (Minimum Variance)
 |  265 bytes | █▎    | <100 ms | ▏     | [2024, Day 14](2024/14), Part 2, Python (Independent Axis Minimum Variance)
+|  335 bytes | █▋    | <100 ms | ▏     | [2024, Day 15](2024/15), Part 1, Python
+|  436 bytes | ██    | ~150 ms | ▎     | [2024, Day 15](2024/15), Part 2, Python
 
 
 ## Solutions by Size
@@ -604,6 +606,7 @@
 |  446 bytes | ██    | [2020, Day 04](2020/04), Part 2, Python
 |  442 bytes | ██    | [2018, Day 11](2018/11), Part 2, C (optimized pre-summed matrix)
 |  438 bytes | ██    | [2021, Day 16](2021/16), Part 2, Python
+|  436 bytes | ██    | [2024, Day 15](2024/15), Part 2, Python
 |  434 bytes | ██    | [2023, Day 19](2023/19), Part 1, Python
 |  432 bytes | ██    | [2019, Day 13](2019/13), Part 1, Python
 |  432 bytes | ██    | [2019, Day 20](2019/20), Part 1, Python
@@ -686,6 +689,7 @@
 |  336 bytes | █▋    | [2016, Day 10](2016/10), Part 2, Python
 |  335 bytes | █▋    | [2015, Day 21](2015/21), Part 1, Python
 |  335 bytes | █▋    | [2024, Day 09](2024/09), Part 2, Python (speed-optimized)
+|  335 bytes | █▋    | [2024, Day 15](2024/15), Part 1, Python
 |  334 bytes | █▋    | [2015, Day 21](2015/21), Part 2, Python
 |  334 bytes | █▋    | [2022, Day 14](2022/14), Part 1, Python (coordinate tuples)
 |  333 bytes | █▋    | [2022, Day 23](2022/23), Part 2, Python
@@ -1271,6 +1275,7 @@
 | ~150 ms | ▎     | [2024, Day 07](2024/07), Part 1, Python
 | ~150 ms | ▎     | [2024, Day 11](2024/11), Part 2, Python (type-and-frequency)
 | ~150 ms | ▎     | [2024, Day 11](2024/11), Part 2, Python (DFS + memoization)
+| ~150 ms | ▎     | [2024, Day 15](2024/15), Part 2, Python
 | ~100 ms | ▏     | [2015, Day 09](2015/09), Part 1, Python
 | ~100 ms | ▏     | [2015, Day 09](2015/09), Part 2, Python
 | ~100 ms | ▏     | [2016, Day 17](2016/17), Part 1, Python
@@ -1561,3 +1566,4 @@
 | <100 ms | ▏     | [2024, Day 13](2024/13), Part 2, Python
 | <100 ms | ▏     | [2024, Day 14](2024/14), Part 1, Python
 | <100 ms | ▏     | [2024, Day 14](2024/14), Part 2, Python (Independent Axis Minimum Variance)
+| <100 ms | ▏     | [2024, Day 15](2024/15), Part 1, Python

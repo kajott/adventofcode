@@ -16,3 +16,4 @@
 | [12](12) | ★★★★☆ | ★★★★☆      | (nested) connected component analysis
 | [13](13) | ★★☆☆☆ | ★★★☆☆      | integer 2x2 linear system solving
 | [14](14) | ★★★★★ | ★★★★☆      | image recognition heuristics
+| [15](15) | ★★★★☆ | ★★★★☆      | Sokoban simulation
