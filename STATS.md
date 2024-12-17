@@ -525,6 +525,11 @@
 |  265 bytes | █▎    | <100 ms | ▏     | [2024, Day 14](2024/14), Part 2, Python (Independent Axis Minimum Variance)
 |  335 bytes | █▋    | <100 ms | ▏     | [2024, Day 15](2024/15), Part 1, Python
 |  436 bytes | ██    | ~150 ms | ▎     | [2024, Day 15](2024/15), Part 2, Python
+|  276 bytes | █▍    |  ~1.5 s | █▏    | [2024, Day 16](2024/16), Part 1, Python
+|  347 bytes | █▋    |  ~2.5 s | █▍    | [2024, Day 16](2024/16), Part 2, Python
+|  279 bytes | █▍    | <100 ms | ▏     | [2024, Day 17](2024/17), Part 1, Python
+|  201 bytes | █     | <100 ms | ▏     | [2024, Day 17](2024/17), Part 2, Python (puzzle input specific)
+|  391 bytes | █▉    | <100 ms | ▏     | [2024, Day 17](2024/17), Part 2, Python (generic)
 
 
 ## Solutions by Size
@@ -633,6 +638,7 @@
 |  395 bytes | █▉    | [2022, Day 16](2022/16), Part 2, Python (DFS only)
 |  395 bytes | █▉    | [2022, Day 24](2022/24), Part 1, Python
 |  392 bytes | █▉    | [2020, Day 18](2020/18), Part 2, Python (manual parsing)
+|  391 bytes | █▉    | [2024, Day 17](2024/17), Part 2, Python (generic)
 |  387 bytes | █▊    | [2019, Day 22](2019/22), Part 2, Python (reverse construction)
 |  387 bytes | █▊    | [2020, Day 23](2020/23), Part 2, C
 |  383 bytes | █▊    | [2017, Day 07](2017/07), Part 2, Python
@@ -672,6 +678,7 @@
 |  350 bytes | █▋    | [2023, Day 17](2023/17), Part 1, Python
 |  347 bytes | █▋    | [2020, Day 11](2020/11), Part 1, Python (with 2D arrays)
 |  347 bytes | █▋    | [2020, Day 20](2020/20), Part 1, Python
+|  347 bytes | █▋    | [2024, Day 16](2024/16), Part 2, Python
 |  346 bytes | █▋    | [2021, Day 21](2021/21), Part 2, Python
 |  345 bytes | █▋    | [2019, Day 12](2019/12), Part 1, Python
 |  343 bytes | █▋    | [2022, Day 11](2022/11), Part 2, Python
@@ -746,6 +753,7 @@
 |  281 bytes | █▍    | [2021, Day 24](2021/24), Part 1, Python
 |  279 bytes | █▍    | [2018, Day 22](2018/22), Part 1, Python
 |  279 bytes | █▍    | [2022, Day 09](2022/09), Part 2, Python (complex numbers)
+|  279 bytes | █▍    | [2024, Day 17](2024/17), Part 1, Python
 |  278 bytes | █▍    | [2021, Day 24](2021/24), Part 2, Python
 |  277 bytes | █▍    | [2022, Day 20](2022/20), Part 2, Python (linked list)
 |  276 bytes | █▍    | [2015, Day 11](2015/11), Part 1, Python
@@ -755,6 +763,7 @@
 |  276 bytes | █▍    | [2018, Day 09](2018/09), Part 2, Python (CDLL)
 |  276 bytes | █▍    | [2022, Day 05](2022/05), Part 2, Python
 |  276 bytes | █▍    | [2022, Day 13](2022/13), Part 1, Python
+|  276 bytes | █▍    | [2024, Day 16](2024/16), Part 1, Python
 |  275 bytes | █▍    | [2015, Day 19](2015/19), Part 1, Python
 |  275 bytes | █▍    | [2021, Day 05](2021/05), Part 1, Python (using part 2 approach)
 |  274 bytes | █▎    | [2023, Day 07](2023/07), Part 1, Python
@@ -849,6 +858,7 @@
 |  202 bytes | █     | [2024, Day 10](2024/10), Part 2, Python
 |  201 bytes | █     | [2018, Day 11](2018/11), Part 1, Python
 |  201 bytes | █     | [2023, Day 14](2023/14), Part 1, Python (string processing)
+|  201 bytes | █     | [2024, Day 17](2024/17), Part 2, Python (puzzle input specific)
 |  200 bytes | █     | [2019, Day 08](2019/08), Part 2, Python
 |  200 bytes | █     | [2022, Day 15](2022/15), Part 1, Python (set of coordinates)
 |  199 bytes | █     | [2017, Day 06](2017/06), Part 1, Python
@@ -1149,6 +1159,7 @@
 |  ~2.5 s | █▍    | [2021, Day 23](2021/23), Part 1, Python
 |  ~2.5 s | █▍    | [2021, Day 23](2021/23), Part 2, Python
 |  ~2.5 s | █▍    | [2022, Day 16](2022/16), Part 1, Python (DFS only)
+|  ~2.5 s | █▍    | [2024, Day 16](2024/16), Part 2, Python
 |    ~2 s | █▎    | [2016, Day 14](2016/14), Part 1, Python
 |    ~2 s | █▎    | [2018, Day 05](2018/05), Part 2, Python (single-pass)
 |    ~2 s | █▎    | [2018, Day 06](2018/06), Part 1, Python
@@ -1171,6 +1182,7 @@
 |  ~1.5 s | █▏    | [2023, Day 14](2023/14), Part 2, Python (complex numbers)
 |  ~1.5 s | █▏    | [2023, Day 17](2023/17), Part 1, Python
 |  ~1.5 s | █▏    | [2024, Day 14](2024/14), Part 2, Python (Minimum Variance)
+|  ~1.5 s | █▏    | [2024, Day 16](2024/16), Part 1, Python
 |    ~1 s | █     | [2015, Day 15](2015/15), Part 1, Python
 |    ~1 s | █     | [2015, Day 15](2015/15), Part 2, Python
 |    ~1 s | █     | [2015, Day 18](2015/18), Part 1, Python
@@ -1567,3 +1579,6 @@
 | <100 ms | ▏     | [2024, Day 14](2024/14), Part 1, Python
 | <100 ms | ▏     | [2024, Day 14](2024/14), Part 2, Python (Independent Axis Minimum Variance)
 | <100 ms | ▏     | [2024, Day 15](2024/15), Part 1, Python
+| <100 ms | ▏     | [2024, Day 17](2024/17), Part 1, Python
+| <100 ms | ▏     | [2024, Day 17](2024/17), Part 2, Python (puzzle input specific)
+| <100 ms | ▏     | [2024, Day 17](2024/17), Part 2, Python (generic)

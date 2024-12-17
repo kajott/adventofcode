@@ -46,6 +46,11 @@
 |  265 bytes | ███▏  | <100 ms | ▏     | [Day 14](14), Part 2, Python (Independent Axis Minimum Variance)
 |  335 bytes | ███▉  | <100 ms | ▏     | [Day 15](15), Part 1, Python
 |  436 bytes | █████ | ~150 ms | ▋     | [Day 15](15), Part 2, Python
+|  276 bytes | ███▎  |  ~1.5 s | ███   | [Day 16](16), Part 1, Python
+|  347 bytes | ████  |  ~2.5 s | ███▌  | [Day 16](16), Part 2, Python
+|  279 bytes | ███▎  | <100 ms | ▏     | [Day 17](17), Part 1, Python
+|  201 bytes | ██▍   | <100 ms | ▏     | [Day 17](17), Part 2, Python (puzzle input specific)
+|  391 bytes | ████▌ | <100 ms | ▏     | [Day 17](17), Part 2, Python (generic)
 
 
 ## Solutions by Size
@@ -53,11 +58,15 @@
 |       Size |       | Year, Day, Part, Solution
 |-----------:|:------|:-------------------------
 |  436 bytes | █████ | [Day 15](15), Part 2, Python
+|  391 bytes | ████▌ | [Day 17](17), Part 2, Python (generic)
+|  347 bytes | ████  | [Day 16](16), Part 2, Python
 |  335 bytes | ███▉  | [Day 09](09), Part 2, Python (speed-optimized)
 |  335 bytes | ███▉  | [Day 15](15), Part 1, Python
 |  325 bytes | ███▊  | [Day 12](12), Part 2, Python
 |  318 bytes | ███▋  | [Day 06](06), Part 2, Python
 |  283 bytes | ███▎  | [Day 05](05), Part 2, Python
+|  279 bytes | ███▎  | [Day 17](17), Part 1, Python
+|  276 bytes | ███▎  | [Day 16](16), Part 1, Python
 |  268 bytes | ███▏  | [Day 12](12), Part 1, Python
 |  265 bytes | ███▏  | [Day 14](14), Part 2, Python (Independent Axis Minimum Variance)
 |  247 bytes | ██▉   | [Day 08](08), Part 1, Python
@@ -71,6 +80,7 @@
 |  210 bytes | ██▌   | [Day 13](13), Part 2, Python
 |  209 bytes | ██▌   | [Day 07](07), Part 2, Python (optimized)
 |  202 bytes | ██▍   | [Day 10](10), Part 2, Python
+|  201 bytes | ██▍   | [Day 17](17), Part 2, Python (puzzle input specific)
 |  199 bytes | ██▍   | [Day 05](05), Part 1, Python
 |  198 bytes | ██▍   | [Day 14](14), Part 1, Python
 |  195 bytes | ██▎   | [Day 09](09), Part 1, Python
@@ -98,8 +108,10 @@
 |    ~7 s | ████▋ | [Day 07](07), Part 2, Python (naive)
 |    ~6 s | ████▌ | [Day 09](09), Part 2, Python (minimum size)
 |    ~6 s | ████▌ | [Day 14](14), Part 2, Python (Run of Adjacent Spots)
+|  ~2.5 s | ███▌  | [Day 16](16), Part 2, Python
 |    ~2 s | ███▎  | [Day 07](07), Part 2, Python (optimized)
 |  ~1.5 s | ███   | [Day 14](14), Part 2, Python (Minimum Variance)
+|  ~1.5 s | ███   | [Day 16](16), Part 1, Python
 | ~700 ms | ██▎   | [Day 13](13), Part 1, Python
 | ~500 ms | █▉    | [Day 14](14), Part 2, Python (Unique Positions)
 | ~300 ms | █▎    | [Day 12](12), Part 1, Python
@@ -130,3 +142,6 @@
 | <100 ms | ▏     | [Day 14](14), Part 1, Python
 | <100 ms | ▏     | [Day 14](14), Part 2, Python (Independent Axis Minimum Variance)
 | <100 ms | ▏     | [Day 15](15), Part 1, Python
+| <100 ms | ▏     | [Day 17](17), Part 1, Python
+| <100 ms | ▏     | [Day 17](17), Part 2, Python (puzzle input specific)
+| <100 ms | ▏     | [Day 17](17), Part 2, Python (generic)

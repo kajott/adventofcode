@@ -17,3 +17,5 @@
 | [13](13) | ★★☆☆☆ | ★★★☆☆      | integer 2x2 linear system solving
 | [14](14) | ★★★★★ | ★★★★☆      | image recognition heuristics
 | [15](15) | ★★★★☆ | ★★★★☆      | Sokoban simulation
+| [16](16) | ★★★☆☆ | ★★★★★      | pathfinding with high turn cost
+| [17](17) | ★★★★☆ | ★★★★☆      | machine code reverse engineering
