@@ -51,6 +51,9 @@
 |  279 bytes | ███▎  | <100 ms | ▏     | [Day 17](17), Part 1, Python
 |  201 bytes | ██▍   | <100 ms | ▏     | [Day 17](17), Part 2, Python (puzzle input specific)
 |  391 bytes | ████▌ | <100 ms | ▏     | [Day 17](17), Part 2, Python (generic)
+|  251 bytes | ██▉   | <100 ms | ▏     | [Day 18](18), Part 1, Python
+|  262 bytes | ███   |    ~7 s | ████▋ | [Day 18](18), Part 2, Python (brute force)
+|  317 bytes | ███▋  | <100 ms | ▏     | [Day 18](18), Part 2, Python (binary search)
 
 
 ## Solutions by Size
@@ -64,11 +67,14 @@
 |  335 bytes | ███▉  | [Day 15](15), Part 1, Python
 |  325 bytes | ███▊  | [Day 12](12), Part 2, Python
 |  318 bytes | ███▋  | [Day 06](06), Part 2, Python
+|  317 bytes | ███▋  | [Day 18](18), Part 2, Python (binary search)
 |  283 bytes | ███▎  | [Day 05](05), Part 2, Python
 |  279 bytes | ███▎  | [Day 17](17), Part 1, Python
 |  276 bytes | ███▎  | [Day 16](16), Part 1, Python
 |  268 bytes | ███▏  | [Day 12](12), Part 1, Python
 |  265 bytes | ███▏  | [Day 14](14), Part 2, Python (Independent Axis Minimum Variance)
+|  262 bytes | ███   | [Day 18](18), Part 2, Python (brute force)
+|  251 bytes | ██▉   | [Day 18](18), Part 1, Python
 |  247 bytes | ██▉   | [Day 08](08), Part 1, Python
 |  246 bytes | ██▉   | [Day 09](09), Part 2, Python (minimum size)
 |  239 bytes | ██▊   | [Day 11](11), Part 2, Python (type-and-frequency)
@@ -106,6 +112,7 @@
 |--------:|:------|:-------------------------
 |   ~10 s | █████ | [Day 06](06), Part 2, Python
 |    ~7 s | ████▋ | [Day 07](07), Part 2, Python (naive)
+|    ~7 s | ████▋ | [Day 18](18), Part 2, Python (brute force)
 |    ~6 s | ████▌ | [Day 09](09), Part 2, Python (minimum size)
 |    ~6 s | ████▌ | [Day 14](14), Part 2, Python (Run of Adjacent Spots)
 |  ~2.5 s | ███▌  | [Day 16](16), Part 2, Python
@@ -145,3 +152,5 @@
 | <100 ms | ▏     | [Day 17](17), Part 1, Python
 | <100 ms | ▏     | [Day 17](17), Part 2, Python (puzzle input specific)
 | <100 ms | ▏     | [Day 17](17), Part 2, Python (generic)
+| <100 ms | ▏     | [Day 18](18), Part 1, Python
+| <100 ms | ▏     | [Day 18](18), Part 2, Python (binary search)

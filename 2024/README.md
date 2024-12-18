@@ -19,3 +19,4 @@
 | [15](15) | ★★★★☆ | ★★★★☆      | Sokoban simulation
 | [16](16) | ★★★☆☆ | ★★★★★      | pathfinding with high turn cost
 | [17](17) | ★★★★☆ | ★★★★☆      | machine code reverse engineering
+| [18](18) | ★★★☆☆ | ★★★☆☆      | pathfinding + binary search

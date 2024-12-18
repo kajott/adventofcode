@@ -530,6 +530,9 @@
 |  279 bytes | █▍    | <100 ms | ▏     | [2024, Day 17](2024/17), Part 1, Python
 |  201 bytes | █     | <100 ms | ▏     | [2024, Day 17](2024/17), Part 2, Python (puzzle input specific)
 |  391 bytes | █▉    | <100 ms | ▏     | [2024, Day 17](2024/17), Part 2, Python (generic)
+|  251 bytes | █▎    | <100 ms | ▏     | [2024, Day 18](2024/18), Part 1, Python
+|  262 bytes | █▎    |    ~7 s | █▊    | [2024, Day 18](2024/18), Part 2, Python (brute force)
+|  317 bytes | █▌    | <100 ms | ▏     | [2024, Day 18](2024/18), Part 2, Python (binary search)
 
 
 ## Solutions by Size
@@ -717,6 +720,7 @@
 |  320 bytes | █▌    | [2016, Day 10](2016/10), Part 1, Python
 |  318 bytes | █▌    | [2022, Day 21](2022/21), Part 2, Python (linear solver)
 |  318 bytes | █▌    | [2024, Day 06](2024/06), Part 2, Python
+|  317 bytes | █▌    | [2024, Day 18](2024/18), Part 2, Python (binary search)
 |  315 bytes | █▌    | [2023, Day 11](2023/11), Part 2, Python (coordinate translation)
 |  314 bytes | █▌    | [2015, Day 11](2015/11), Part 2, Python
 |  314 bytes | █▌    | [2018, Day 14](2018/14), Part 2, C
@@ -783,6 +787,7 @@
 |  263 bytes | █▎    | [2020, Day 18](2020/18), Part 1, Python
 |  262 bytes | █▎    | [2017, Day 19](2017/19), Part 1, Python
 |  262 bytes | █▎    | [2022, Day 18](2022/18), Part 2, Python
+|  262 bytes | █▎    | [2024, Day 18](2024/18), Part 2, Python (brute force)
 |  260 bytes | █▎    | [2018, Day 05](2018/05), Part 2, Python (single-pass)
 |  260 bytes | █▎    | [2018, Day 11](2018/11), Part 2, Python (naive)
 |  260 bytes | █▎    | [2023, Day 13](2023/13), Part 2, Python
@@ -796,6 +801,7 @@
 |  253 bytes | █▎    | [2017, Day 10](2017/10), Part 2, Python
 |  253 bytes | █▎    | [2021, Day 05](2021/05), Part 2, Python
 |  251 bytes | █▎    | [2021, Day 10](2021/10), Part 2, Python
+|  251 bytes | █▎    | [2024, Day 18](2024/18), Part 1, Python
 |  250 bytes | █▎    | [2022, Day 21](2022/21), Part 1, Python
 |  247 bytes | █▎    | [2024, Day 08](2024/08), Part 1, Python
 |  246 bytes | █▎    | [2018, Day 07](2018/07), Part 1, Python
@@ -1110,6 +1116,7 @@
 |    ~7 s | █▊    | [2021, Day 15](2021/15), Part 2, Python (BFS)
 |    ~7 s | █▊    | [2022, Day 19](2022/19), Part 1, Python
 |    ~7 s | █▊    | [2024, Day 07](2024/07), Part 2, Python (naive)
+|    ~7 s | █▊    | [2024, Day 18](2024/18), Part 2, Python (brute force)
 |    ~6 s | █▊    | [2015, Day 10](2015/10), Part 2, Python
 |    ~6 s | █▊    | [2015, Day 11](2015/11), Part 2, Python
 |    ~6 s | █▊    | [2016, Day 11](2016/11), Part 2, Python (with canonicalization)
@@ -1582,3 +1589,5 @@
 | <100 ms | ▏     | [2024, Day 17](2024/17), Part 1, Python
 | <100 ms | ▏     | [2024, Day 17](2024/17), Part 2, Python (puzzle input specific)
 | <100 ms | ▏     | [2024, Day 17](2024/17), Part 2, Python (generic)
+| <100 ms | ▏     | [2024, Day 18](2024/18), Part 1, Python
+| <100 ms | ▏     | [2024, Day 18](2024/18), Part 2, Python (binary search)
