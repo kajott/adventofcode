@@ -533,6 +533,10 @@
 |  251 bytes | █▎    | <100 ms | ▏     | [2024, Day 18](2024/18), Part 1, Python
 |  262 bytes | █▎    |    ~7 s | █▊    | [2024, Day 18](2024/18), Part 2, Python (brute force)
 |  317 bytes | █▌    | <100 ms | ▏     | [2024, Day 18](2024/18), Part 2, Python (binary search)
+|  125 bytes | ▋     | <100 ms | ▏     | [2024, Day 19](2024/19), Part 1, Python
+|  206 bytes | █     | ~500 ms | ▊     | [2024, Day 19](2024/19), Part 2, Python
+|  283 bytes | █▍    |    ~5 s | █▋    | [2024, Day 20](2024/20), Part 1, Python
+|  362 bytes | █▊    |    ~6 s | █▊    | [2024, Day 20](2024/20), Part 2, Python
 
 
 ## Solutions by Size
@@ -661,6 +665,7 @@
 |  366 bytes | █▊    | [2022, Day 17](2022/17), Part 1, Python
 |  365 bytes | █▊    | [2021, Day 20](2021/20), Part 1, Python
 |  365 bytes | █▊    | [2023, Day 12](2023/12), Part 1, Python (brute force)
+|  362 bytes | █▊    | [2024, Day 20](2024/20), Part 2, Python
 |  361 bytes | █▋    | [2018, Day 11](2018/11), Part 2, Python (optimized pre-summed matrix)
 |  361 bytes | █▋    | [2021, Day 25](2021/25), Part 1, Python (2D array)
 |  359 bytes | █▋    | [2018, Day 04](2018/04), Part 1, Python
@@ -752,6 +757,7 @@
 |  286 bytes | █▍    | [2016, Day 17](2016/17), Part 2, Python
 |  286 bytes | █▍    | [2021, Day 13](2021/13), Part 2, Python
 |  283 bytes | █▍    | [2024, Day 05](2024/05), Part 2, Python
+|  283 bytes | █▍    | [2024, Day 20](2024/20), Part 1, Python
 |  282 bytes | █▍    | [2022, Day 05](2022/05), Part 1, Python
 |  281 bytes | █▍    | [2015, Day 19](2015/19), Part 2, Python (greedy DFS)
 |  281 bytes | █▍    | [2021, Day 24](2021/24), Part 1, Python
@@ -855,6 +861,7 @@
 |  208 bytes | █     | [2016, Day 07](2016/07), Part 2, Python
 |  208 bytes | █     | [2019, Day 22](2019/22), Part 1, Python (full deck simulation)
 |  208 bytes | █     | [2021, Day 10](2021/10), Part 1, Python
+|  206 bytes | █     | [2024, Day 19](2024/19), Part 2, Python
 |  204 bytes | █     | [2018, Day 09](2018/09), Part 1, Python (array)
 |  204 bytes | █     | [2020, Day 16](2020/16), Part 1, Python
 |  203 bytes | █     | [2015, Day 14](2015/14), Part 2, Python
@@ -988,6 +995,7 @@
 |  128 bytes | ▋     | [2022, Day 03](2022/03), Part 2, Python
 |  127 bytes | ▋     | [2016, Day 20](2016/20), Part 1, Python
 |  127 bytes | ▋     | [2022, Day 10](2022/10), Part 1, Python
+|  125 bytes | ▋     | [2024, Day 19](2024/19), Part 1, Python
 |  124 bytes | ▋     | [2016, Day 15](2016/15), Part 1, Python
 |  123 bytes | ▋     | [2016, Day 05](2016/05), Part 1, Python
 |  122 bytes | ▋     | [2015, Day 14](2015/14), Part 1, Python
@@ -1125,6 +1133,7 @@
 |    ~6 s | █▊    | [2019, Day 25](2019/25), Part 1, Python
 |    ~6 s | █▊    | [2024, Day 09](2024/09), Part 2, Python (minimum size)
 |    ~6 s | █▊    | [2024, Day 14](2024/14), Part 2, Python (Run of Adjacent Spots)
+|    ~6 s | █▊    | [2024, Day 20](2024/20), Part 2, Python
 |    ~5 s | █▋    | [2015, Day 06](2015/06), Part 2, Python
 |    ~5 s | █▋    | [2015, Day 22](2015/22), Part 2, Python
 |    ~5 s | █▋    | [2017, Day 13](2017/13), Part 2, Python
@@ -1139,6 +1148,7 @@
 |    ~5 s | █▋    | [2023, Day 06](2023/06), Part 2, Python (brute force)
 |    ~5 s | █▋    | [2023, Day 17](2023/17), Part 2, Python
 |    ~5 s | █▋    | [2023, Day 25](2023/25), Part 1, Python
+|    ~5 s | █▋    | [2024, Day 20](2024/20), Part 1, Python
 |    ~4 s | █▌    | [2015, Day 20](2015/20), Part 2, Python
 |    ~4 s | █▌    | [2018, Day 05](2018/05), Part 1, Python (multi-pass)
 |    ~4 s | █▌    | [2018, Day 22](2018/22), Part 2, Python (optimized)
@@ -1235,6 +1245,7 @@
 | ~500 ms | ▊     | [2022, Day 24](2022/24), Part 1, Python
 | ~500 ms | ▊     | [2023, Day 14](2023/14), Part 2, Python (string processing)
 | ~500 ms | ▊     | [2024, Day 14](2024/14), Part 2, Python (Unique Positions)
+| ~500 ms | ▊     | [2024, Day 19](2024/19), Part 2, Python
 | ~400 ms | ▋     | [2018, Day 14](2018/14), Part 1, Python
 | ~400 ms | ▋     | [2021, Day 07](2021/07), Part 2, Python
 | ~400 ms | ▋     | [2023, Day 03](2023/03), Part 2, Python (list of spans)
@@ -1591,3 +1602,4 @@
 | <100 ms | ▏     | [2024, Day 17](2024/17), Part 2, Python (generic)
 | <100 ms | ▏     | [2024, Day 18](2024/18), Part 1, Python
 | <100 ms | ▏     | [2024, Day 18](2024/18), Part 2, Python (binary search)
+| <100 ms | ▏     | [2024, Day 19](2024/19), Part 1, Python

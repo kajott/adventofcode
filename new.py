@@ -8,7 +8,7 @@ import sys
 import time
 
 FileTemplates = [
-    ("aoc{year}_{day}_part1.py", """
+    ("aoc{year}_{day}_part1.py", r"""
 # any numbers in the entire file
 import re;N=re.findall(r'\d+',open("input2.txt").read())
 

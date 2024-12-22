@@ -20,3 +20,5 @@
 | [16](16) | ★★★☆☆ | ★★★★★      | pathfinding with high turn cost
 | [17](17) | ★★★★☆ | ★★★★☆      | machine code reverse engineering
 | [18](18) | ★★★☆☆ | ★★★☆☆      | pathfinding + binary search
+| [19](19) | ★★★★☆ | ★★★☆☆      | regular expression matching
+| [20](20) | ★★★☆☆ | ★★★★★      | 2D maze solving with shortcuts
