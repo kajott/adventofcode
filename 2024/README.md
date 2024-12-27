@@ -22,3 +22,8 @@
 | [18](18) | ★★★☆☆ | ★★★☆☆      | pathfinding + binary search
 | [19](19) | ★★★★☆ | ★★★☆☆      | regular expression matching
 | [20](20) | ★★★☆☆ | ★★★★★      | 2D maze solving with shortcuts
+| [21](21) | ★★★☆☆ | ★★★★★      | recursive pathfinding
+| [22](22) | ★★★☆☆ | ★★★☆☆      | PRNG implementation, predictor statistics
+| [23](23) | ★★★★☆ | ★★★☆☆      | maximum clique problem
+| [24](24) | ★★★★☆ | ★★★★☆      | logic circuit (adder) bugfixing
+| [25](25) | ★★☆☆☆ | ★★☆☆☆      | 2D pattern overlap checking

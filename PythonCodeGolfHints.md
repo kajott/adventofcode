@@ -184,6 +184,26 @@ There's no denying that the `defaultdict` class in the `collections` module is g
 
 
 
+## But do use `functools.cache`
+
+There are also counterexamples where relying on a library function can be shorter. For a depth-first search with memoization,
+
+    import functools as F
+    @F.cache
+    def D(x,y,z):
+     return [...]
+
+is much shorter than its replacement,
+
+    C={}
+    def D(x,y,z):
+     if(x,y,z)in C:r=C[(x,y,z)]
+     else:
+      r=[...]
+     C[(x,y,z)]=r;return r
+
+
+
 ## Use arithmetic as logic
 
 Pythons `and`, `or` and `not` operators are quite expensive in terms of code size; not only are they quite long themselves, in most cases they require at least one additional whitespace around them. However, boolean expressions like comparion results are freely convertible into integers in Python, which makes it possible to emulate the effect of `and`/`or`/`not` with `*`/`+`/`^`:
