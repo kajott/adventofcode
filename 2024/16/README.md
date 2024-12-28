@@ -147,6 +147,6 @@ This is a nice twist for an otherwise unassuming pathfinding puzzle, but at the 
 
 The only nice thing here is that it's trivial to write a combined solution: Since part 1's result is a byproduct of computing part 2, it's more or less only a matter of an additional `print()` to output both.
 
-* Part 1, Python: 276 bytes, ~1.5 s
-* Part 2, Python: 347 bytes, ~2.5 s
-* Parts 1+2, Python: 359 bytes, ~2.5 s
+* Part 1, Python: 276 bytes, ~2 s
+* Part 2, Python: 347 bytes, ~3.5 s
+* Parts 1+2, Python: 359 bytes, ~3.5 s

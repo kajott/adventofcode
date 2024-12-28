@@ -134,6 +134,6 @@ Part 2 boils down to observing the previous 4 values modulo 10 and their deltas 
 
 Due to all the dictionary manipulation involved, part 2 is no longer significantly faster on PyPy than on CPython. But how fast could it be? Out of curiosity, I implemented a C version of this puzzle, using a flat zero-initialized list instead of hash maps for the central data structure. After all, there are just 19^4 = ~130k possible sequences of four deltas, and not even all of these are valid (9,9,9,9, for example, isn't), so the entire thing fits comfortably into a modern CPU's cache. There only need to be two data items per entry: The resulting score, and some kind of flag to note whether this delta sequence has already been encountered for the current line. Since I didn't want to waste any time on clearing this flag, I opted for a line counter instead: An entry is only updated if it hasn't been updated already for the current input line. The solution is even relatively nicely golfable, coming in at well below 500 bytes, and it executes practically instantaneously, even if the compile time is included.
 
-* Part 1, Python: 120 bytes, ~2 s
-* Part 2, Python: 238 bytes, ~7 s
-* Parts 1+2, C: 451 bytes, <100 ms
+* Part 1, Python: 120 bytes, ~2.5 s
+* Part 2, Python: 238 bytes, ~10 s
+* Parts 1+2, C: 451 bytes, ~150 ms

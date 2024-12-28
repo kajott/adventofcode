@@ -427,5 +427,5 @@ At this point, I was expecting part 2 to be something like "the instructions are
 
 During initial implementation, I was a bit too scared of the BFS part and added special-case code for left and right movements, as they could use something similar to the old run-of-boxes approach. That was exactly the wrong call &ndash; I lost a lot of time debugging this special-case horizontal movement code, and once the vertical movement code worked, I could simply remove all of it, because as it turns out, the vertical movement code _was_ already generic enough to handle horizontal movement as well ...
 
-* Part 1, Python: 335 bytes, <100 ms
-* Part 2, Python: 436 bytes, ~150 ms
+* Part 1, Python: 335 bytes, ~150 ms
+* Part 2, Python: 436 bytes, ~600 ms

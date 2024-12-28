@@ -93,4 +93,4 @@ For part 2, the task of the regular expression matcher needs to be spelled out "
 Fun fact: Part 2's solution can be turned into part 1 simply by replacing the `abs()` call with `any()`.
 
 * Part 1, Python: 125 bytes, <100 ms
-* Part 2, Python: 206 bytes, ~500 ms
+* Part 2, Python: 206 bytes, ~700 ms

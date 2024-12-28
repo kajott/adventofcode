@@ -154,5 +154,5 @@ Isolating the several regions obivously calls for connected component analysis; 
 
 Part 2 is making things even more complicated, but the solution for that isn't too far-fetched as well: We only need to count _distinct_ runs of neighbors for each direction &ndash; so we can basically run another connected component analysis for the neighbor tiles in each direction.
 
-* Part 1, Python: 268 bytes, ~300 ms
-* Part 2, Python: 325 bytes, ~250 ms
+* Part 1, Python: 268 bytes, ~500 ms
+* Part 2, Python: 325 bytes, ~300 ms

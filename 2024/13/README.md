@@ -86,5 +86,5 @@ There are a few red herrings in the task description: The maximum of 100 for A a
 
 Part 1 is still solvable by brute-forcing through all 10k A/B combinations within the search range, part 2 obviously isn't. Instead, you really need to solve the linear system, and fail if any of the divisions in that process yield a remainder. That's obviously the much faster method, and it completes the task in no time at all.
 
-* Part 1, Python: 182 bytes, ~700 ms
+* Part 1, Python: 182 bytes, ~1 s
 * Part 2, Python: 210 bytes, <100 ms

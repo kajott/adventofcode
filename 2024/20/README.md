@@ -199,5 +199,5 @@ Thinking about it a bit further, I had a much simpler idea: Since the cheat can 
 
 The results can be found by checking all possible cheats for all positions `P` in the maze and checking if `d >= 100` for them. The possible cheats for part 1 simply put `Q` two positions left, right, above and below `P` for part 1, or form a diamond-shaped area for part 2.
 
-* Part 1, Python: 283 bytes, ~5 s
-* Part 2, Python: 362 bytes, ~6 s
+* Part 1, Python: 283 bytes, ~6 s
+* Part 2, Python: 362 bytes, ~10 s

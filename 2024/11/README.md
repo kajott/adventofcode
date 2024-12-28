@@ -79,6 +79,6 @@ The other way, which turned out to be even more compact, is based on the observa
 
 By the way, it turned out to be consistently a ~~bit~~ byte smaller to keep the numbers as strings and only convert them to integers if needed.
 
-* Part 1, Python: 179 bytes, ~250 ms
-* Part 2, Python (type-and-frequency): 239 bytes, ~150 ms
-* Part 2, Python (DFS + memoization): 230 bytes, ~150 ms
+* Part 1, Python: 179 bytes, ~350 ms
+* Part 2, Python (type-and-frequency): 239 bytes, ~200 ms
+* Part 2, Python (DFS + memoization): 230 bytes, ~200 ms

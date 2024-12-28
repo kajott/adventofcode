@@ -105,6 +105,6 @@ The actually recommended way of doing things is as blunt as it gets: For each up
 
 The slightly annoying aspect of this puzzle is indeed input parsing, at least as far as code golf is concerned. The approach that works best for part 1 (in the sense of "least amount of code") isn't really suitable for part 2, so I ended up with completely different ways of handling input between the parts.
 
-* Part 1, Python: 199 bytes, <100 ms
-* Part 2, Python: 283 bytes, ~150 ms
-* Parts 1+2, Python: 299 bytes, ~150 ms
+* Part 1, Python: 199 bytes, ~150 ms
+* Part 2, Python: 283 bytes, ~300 ms
+* Parts 1+2, Python: 299 bytes, ~300 ms

@@ -146,7 +146,7 @@ Part 2, then, hits like a truck. There's no specification whatsoever as to what 
 **Heuristic 4: Independent Axis Minimum Variance** takes the previous approach one step further by throwing even more maths at it. It's based on the observation that the X and Y axes are independent from each other (like in [another (in)famous past puzzle](../../2019/12)), and that the X coordinates of all robots repeat every 101 steps, while the Y coordinates repeat every 103 steps. This also means that the minimum variance states of these axes occur periodically at x0 + nx * 101 and y0 + ny * 103; the time where both coincide is the puzzle answer. So it's sufficient to find the X variance minimum for the first 101 steps and the Y variance minimum for the first 103 steps, and from there on it's all about modular arithmetics &ndash; or maybe not, because the factors are small enough that we can just try X minimum-variance step times until we find one that's also a valid Y minimum-variance step time. The end result is the largest implementation, but also the fastest one by quite some margin.
 
 * Part 1, Python: 198 bytes, <100 ms
-* Part 2, Python (Unique Positions): 178 bytes, ~500 ms
-* Part 2, Python (Run of Adjacent Spots): 222 bytes, ~6 s
-* Part 2, Python (Minimum Variance): 235 bytes, ~1.5 s
+* Part 2, Python (Unique Positions): 178 bytes, ~1.5 s
+* Part 2, Python (Run of Adjacent Spots): 222 bytes, ~15 s
+* Part 2, Python (Minimum Variance): 235 bytes, ~2.5 s
 * Part 2, Python (Independent Axis Minimum Variance): 265 bytes, <100 ms

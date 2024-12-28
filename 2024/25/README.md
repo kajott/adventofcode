@@ -130,4 +130,4 @@ You nod, and The Historians quickly work to collect their notes into the final s
 
 A simple implement-as-described task, in theory. In practice, all that quibble about locks vs. keys and pin heights is just a red herring, and the actual task is simply to check all pairs of patterns for collisions at any of the `#` spots.
 
-* Part 1, Python: 165 bytes, ~100 ms
+* Part 1, Python: 165 bytes, ~250 ms
