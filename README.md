@@ -11,7 +11,8 @@ This repository contains the puzzles and my solutions for the popular [Advent of
 [2021](2021) &bull;
 [2022](2022) &bull;
 [2023](2023) &bull;
-[2024](2024)
+[2024](2024) &bull;
+[2025](2025)
 
 My solutions are mostly written in Python 2.7 (or 3.9+ since 2023), with the occasional C implementations where Python's performance is problematic. In both cases, the solutions are attempts at [code golf](https://en.wikipedia.org/wiki/Code_golf), so please don't expect any well-commented, easily understandable, extensible code here! The following exceptions are made:
 

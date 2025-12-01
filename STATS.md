@@ -546,6 +546,8 @@
 |  270 bytes | █▎    | <100 ms | ▏     | [2024, Day 24](2024/24), Part 1, Python
 |  401 bytes | █▉    | <100 ms | ▏     | [2024, Day 24](2024/24), Part 2, Python
 |  165 bytes | ▉     | ~250 ms | ▌     | [2024, Day 25](2024/25), Part 1, Python
+|   86 bytes | ▌     | <100 ms | ▏     | [2025, Day 01](2025/01), Part 1, Python
+|   99 bytes | ▌     | ~100 ms | ▏     | [2025, Day 01](2025/01), Part 2, Python
 
 
 ## Solutions by Size
@@ -1057,6 +1059,7 @@
 |   99 bytes | ▌     | [2015, Day 02](2015/02), Part 1, Python
 |   99 bytes | ▌     | [2020, Day 05](2020/05), Part 1, Python
 |   99 bytes | ▌     | [2023, Day 06](2023/06), Part 2, Python (brute force)
+|   99 bytes | ▌     | [2025, Day 01](2025/01), Part 2, Python
 |   98 bytes | ▌     | [2020, Day 01](2020/01), Part 2, Python
 |   95 bytes | ▌     | [2015, Day 02](2015/02), Part 2, Python
 |   95 bytes | ▌     | [2022, Day 01](2022/01), Part 2, Python
@@ -1074,6 +1077,7 @@
 |   88 bytes | ▌     | [2023, Day 01](2023/01), Part 1, Python
 |   87 bytes | ▌     | [2017, Day 02](2017/02), Part 1, Python
 |   86 bytes | ▌     | [2022, Day 06](2022/06), Part 1, Python
+|   86 bytes | ▌     | [2025, Day 01](2025/01), Part 1, Python
 |   84 bytes | ▌     | [2016, Day 03](2016/03), Part 1, Python
 |   82 bytes | ▌     | [2022, Day 01](2022/01), Part 1, Python
 |   80 bytes | ▌     | [2017, Day 17](2017/17), Part 1, Python (full simulation with arrays)
@@ -1342,6 +1346,7 @@
 | ~100 ms | ▏     | [2023, Day 12](2023/12), Part 1, Python (approach from part 2)
 | ~100 ms | ▏     | [2023, Day 20](2023/20), Part 1, Python
 | ~100 ms | ▏     | [2023, Day 24](2023/24), Part 1, Python
+| ~100 ms | ▏     | [2025, Day 01](2025/01), Part 2, Python
 | <100 ms | ▏     | [2015, Day 01](2015/01), Part 1, Python
 | <100 ms | ▏     | [2015, Day 01](2015/01), Part 2, Python
 | <100 ms | ▏     | [2015, Day 02](2015/02), Part 1, Python
@@ -1630,3 +1635,4 @@
 | <100 ms | ▏     | [2024, Day 23](2024/23), Part 2, Python
 | <100 ms | ▏     | [2024, Day 24](2024/24), Part 1, Python
 | <100 ms | ▏     | [2024, Day 24](2024/24), Part 2, Python
+| <100 ms | ▏     | [2025, Day 01](2025/01), Part 1, Python

@@ -1,0 +1,5 @@
+# Advent of Code 2024
+
+| Day      | Fun   | Difficulty | Task Description
+| -------: | :---: | :--------: | :---------------
+|  [1](01) | ★★★☆☆ | ★★☆☆☆      | apparent modular arithmetic
