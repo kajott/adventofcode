@@ -13,15 +13,17 @@
 |   83 bytes | ██▊   | <100 ms | ▏     | [Day 01](01), Part 1, Python
 |   96 bytes | ███▏  | ~100 ms | ▏     | [Day 01](01), Part 2, Python
 |  152 bytes | █████ |    ~1 s | ████▎ | [Day 02](02), Part 1, Python
-|  153 bytes | █████ |  ~1.5 s | █████ | [Day 02](02), Part 2, Python
+|  153 bytes | █████ |  ~1.5 s | █████ | [Day 02](02), Part 2, Python (regular expressions)
+|  150 bytes | ████▉ | ~500 ms | ███   | [Day 02](02), Part 2, Python (string maninpulation)
 
 
 ## Solutions by Size
 
 |       Size |       | Year, Day, Part, Solution
 |-----------:|:------|:-------------------------
-|  153 bytes | █████ | [Day 02](02), Part 2, Python
+|  153 bytes | █████ | [Day 02](02), Part 2, Python (regular expressions)
 |  152 bytes | █████ | [Day 02](02), Part 1, Python
+|  150 bytes | ████▉ | [Day 02](02), Part 2, Python (string maninpulation)
 |   96 bytes | ███▏  | [Day 01](01), Part 2, Python
 |   83 bytes | ██▊   | [Day 01](01), Part 1, Python
 
@@ -30,7 +32,8 @@
 
 | Runtime |       | Year, Day, Part, Solution
 |--------:|:------|:-------------------------
-|  ~1.5 s | █████ | [Day 02](02), Part 2, Python
+|  ~1.5 s | █████ | [Day 02](02), Part 2, Python (regular expressions)
 |    ~1 s | ████▎ | [Day 02](02), Part 1, Python
+| ~500 ms | ███   | [Day 02](02), Part 2, Python (string maninpulation)
 | ~100 ms | ▏     | [Day 01](01), Part 2, Python
 | <100 ms | ▏     | [Day 01](01), Part 1, Python
