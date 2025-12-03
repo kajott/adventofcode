@@ -12,3 +12,5 @@ graph.*
 *.com
 *.lst
 *.OUT
+input*.txt
+!input.txt

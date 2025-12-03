@@ -551,6 +551,9 @@
 |  152 bytes | ▊     |    ~1 s | █     | [2025, Day 02](2025/02), Part 1, Python
 |  153 bytes | ▊     |  ~1.5 s | █▏    | [2025, Day 02](2025/02), Part 2, Python (regular expressions)
 |  150 bytes | ▊     | ~500 ms | ▊     | [2025, Day 02](2025/02), Part 2, Python (string maninpulation)
+|   91 bytes | ▌     | ~200 ms | ▍     | [2025, Day 03](2025/03), Part 1, Python (brute force)
+|  151 bytes | ▊     | <100 ms | ▏     | [2025, Day 03](2025/03), Part 2, Python (greedy algorithm)
+|  191 bytes | █     | ~250 ms | ▌     | [2025, Day 03](2025/03), Part 2, Python (DFS+memoization)
 
 
 ## Solutions by Size
@@ -914,6 +917,7 @@
 |  193 bytes | █     | [2024, Day 06](2024/06), Part 1, Python
 |  191 bytes | █     | [2020, Day 12](2020/12), Part 2, Python
 |  191 bytes | █     | [2023, Day 21](2023/21), Part 1, Python
+|  191 bytes | █     | [2025, Day 03](2025/03), Part 2, Python (DFS+memoization)
 |  189 bytes | █     | [2022, Day 20](2022/20), Part 2, Python (order table)
 |  186 bytes | ▉     | [2015, Day 09](2015/09), Part 1, Python
 |  186 bytes | ▉     | [2015, Day 09](2015/09), Part 2, Python
@@ -977,6 +981,7 @@
 |  152 bytes | ▊     | [2025, Day 02](2025/02), Part 1, Python
 |  151 bytes | ▊     | [2016, Day 04](2016/04), Part 2, Python
 |  151 bytes | ▊     | [2017, Day 02](2017/02), Part 2, Python
+|  151 bytes | ▊     | [2025, Day 03](2025/03), Part 2, Python (greedy algorithm)
 |  150 bytes | ▊     | [2016, Day 18](2016/18), Part 2, Python
 |  150 bytes | ▊     | [2018, Day 23](2018/23), Part 1, Python
 |  150 bytes | ▊     | [2025, Day 02](2025/02), Part 2, Python (string maninpulation)
@@ -1076,6 +1081,7 @@
 |   92 bytes | ▌     | [2021, Day 01](2021/01), Part 2, Python
 |   92 bytes | ▌     | [2024, Day 01](2024/01), Part 2, Python
 |   91 bytes | ▌     | [2022, Day 02](2022/02), Part 2, Python
+|   91 bytes | ▌     | [2025, Day 03](2025/03), Part 1, Python (brute force)
 |   90 bytes | ▌     | [2017, Day 17](2017/17), Part 2, Python (tracking)
 |   89 bytes | ▌     | [2015, Day 04](2015/04), Part 1, Python
 |   89 bytes | ▌     | [2015, Day 04](2015/04), Part 2, Python
@@ -1309,11 +1315,13 @@
 | ~250 ms | ▌     | [2021, Day 21](2021/21), Part 2, Python
 | ~250 ms | ▌     | [2024, Day 07](2024/07), Part 1, Python
 | ~250 ms | ▌     | [2024, Day 25](2024/25), Part 1, Python
+| ~250 ms | ▌     | [2025, Day 03](2025/03), Part 2, Python (DFS+memoization)
 | ~200 ms | ▍     | [2016, Day 22](2016/22), Part 1, Python
 | ~200 ms | ▍     | [2017, Day 18](2017/18), Part 2, Python
 | ~200 ms | ▍     | [2018, Day 09](2018/09), Part 2, C (CDLL)
 | ~200 ms | ▍     | [2024, Day 11](2024/11), Part 2, Python (type-and-frequency)
 | ~200 ms | ▍     | [2024, Day 11](2024/11), Part 2, Python (DFS + memoization)
+| ~200 ms | ▍     | [2025, Day 03](2025/03), Part 1, Python (brute force)
 | ~150 ms | ▎     | [2015, Day 04](2015/04), Part 1, Python
 | ~150 ms | ▎     | [2015, Day 11](2015/11), Part 1, Python
 | ~150 ms | ▎     | [2015, Day 13](2015/13), Part 1, Python
@@ -1645,3 +1653,4 @@
 | <100 ms | ▏     | [2024, Day 24](2024/24), Part 1, Python
 | <100 ms | ▏     | [2024, Day 24](2024/24), Part 2, Python
 | <100 ms | ▏     | [2025, Day 01](2025/01), Part 1, Python
+| <100 ms | ▏     | [2025, Day 03](2025/03), Part 2, Python (greedy algorithm)
