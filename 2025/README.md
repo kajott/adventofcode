@@ -4,4 +4,5 @@
 | -------: | :---: | :--------: | :---------------
 |  [1](01) | ★★★☆☆ | ★☆☆☆☆      | apparent modular arithmetic
 |  [2](02) | ★★☆☆☆ | ★★☆☆☆      | use of regular expressions
-|  [3](03) | ★★☆☆☆ | ★★★★☆      | greedy search
+|  [3](03) | ★★★☆☆ | ★★★☆☆      | greedy search
+|  [4](04) | ★★★☆☆ | ★☆☆☆☆      | set operations on a grid

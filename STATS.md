@@ -554,6 +554,8 @@
 |   91 bytes | ▌     | ~200 ms | ▍     | [2025, Day 03](2025/03), Part 1, Python (brute force)
 |  151 bytes | ▊     | <100 ms | ▏     | [2025, Day 03](2025/03), Part 2, Python (greedy algorithm)
 |  191 bytes | █     | ~250 ms | ▌     | [2025, Day 03](2025/03), Part 2, Python (DFS+memoization)
+|  168 bytes | ▉     | <100 ms | ▏     | [2025, Day 04](2025/04), Part 1, Python
+|  203 bytes | █     | ~600 ms | ▊     | [2025, Day 04](2025/04), Part 2, Python
 
 
 ## Solutions by Size
@@ -889,6 +891,7 @@
 |  204 bytes | █     | [2018, Day 09](2018/09), Part 1, Python (array)
 |  204 bytes | █     | [2020, Day 16](2020/16), Part 1, Python
 |  203 bytes | █     | [2015, Day 14](2015/14), Part 2, Python
+|  203 bytes | █     | [2025, Day 04](2025/04), Part 2, Python
 |  202 bytes | █     | [2017, Day 03](2017/03), Part 2, Python
 |  202 bytes | █     | [2020, Day 07](2020/07), Part 1, Python
 |  202 bytes | █     | [2023, Day 08](2023/08), Part 1, Python
@@ -957,6 +960,7 @@
 |  170 bytes | ▉     | [2017, Day 10](2017/10), Part 1, Python
 |  170 bytes | ▉     | [2022, Day 20](2022/20), Part 1, Python (order table)
 |  169 bytes | ▉     | [2022, Day 25](2022/25), Part 1, Python (with conversions)
+|  168 bytes | ▉     | [2025, Day 04](2025/04), Part 1, Python
 |  167 bytes | ▉     | [2017, Day 11](2017/11), Part 1, Python
 |  167 bytes | ▉     | [2017, Day 13](2017/13), Part 2, Python
 |  166 bytes | ▉     | [2015, Day 17](2015/17), Part 2, Python
@@ -1274,6 +1278,7 @@
 | ~600 ms | ▊     | [2020, Day 23](2020/23), Part 2, C
 | ~600 ms | ▊     | [2023, Day 21](2023/21), Part 2, Python (edge only)
 | ~600 ms | ▊     | [2024, Day 15](2024/15), Part 2, Python
+| ~600 ms | ▊     | [2025, Day 04](2025/04), Part 2, Python
 | ~500 ms | ▊     | [2017, Day 14](2017/14), Part 1, Python
 | ~500 ms | ▊     | [2017, Day 14](2017/14), Part 2, Python
 | ~500 ms | ▊     | [2018, Day 09](2018/09), Part 1, Python (array)
@@ -1654,3 +1659,4 @@
 | <100 ms | ▏     | [2024, Day 24](2024/24), Part 2, Python
 | <100 ms | ▏     | [2025, Day 01](2025/01), Part 1, Python
 | <100 ms | ▏     | [2025, Day 03](2025/03), Part 2, Python (greedy algorithm)
+| <100 ms | ▏     | [2025, Day 04](2025/04), Part 1, Python
