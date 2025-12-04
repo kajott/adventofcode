@@ -11,7 +11,7 @@
 |       Size |       | Runtime |       | Year, Day, Part, Solution
 |-----------:|:------|--------:|:------|:-------------------------
 |   83 bytes | ██▏   | <100 ms | ▏     | [Day 01](01), Part 1, Python
-|   96 bytes | ██▍   | ~100 ms | ▏     | [Day 01](01), Part 2, Python
+|   91 bytes | ██▎   | ~100 ms | ▏     | [Day 01](01), Part 2, Python
 |  152 bytes | ███▊  |    ~1 s | ████▎ | [Day 02](02), Part 1, Python
 |  153 bytes | ███▊  |  ~1.5 s | █████ | [Day 02](02), Part 2, Python (regular expressions)
 |  150 bytes | ███▊  | ~500 ms | ███   | [Day 02](02), Part 2, Python (string maninpulation)
@@ -33,7 +33,7 @@
 |  152 bytes | ███▊  | [Day 02](02), Part 1, Python
 |  151 bytes | ███▊  | [Day 03](03), Part 2, Python (greedy algorithm)
 |  150 bytes | ███▊  | [Day 02](02), Part 2, Python (string maninpulation)
-|   96 bytes | ██▍   | [Day 01](01), Part 2, Python
+|   91 bytes | ██▎   | [Day 01](01), Part 2, Python
 |   91 bytes | ██▎   | [Day 03](03), Part 1, Python (brute force)
 |   83 bytes | ██▏   | [Day 01](01), Part 1, Python
 

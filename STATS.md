@@ -547,7 +547,7 @@
 |  401 bytes | █▉    | <100 ms | ▏     | [2024, Day 24](2024/24), Part 2, Python
 |  165 bytes | ▉     | ~250 ms | ▌     | [2024, Day 25](2024/25), Part 1, Python
 |   83 bytes | ▌     | <100 ms | ▏     | [2025, Day 01](2025/01), Part 1, Python
-|   96 bytes | ▌     | ~100 ms | ▏     | [2025, Day 01](2025/01), Part 2, Python
+|   91 bytes | ▌     | ~100 ms | ▏     | [2025, Day 01](2025/01), Part 2, Python
 |  152 bytes | ▊     |    ~1 s | █     | [2025, Day 02](2025/02), Part 1, Python
 |  153 bytes | ▊     |  ~1.5 s | █▏    | [2025, Day 02](2025/02), Part 2, Python (regular expressions)
 |  150 bytes | ▊     | ~500 ms | ▊     | [2025, Day 02](2025/02), Part 2, Python (string maninpulation)
@@ -1075,7 +1075,6 @@
 |   99 bytes | ▌     | [2020, Day 05](2020/05), Part 1, Python
 |   99 bytes | ▌     | [2023, Day 06](2023/06), Part 2, Python (brute force)
 |   98 bytes | ▌     | [2020, Day 01](2020/01), Part 2, Python
-|   96 bytes | ▌     | [2025, Day 01](2025/01), Part 2, Python
 |   95 bytes | ▌     | [2015, Day 02](2015/02), Part 2, Python
 |   95 bytes | ▌     | [2022, Day 01](2022/01), Part 2, Python
 |   93 bytes | ▌     | [2017, Day 01](2017/01), Part 1, Python
@@ -1085,6 +1084,7 @@
 |   92 bytes | ▌     | [2021, Day 01](2021/01), Part 2, Python
 |   92 bytes | ▌     | [2024, Day 01](2024/01), Part 2, Python
 |   91 bytes | ▌     | [2022, Day 02](2022/02), Part 2, Python
+|   91 bytes | ▌     | [2025, Day 01](2025/01), Part 2, Python
 |   91 bytes | ▌     | [2025, Day 03](2025/03), Part 1, Python (brute force)
 |   90 bytes | ▌     | [2017, Day 17](2017/17), Part 2, Python (tracking)
 |   89 bytes | ▌     | [2015, Day 04](2015/04), Part 1, Python

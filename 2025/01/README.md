@@ -103,4 +103,4 @@ Part 2 initially sounds like it requires the kind of modular arithmetic that's _
 Because this task is so relatively simple, I tried my hand at x86 assembly again and came up with a 192-byte DOS 2.0 executable that runs both parts on a 1981 IBM 5150 PC with a 4.77 MHz Intel 8088 processor in about 2 seconds, more than half of which is I/O time.
 
 * Part 1, Python: 83 bytes, <100 ms
-* Part 2, Python: 96 bytes, ~100 ms
+* Part 2, Python: 91 bytes, ~100 ms
