@@ -556,6 +556,8 @@
 |  191 bytes | █     | ~250 ms | ▌     | [2025, Day 03](2025/03), Part 2, Python (DFS+memoization)
 |  168 bytes | ▉     | <100 ms | ▏     | [2025, Day 04](2025/04), Part 1, Python
 |  203 bytes | █     | ~600 ms | ▊     | [2025, Day 04](2025/04), Part 2, Python
+|  136 bytes | ▊     | <100 ms | ▏     | [2025, Day 05](2025/05), Part 1, Python
+|  152 bytes | ▊     | <100 ms | ▏     | [2025, Day 05](2025/05), Part 2, Python
 
 
 ## Solutions by Size
@@ -983,6 +985,7 @@
 |  153 bytes | ▊     | [2022, Day 18](2022/18), Part 1, Python
 |  153 bytes | ▊     | [2025, Day 02](2025/02), Part 2, Python (regular expressions)
 |  152 bytes | ▊     | [2025, Day 02](2025/02), Part 1, Python
+|  152 bytes | ▊     | [2025, Day 05](2025/05), Part 2, Python
 |  151 bytes | ▊     | [2016, Day 04](2016/04), Part 2, Python
 |  151 bytes | ▊     | [2017, Day 02](2017/02), Part 2, Python
 |  151 bytes | ▊     | [2025, Day 03](2025/03), Part 2, Python (greedy algorithm)
@@ -1016,6 +1019,7 @@
 |  137 bytes | ▊     | [2021, Day 06](2021/06), Part 1, Python
 |  137 bytes | ▊     | [2022, Day 13](2022/13), Part 2, Python (shortcut, string-based)
 |  136 bytes | ▊     | [2017, Day 17](2017/17), Part 2, Python (full simulation with circular list)
+|  136 bytes | ▊     | [2025, Day 05](2025/05), Part 1, Python
 |  135 bytes | ▊     | [2018, Day 02](2018/02), Part 2, Python
 |  133 bytes | ▊     | [2015, Day 10](2015/10), Part 2, Python
 |  133 bytes | ▊     | [2020, Day 06](2020/06), Part 2, Python
@@ -1660,3 +1664,5 @@
 | <100 ms | ▏     | [2025, Day 01](2025/01), Part 1, Python
 | <100 ms | ▏     | [2025, Day 03](2025/03), Part 2, Python (greedy algorithm)
 | <100 ms | ▏     | [2025, Day 04](2025/04), Part 1, Python
+| <100 ms | ▏     | [2025, Day 05](2025/05), Part 1, Python
+| <100 ms | ▏     | [2025, Day 05](2025/05), Part 2, Python
