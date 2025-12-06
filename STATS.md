@@ -558,6 +558,10 @@
 |  203 bytes | █     | ~600 ms | ▊     | [2025, Day 04](2025/04), Part 2, Python
 |  136 bytes | ▊     | <100 ms | ▏     | [2025, Day 05](2025/05), Part 1, Python
 |  152 bytes | ▊     | <100 ms | ▏     | [2025, Day 05](2025/05), Part 2, Python
+|   89 bytes | ▌     | <100 ms | ▏     | [2025, Day 06](2025/06), Part 1, Python (using `eval`)
+|  146 bytes | ▊     | <100 ms | ▏     | [2025, Day 06](2025/06), Part 1, Python (safe)
+|  155 bytes | ▊     | <100 ms | ▏     | [2025, Day 06](2025/06), Part 2, Python (using `eval`)
+|  202 bytes | █     | <100 ms | ▏     | [2025, Day 06](2025/06), Part 2, Python (safe)
 
 
 ## Solutions by Size
@@ -898,6 +902,7 @@
 |  202 bytes | █     | [2020, Day 07](2020/07), Part 1, Python
 |  202 bytes | █     | [2023, Day 08](2023/08), Part 1, Python
 |  202 bytes | █     | [2024, Day 10](2024/10), Part 2, Python
+|  202 bytes | █     | [2025, Day 06](2025/06), Part 2, Python (safe)
 |  201 bytes | █     | [2018, Day 11](2018/11), Part 1, Python
 |  201 bytes | █     | [2023, Day 14](2023/14), Part 1, Python (string processing)
 |  201 bytes | █     | [2024, Day 17](2024/17), Part 2, Python (puzzle input specific)
@@ -980,6 +985,7 @@
 |  158 bytes | ▊     | [2020, Day 03](2020/03), Part 2, Python
 |  157 bytes | ▊     | [2020, Day 08](2020/08), Part 1, Python
 |  155 bytes | ▊     | [2016, Day 09](2016/09), Part 1, Python
+|  155 bytes | ▊     | [2025, Day 06](2025/06), Part 2, Python (using `eval`)
 |  154 bytes | ▊     | [2017, Day 15](2017/15), Part 1, Python
 |  154 bytes | ▊     | [2023, Day 09](2023/09), Part 1, Python
 |  153 bytes | ▊     | [2022, Day 18](2022/18), Part 1, Python
@@ -1002,6 +1008,7 @@
 |  147 bytes | ▊     | [2016, Day 15](2016/15), Part 2, Python
 |  146 bytes | ▊     | [2016, Day 18](2016/18), Part 1, Python
 |  146 bytes | ▊     | [2019, Day 22](2019/22), Part 1, Python (single card tracing)
+|  146 bytes | ▊     | [2025, Day 06](2025/06), Part 1, Python (safe)
 |  145 bytes | ▊     | [2015, Day 25](2015/25), Part 1, Python
 |  144 bytes | ▊     | [2020, Day 02](2020/02), Part 2, Python
 |  144 bytes | ▊     | [2020, Day 09](2020/09), Part 1, Python
@@ -1093,6 +1100,7 @@
 |   90 bytes | ▌     | [2017, Day 17](2017/17), Part 2, Python (tracking)
 |   89 bytes | ▌     | [2015, Day 04](2015/04), Part 1, Python
 |   89 bytes | ▌     | [2015, Day 04](2015/04), Part 2, Python
+|   89 bytes | ▌     | [2025, Day 06](2025/06), Part 1, Python (using `eval`)
 |   88 bytes | ▌     | [2022, Day 06](2022/06), Part 2, Python
 |   88 bytes | ▌     | [2023, Day 01](2023/01), Part 1, Python
 |   87 bytes | ▌     | [2017, Day 02](2017/02), Part 1, Python
@@ -1666,3 +1674,7 @@
 | <100 ms | ▏     | [2025, Day 04](2025/04), Part 1, Python
 | <100 ms | ▏     | [2025, Day 05](2025/05), Part 1, Python
 | <100 ms | ▏     | [2025, Day 05](2025/05), Part 2, Python
+| <100 ms | ▏     | [2025, Day 06](2025/06), Part 1, Python (using `eval`)
+| <100 ms | ▏     | [2025, Day 06](2025/06), Part 1, Python (safe)
+| <100 ms | ▏     | [2025, Day 06](2025/06), Part 2, Python (using `eval`)
+| <100 ms | ▏     | [2025, Day 06](2025/06), Part 2, Python (safe)

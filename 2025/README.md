@@ -7,3 +7,4 @@
 |  [3](03) | ★★★☆☆ | ★★★☆☆      | greedy search
 |  [4](04) | ★★★☆☆ | ★☆☆☆☆      | set operations on a grid
 |  [5](05) | ★★☆☆☆ | ★★★☆☆      | union on sets of ranges
+|  [6](06) | ★☆☆☆☆ | ★☆☆☆☆      | maths on transposed data
