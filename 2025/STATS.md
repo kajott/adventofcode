@@ -26,6 +26,9 @@
 |  131 bytes | ███▎  | <100 ms | ▏     | [Day 06](06), Part 1, Python (safe)
 |  155 bytes | ███▉  | <100 ms | ▏     | [Day 06](06), Part 2, Python (using `eval`)
 |  187 bytes | ████▋ | <100 ms | ▏     | [Day 06](06), Part 2, Python (safe)
+|  145 bytes | ███▋  | <100 ms | ▏     | [Day 07](07), Part 1, Python
+|  162 bytes | ████  | <100 ms | ▏     | [Day 07](07), Part 2, Python (dictionary)
+|  155 bytes | ███▉  | <100 ms | ▏     | [Day 07](07), Part 2, Python (list)
 
 
 ## Solutions by Size
@@ -36,12 +39,15 @@
 |  191 bytes | ████▊ | [Day 03](03), Part 2, Python (DFS+memoization)
 |  187 bytes | ████▋ | [Day 06](06), Part 2, Python (safe)
 |  168 bytes | ████▏ | [Day 04](04), Part 1, Python
+|  162 bytes | ████  | [Day 07](07), Part 2, Python (dictionary)
 |  155 bytes | ███▉  | [Day 06](06), Part 2, Python (using `eval`)
+|  155 bytes | ███▉  | [Day 07](07), Part 2, Python (list)
 |  153 bytes | ███▊  | [Day 02](02), Part 2, Python (regular expressions)
 |  152 bytes | ███▊  | [Day 02](02), Part 1, Python
 |  152 bytes | ███▊  | [Day 05](05), Part 2, Python
 |  151 bytes | ███▊  | [Day 03](03), Part 2, Python (greedy algorithm)
 |  150 bytes | ███▊  | [Day 02](02), Part 2, Python (string maninpulation)
+|  145 bytes | ███▋  | [Day 07](07), Part 1, Python
 |  136 bytes | ███▍  | [Day 05](05), Part 1, Python
 |  131 bytes | ███▎  | [Day 06](06), Part 1, Python (safe)
 |   91 bytes | ██▎   | [Day 01](01), Part 2, Python
@@ -70,3 +76,6 @@
 | <100 ms | ▏     | [Day 06](06), Part 1, Python (safe)
 | <100 ms | ▏     | [Day 06](06), Part 2, Python (using `eval`)
 | <100 ms | ▏     | [Day 06](06), Part 2, Python (safe)
+| <100 ms | ▏     | [Day 07](07), Part 1, Python
+| <100 ms | ▏     | [Day 07](07), Part 2, Python (dictionary)
+| <100 ms | ▏     | [Day 07](07), Part 2, Python (list)

@@ -562,6 +562,9 @@
 |  131 bytes | ▊     | <100 ms | ▏     | [2025, Day 06](2025/06), Part 1, Python (safe)
 |  155 bytes | ▊     | <100 ms | ▏     | [2025, Day 06](2025/06), Part 2, Python (using `eval`)
 |  187 bytes | ▉     | <100 ms | ▏     | [2025, Day 06](2025/06), Part 2, Python (safe)
+|  145 bytes | ▊     | <100 ms | ▏     | [2025, Day 07](2025/07), Part 1, Python
+|  162 bytes | ▉     | <100 ms | ▏     | [2025, Day 07](2025/07), Part 2, Python (dictionary)
+|  155 bytes | ▊     | <100 ms | ▏     | [2025, Day 07](2025/07), Part 2, Python (list)
 
 
 ## Solutions by Size
@@ -978,6 +981,7 @@
 |  165 bytes | ▉     | [2024, Day 25](2024/25), Part 1, Python
 |  164 bytes | ▉     | [2022, Day 10](2022/10), Part 2, Python
 |  163 bytes | ▉     | [2018, Day 08](2018/08), Part 1, Python
+|  162 bytes | ▉     | [2025, Day 07](2025/07), Part 2, Python (dictionary)
 |  161 bytes | ▉     | [2016, Day 02](2016/02), Part 1, Python
 |  160 bytes | ▉     | [2020, Day 04](2020/04), Part 1, Python
 |  159 bytes | ▊     | [2017, Day 12](2017/12), Part 1, Python
@@ -986,6 +990,7 @@
 |  157 bytes | ▊     | [2020, Day 08](2020/08), Part 1, Python
 |  155 bytes | ▊     | [2016, Day 09](2016/09), Part 1, Python
 |  155 bytes | ▊     | [2025, Day 06](2025/06), Part 2, Python (using `eval`)
+|  155 bytes | ▊     | [2025, Day 07](2025/07), Part 2, Python (list)
 |  154 bytes | ▊     | [2017, Day 15](2017/15), Part 1, Python
 |  154 bytes | ▊     | [2023, Day 09](2023/09), Part 1, Python
 |  153 bytes | ▊     | [2022, Day 18](2022/18), Part 1, Python
@@ -1009,6 +1014,7 @@
 |  146 bytes | ▊     | [2016, Day 18](2016/18), Part 1, Python
 |  146 bytes | ▊     | [2019, Day 22](2019/22), Part 1, Python (single card tracing)
 |  145 bytes | ▊     | [2015, Day 25](2015/25), Part 1, Python
+|  145 bytes | ▊     | [2025, Day 07](2025/07), Part 1, Python
 |  144 bytes | ▊     | [2020, Day 02](2020/02), Part 2, Python
 |  144 bytes | ▊     | [2020, Day 09](2020/09), Part 1, Python
 |  143 bytes | ▊     | [2016, Day 03](2016/03), Part 2, Python
@@ -1678,3 +1684,6 @@
 | <100 ms | ▏     | [2025, Day 06](2025/06), Part 1, Python (safe)
 | <100 ms | ▏     | [2025, Day 06](2025/06), Part 2, Python (using `eval`)
 | <100 ms | ▏     | [2025, Day 06](2025/06), Part 2, Python (safe)
+| <100 ms | ▏     | [2025, Day 07](2025/07), Part 1, Python
+| <100 ms | ▏     | [2025, Day 07](2025/07), Part 2, Python (dictionary)
+| <100 ms | ▏     | [2025, Day 07](2025/07), Part 2, Python (list)
