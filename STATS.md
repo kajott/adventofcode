@@ -559,9 +559,9 @@
 |  136 bytes | ▊     | <100 ms | ▏     | [2025, Day 05](2025/05), Part 1, Python
 |  152 bytes | ▊     | <100 ms | ▏     | [2025, Day 05](2025/05), Part 2, Python
 |   89 bytes | ▌     | <100 ms | ▏     | [2025, Day 06](2025/06), Part 1, Python (using `eval`)
-|  146 bytes | ▊     | <100 ms | ▏     | [2025, Day 06](2025/06), Part 1, Python (safe)
+|  131 bytes | ▊     | <100 ms | ▏     | [2025, Day 06](2025/06), Part 1, Python (safe)
 |  155 bytes | ▊     | <100 ms | ▏     | [2025, Day 06](2025/06), Part 2, Python (using `eval`)
-|  202 bytes | █     | <100 ms | ▏     | [2025, Day 06](2025/06), Part 2, Python (safe)
+|  187 bytes | ▉     | <100 ms | ▏     | [2025, Day 06](2025/06), Part 2, Python (safe)
 
 
 ## Solutions by Size
@@ -902,7 +902,6 @@
 |  202 bytes | █     | [2020, Day 07](2020/07), Part 1, Python
 |  202 bytes | █     | [2023, Day 08](2023/08), Part 1, Python
 |  202 bytes | █     | [2024, Day 10](2024/10), Part 2, Python
-|  202 bytes | █     | [2025, Day 06](2025/06), Part 2, Python (safe)
 |  201 bytes | █     | [2018, Day 11](2018/11), Part 1, Python
 |  201 bytes | █     | [2023, Day 14](2023/14), Part 1, Python (string processing)
 |  201 bytes | █     | [2024, Day 17](2024/17), Part 2, Python (puzzle input specific)
@@ -929,6 +928,7 @@
 |  191 bytes | █     | [2023, Day 21](2023/21), Part 1, Python
 |  191 bytes | █     | [2025, Day 03](2025/03), Part 2, Python (DFS+memoization)
 |  189 bytes | █     | [2022, Day 20](2022/20), Part 2, Python (order table)
+|  187 bytes | ▉     | [2025, Day 06](2025/06), Part 2, Python (safe)
 |  186 bytes | ▉     | [2015, Day 09](2015/09), Part 1, Python
 |  186 bytes | ▉     | [2015, Day 09](2015/09), Part 2, Python
 |  186 bytes | ▉     | [2015, Day 12](2015/12), Part 2, Python
@@ -1008,7 +1008,6 @@
 |  147 bytes | ▊     | [2016, Day 15](2016/15), Part 2, Python
 |  146 bytes | ▊     | [2016, Day 18](2016/18), Part 1, Python
 |  146 bytes | ▊     | [2019, Day 22](2019/22), Part 1, Python (single card tracing)
-|  146 bytes | ▊     | [2025, Day 06](2025/06), Part 1, Python (safe)
 |  145 bytes | ▊     | [2015, Day 25](2015/25), Part 1, Python
 |  144 bytes | ▊     | [2020, Day 02](2020/02), Part 2, Python
 |  144 bytes | ▊     | [2020, Day 09](2020/09), Part 1, Python
@@ -1032,6 +1031,7 @@
 |  133 bytes | ▊     | [2020, Day 06](2020/06), Part 2, Python
 |  132 bytes | ▊     | [2017, Day 04](2017/04), Part 2, Python
 |  131 bytes | ▊     | [2016, Day 19](2016/19), Part 1, Python
+|  131 bytes | ▊     | [2025, Day 06](2025/06), Part 1, Python (safe)
 |  130 bytes | ▋     | [2018, Day 21](2018/21), Part 1, Python (host computation)
 |  129 bytes | ▋     | [2018, Day 02](2018/02), Part 1, Python
 |  128 bytes | ▋     | [2015, Day 03](2015/03), Part 2, Python

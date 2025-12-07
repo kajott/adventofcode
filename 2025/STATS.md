@@ -23,9 +23,9 @@
 |  136 bytes | ███▍  | <100 ms | ▏     | [Day 05](05), Part 1, Python
 |  152 bytes | ███▊  | <100 ms | ▏     | [Day 05](05), Part 2, Python
 |   89 bytes | ██▎   | <100 ms | ▏     | [Day 06](06), Part 1, Python (using `eval`)
-|  146 bytes | ███▋  | <100 ms | ▏     | [Day 06](06), Part 1, Python (safe)
+|  131 bytes | ███▎  | <100 ms | ▏     | [Day 06](06), Part 1, Python (safe)
 |  155 bytes | ███▉  | <100 ms | ▏     | [Day 06](06), Part 2, Python (using `eval`)
-|  202 bytes | █████ | <100 ms | ▏     | [Day 06](06), Part 2, Python (safe)
+|  187 bytes | ████▋ | <100 ms | ▏     | [Day 06](06), Part 2, Python (safe)
 
 
 ## Solutions by Size
@@ -33,8 +33,8 @@
 |       Size |       | Year, Day, Part, Solution
 |-----------:|:------|:-------------------------
 |  203 bytes | █████ | [Day 04](04), Part 2, Python
-|  202 bytes | █████ | [Day 06](06), Part 2, Python (safe)
 |  191 bytes | ████▊ | [Day 03](03), Part 2, Python (DFS+memoization)
+|  187 bytes | ████▋ | [Day 06](06), Part 2, Python (safe)
 |  168 bytes | ████▏ | [Day 04](04), Part 1, Python
 |  155 bytes | ███▉  | [Day 06](06), Part 2, Python (using `eval`)
 |  153 bytes | ███▊  | [Day 02](02), Part 2, Python (regular expressions)
@@ -42,8 +42,8 @@
 |  152 bytes | ███▊  | [Day 05](05), Part 2, Python
 |  151 bytes | ███▊  | [Day 03](03), Part 2, Python (greedy algorithm)
 |  150 bytes | ███▊  | [Day 02](02), Part 2, Python (string maninpulation)
-|  146 bytes | ███▋  | [Day 06](06), Part 1, Python (safe)
 |  136 bytes | ███▍  | [Day 05](05), Part 1, Python
+|  131 bytes | ███▎  | [Day 06](06), Part 1, Python (safe)
 |   91 bytes | ██▎   | [Day 01](01), Part 2, Python
 |   91 bytes | ██▎   | [Day 03](03), Part 1, Python (brute force)
 |   89 bytes | ██▎   | [Day 06](06), Part 1, Python (using `eval`)
