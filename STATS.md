@@ -565,8 +565,8 @@
 |  145 bytes | ▊     | <100 ms | ▏     | [2025, Day 07](2025/07), Part 1, Python
 |  162 bytes | ▉     | <100 ms | ▏     | [2025, Day 07](2025/07), Part 2, Python (dictionary)
 |  155 bytes | ▊     | <100 ms | ▏     | [2025, Day 07](2025/07), Part 2, Python (list)
-|  309 bytes | █▌    |  ~1.5 s | █▏    | [2025, Day 08](2025/08), Part 1, Python
-|  270 bytes | █▎    |  ~1.5 s | █▏    | [2025, Day 08](2025/08), Part 2, Python
+|  290 bytes | █▍    |  ~1.5 s | █▏    | [2025, Day 08](2025/08), Part 1, Python
+|  255 bytes | █▎    |  ~1.5 s | █▏    | [2025, Day 08](2025/08), Part 2, Python
 
 
 ## Solutions by Size
@@ -767,7 +767,6 @@
 |  311 bytes | █▌    | [2021, Day 09](2021/09), Part 2, Python (using arbitrary seeds)
 |  310 bytes | █▌    | [2023, Day 11](2023/11), Part 1, Python (duplicating rows and columns)
 |  309 bytes | █▌    | [2017, Day 16](2017/16), Part 2, Python
-|  309 bytes | █▌    | [2025, Day 08](2025/08), Part 1, Python
 |  307 bytes | █▌    | [2023, Day 11](2023/11), Part 1, Python (coordinate translation)
 |  305 bytes | █▌    | [2018, Day 11](2018/11), Part 2, Python (pre-summed matrix)
 |  303 bytes | █▍    | [2017, Day 08](2017/08), Part 2, Python
@@ -786,6 +785,7 @@
 |  291 bytes | █▍    | [2018, Day 03](2018/03), Part 2, Python
 |  290 bytes | █▍    | [2017, Day 20](2017/20), Part 2, Python
 |  290 bytes | █▍    | [2023, Day 15](2023/15), Part 2, Python
+|  290 bytes | █▍    | [2025, Day 08](2025/08), Part 1, Python
 |  289 bytes | █▍    | [2018, Day 12](2018/12), Part 1, Python
 |  287 bytes | █▍    | [2015, Day 13](2015/13), Part 1, Python
 |  286 bytes | █▍    | [2016, Day 17](2016/17), Part 2, Python
@@ -816,7 +816,6 @@
 |  271 bytes | █▎    | [2018, Day 25](2018/25), Part 1, Python
 |  271 bytes | █▎    | [2019, Day 05](2019/05), Part 1, Python
 |  270 bytes | █▎    | [2024, Day 24](2024/24), Part 1, Python
-|  270 bytes | █▎    | [2025, Day 08](2025/08), Part 2, Python
 |  269 bytes | █▎    | [2019, Day 24](2019/24), Part 1, Python
 |  269 bytes | █▎    | [2020, Day 11](2020/11), Part 1, Python (with dictionaries)
 |  268 bytes | █▎    | [2024, Day 12](2024/12), Part 1, Python
@@ -838,6 +837,7 @@
 |  258 bytes | █▎    | [2021, Day 12](2021/12), Part 2, Python
 |  257 bytes | █▎    | [2024, Day 23](2024/23), Part 1, Python
 |  255 bytes | █▎    | [2018, Day 06](2018/06), Part 2, Python
+|  255 bytes | █▎    | [2025, Day 08](2025/08), Part 2, Python
 |  254 bytes | █▎    | [2021, Day 22](2021/22), Part 1, Python
 |  253 bytes | █▎    | [2015, Day 15](2015/15), Part 1, Python
 |  253 bytes | █▎    | [2016, Day 13](2016/13), Part 2, Python
