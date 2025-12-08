@@ -565,6 +565,8 @@
 |  145 bytes | ▊     | <100 ms | ▏     | [2025, Day 07](2025/07), Part 1, Python
 |  162 bytes | ▉     | <100 ms | ▏     | [2025, Day 07](2025/07), Part 2, Python (dictionary)
 |  155 bytes | ▊     | <100 ms | ▏     | [2025, Day 07](2025/07), Part 2, Python (list)
+|  309 bytes | █▌    |  ~1.5 s | █▏    | [2025, Day 08](2025/08), Part 1, Python
+|  270 bytes | █▎    |  ~1.5 s | █▏    | [2025, Day 08](2025/08), Part 2, Python
 
 
 ## Solutions by Size
@@ -765,6 +767,7 @@
 |  311 bytes | █▌    | [2021, Day 09](2021/09), Part 2, Python (using arbitrary seeds)
 |  310 bytes | █▌    | [2023, Day 11](2023/11), Part 1, Python (duplicating rows and columns)
 |  309 bytes | █▌    | [2017, Day 16](2017/16), Part 2, Python
+|  309 bytes | █▌    | [2025, Day 08](2025/08), Part 1, Python
 |  307 bytes | █▌    | [2023, Day 11](2023/11), Part 1, Python (coordinate translation)
 |  305 bytes | █▌    | [2018, Day 11](2018/11), Part 2, Python (pre-summed matrix)
 |  303 bytes | █▍    | [2017, Day 08](2017/08), Part 2, Python
@@ -813,6 +816,7 @@
 |  271 bytes | █▎    | [2018, Day 25](2018/25), Part 1, Python
 |  271 bytes | █▎    | [2019, Day 05](2019/05), Part 1, Python
 |  270 bytes | █▎    | [2024, Day 24](2024/24), Part 1, Python
+|  270 bytes | █▎    | [2025, Day 08](2025/08), Part 2, Python
 |  269 bytes | █▎    | [2019, Day 24](2019/24), Part 1, Python
 |  269 bytes | █▎    | [2020, Day 11](2020/11), Part 1, Python (with dictionaries)
 |  268 bytes | █▎    | [2024, Day 12](2024/12), Part 1, Python
@@ -1260,6 +1264,8 @@
 |  ~1.5 s | █▏    | [2023, Day 17](2023/17), Part 1, Python
 |  ~1.5 s | █▏    | [2024, Day 14](2024/14), Part 2, Python (Unique Positions)
 |  ~1.5 s | █▏    | [2025, Day 02](2025/02), Part 2, Python (regular expressions)
+|  ~1.5 s | █▏    | [2025, Day 08](2025/08), Part 1, Python
+|  ~1.5 s | █▏    | [2025, Day 08](2025/08), Part 2, Python
 |    ~1 s | █     | [2015, Day 15](2015/15), Part 1, Python
 |    ~1 s | █     | [2015, Day 15](2015/15), Part 2, Python
 |    ~1 s | █     | [2015, Day 18](2015/18), Part 1, Python
