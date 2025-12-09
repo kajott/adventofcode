@@ -10,3 +10,4 @@
 |  [6](06) | ★☆☆☆☆ | ★☆☆☆☆      | maths on transposed data
 |  [7](07) | ★★★☆☆ | ★★☆☆☆      | modified Pascal triangle
 |  [8](08) | ★★★☆☆ | ★★★☆☆      | graph coloring
+|  [9](09) | ★★★☆☆ | ★★★★☆      | 2D box-polygon intersection test

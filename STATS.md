@@ -567,6 +567,8 @@
 |  155 bytes | ▊     | <100 ms | ▏     | [2025, Day 07](2025/07), Part 2, Python (list)
 |  290 bytes | █▍    |  ~1.5 s | █▏    | [2025, Day 08](2025/08), Part 1, Python
 |  255 bytes | █▎    |  ~1.5 s | █▏    | [2025, Day 08](2025/08), Part 2, Python
+|  135 bytes | ▊     | <100 ms | ▏     | [2025, Day 09](2025/09), Part 1, Python
+|  343 bytes | █▋    |   ~10 s | █▉    | [2025, Day 09](2025/09), Part 2, Python
 
 
 ## Solutions by Size
@@ -724,6 +726,7 @@
 |  345 bytes | █▋    | [2019, Day 12](2019/12), Part 1, Python
 |  343 bytes | █▋    | [2022, Day 11](2022/11), Part 2, Python
 |  343 bytes | █▋    | [2023, Day 10](2023/10), Part 1, Python
+|  343 bytes | █▋    | [2025, Day 09](2025/09), Part 2, Python
 |  342 bytes | █▋    | [2018, Day 12](2018/12), Part 2, Python
 |  342 bytes | █▋    | [2019, Day 05](2019/05), Part 2, Python
 |  342 bytes | █▋    | [2021, Day 04](2021/04), Part 1, Python
@@ -1037,6 +1040,7 @@
 |  136 bytes | ▊     | [2017, Day 17](2017/17), Part 2, Python (full simulation with circular list)
 |  136 bytes | ▊     | [2025, Day 05](2025/05), Part 1, Python
 |  135 bytes | ▊     | [2018, Day 02](2018/02), Part 2, Python
+|  135 bytes | ▊     | [2025, Day 09](2025/09), Part 1, Python
 |  133 bytes | ▊     | [2015, Day 10](2015/10), Part 2, Python
 |  133 bytes | ▊     | [2020, Day 06](2020/06), Part 2, Python
 |  132 bytes | ▊     | [2017, Day 04](2017/04), Part 2, Python
@@ -1182,6 +1186,7 @@
 |   ~10 s | █▉    | [2024, Day 18](2024/18), Part 2, Python (brute force)
 |   ~10 s | █▉    | [2024, Day 20](2024/20), Part 2, Python
 |   ~10 s | █▉    | [2024, Day 22](2024/22), Part 2, Python
+|   ~10 s | █▉    | [2025, Day 09](2025/09), Part 2, Python
 |    ~8 s | █▊    | [2016, Day 19](2016/19), Part 2, Python
 |    ~8 s | █▊    | [2017, Day 15](2017/15), Part 2, Python
 |  ~7.5 s | █▊    | [2019, Day 10](2019/10), Part 2, Python
@@ -1693,3 +1698,4 @@
 | <100 ms | ▏     | [2025, Day 07](2025/07), Part 1, Python
 | <100 ms | ▏     | [2025, Day 07](2025/07), Part 2, Python (dictionary)
 | <100 ms | ▏     | [2025, Day 07](2025/07), Part 2, Python (list)
+| <100 ms | ▏     | [2025, Day 09](2025/09), Part 1, Python
