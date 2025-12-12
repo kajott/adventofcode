@@ -72,7 +72,7 @@ But this wasn't my initial approach; first I tried with DFS and memoization, but
 
 I also revisited the nice greedy algorithm again later that day and ported it to x86 assembly and DOS, arriving at a 222-byte executable that runs in about 2 seconds on a 1981-era IBM PC 5150.
 
-* Part 1, Python (brute force): 91 bytes, ~200 ms
+* Part 1, Python (brute force): 91 bytes, ~250 ms
 * Part 2, Python (greedy algorithm): 151 bytes, <100 ms
-* Part 2, Python (DFS+memoization): 191 bytes, ~250 ms
-* Parts 1+2, Python (DFS+memoization): 205 bytes, ~250 ms
+* Part 2, Python (DFS+memoization): 191 bytes, ~300 ms
+* Parts 1+2, Python (DFS+memoization): 205 bytes, ~300 ms

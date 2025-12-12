@@ -11,15 +11,15 @@
 |       Size |       | Runtime |       | Year, Day, Part, Solution
 |-----------:|:------|--------:|:------|:-------------------------
 |   83 bytes | ▌     | <100 ms | ▏     | [Day 01](01), Part 1, Python
-|   91 bytes | ▌     | ~100 ms | ▏     | [Day 01](01), Part 2, Python
-|  152 bytes | ▉     |    ~1 s | ██▋   | [Day 02](02), Part 1, Python
-|  153 bytes | ▉     |  ~1.5 s | ███   | [Day 02](02), Part 2, Python (regular expressions)
-|  150 bytes | ▉     | ~500 ms | █▉    | [Day 02](02), Part 2, Python (string maninpulation)
-|   91 bytes | ▌     | ~200 ms | ▉     | [Day 03](03), Part 1, Python (brute force)
+|   91 bytes | ▌     | ~150 ms | ▌     | [Day 01](01), Part 2, Python
+|  152 bytes | ▉     |  ~1.5 s | ██▌   | [Day 02](02), Part 1, Python
+|  153 bytes | ▉     |    ~2 s | ██▊   | [Day 02](02), Part 2, Python (regular expressions)
+|  150 bytes | ▉     | ~800 ms | ██    | [Day 02](02), Part 2, Python (string maninpulation)
+|   91 bytes | ▌     | ~250 ms | █     | [Day 03](03), Part 1, Python (brute force)
 |  151 bytes | ▉     | <100 ms | ▏     | [Day 03](03), Part 2, Python (greedy algorithm)
-|  191 bytes | █     | ~250 ms | █▏    | [Day 03](03), Part 2, Python (DFS+memoization)
+|  191 bytes | █     | ~300 ms | █▏    | [Day 03](03), Part 2, Python (DFS+memoization)
 |  168 bytes | ▉     | <100 ms | ▏     | [Day 04](04), Part 1, Python
-|  203 bytes | █▏    | ~600 ms | ██    | [Day 04](04), Part 2, Python
+|  203 bytes | █▏    | ~700 ms | █▉    | [Day 04](04), Part 2, Python
 |  136 bytes | ▊     | <100 ms | ▏     | [Day 05](05), Part 1, Python
 |  152 bytes | ▉     | <100 ms | ▏     | [Day 05](05), Part 2, Python
 |   89 bytes | ▌     | <100 ms | ▏     | [Day 06](06), Part 1, Python (using `eval`)
@@ -29,13 +29,13 @@
 |  145 bytes | ▊     | <100 ms | ▏     | [Day 07](07), Part 1, Python
 |  162 bytes | ▉     | <100 ms | ▏     | [Day 07](07), Part 2, Python (dictionary)
 |  155 bytes | ▉     | <100 ms | ▏     | [Day 07](07), Part 2, Python (list)
-|  290 bytes | █▌    |  ~1.5 s | ███   | [Day 08](08), Part 1, Python
-|  255 bytes | █▍    |  ~1.5 s | ███   | [Day 08](08), Part 2, Python
+|  290 bytes | █▌    |  ~1.5 s | ██▌   | [Day 08](08), Part 1, Python
+|  255 bytes | █▍    |  ~2.5 s | ███   | [Day 08](08), Part 2, Python
 |  135 bytes | ▊     | <100 ms | ▏     | [Day 09](09), Part 1, Python
-|  343 bytes | █▊    |   ~10 s | █████ | [Day 09](09), Part 2, Python
-|  303 bytes | █▌    | ~150 ms | ▋     | [Day 10](10), Part 1, Python
-|  240 bytes | █▎    | ~300 ms | █▎    | [Day 10](10), Part 2, Python (using SciPy)
-| 1046 bytes | █████ | ~500 ms | █▉    | [Day 10](10), Part 2, Python (handwritten algebra)
+|  343 bytes | █▊    |   ~25 s | █████ | [Day 09](09), Part 2, Python
+|  303 bytes | █▌    | ~400 ms | █▍    | [Day 10](10), Part 1, Python
+|  240 bytes | █▎    | ~600 ms | █▊    | [Day 10](10), Part 2, Python (using SciPy)
+| 1046 bytes | █████ |  ~1.5 s | ██▌   | [Day 10](10), Part 2, Python (handwritten algebra)
 |  131 bytes | ▊     | <100 ms | ▏     | [Day 11](11), Part 1, Python
 |  208 bytes | █▏    | <100 ms | ▏     | [Day 11](11), Part 2, Python (tagging)
 |  247 bytes | █▎    | <100 ms | ▏     | [Day 11](11), Part 2, Python (partial paths)
@@ -82,19 +82,19 @@
 
 | Runtime |       | Year, Day, Part, Solution
 |--------:|:------|:-------------------------
-|   ~10 s | █████ | [Day 09](09), Part 2, Python
-|  ~1.5 s | ███   | [Day 02](02), Part 2, Python (regular expressions)
-|  ~1.5 s | ███   | [Day 08](08), Part 1, Python
-|  ~1.5 s | ███   | [Day 08](08), Part 2, Python
-|    ~1 s | ██▋   | [Day 02](02), Part 1, Python
-| ~600 ms | ██    | [Day 04](04), Part 2, Python
-| ~500 ms | █▉    | [Day 02](02), Part 2, Python (string maninpulation)
-| ~500 ms | █▉    | [Day 10](10), Part 2, Python (handwritten algebra)
-| ~300 ms | █▎    | [Day 10](10), Part 2, Python (using SciPy)
-| ~250 ms | █▏    | [Day 03](03), Part 2, Python (DFS+memoization)
-| ~200 ms | ▉     | [Day 03](03), Part 1, Python (brute force)
-| ~150 ms | ▋     | [Day 10](10), Part 1, Python
-| ~100 ms | ▏     | [Day 01](01), Part 2, Python
+|   ~25 s | █████ | [Day 09](09), Part 2, Python
+|  ~2.5 s | ███   | [Day 08](08), Part 2, Python
+|    ~2 s | ██▊   | [Day 02](02), Part 2, Python (regular expressions)
+|  ~1.5 s | ██▌   | [Day 02](02), Part 1, Python
+|  ~1.5 s | ██▌   | [Day 08](08), Part 1, Python
+|  ~1.5 s | ██▌   | [Day 10](10), Part 2, Python (handwritten algebra)
+| ~800 ms | ██    | [Day 02](02), Part 2, Python (string maninpulation)
+| ~700 ms | █▉    | [Day 04](04), Part 2, Python
+| ~600 ms | █▊    | [Day 10](10), Part 2, Python (using SciPy)
+| ~400 ms | █▍    | [Day 10](10), Part 1, Python
+| ~300 ms | █▏    | [Day 03](03), Part 2, Python (DFS+memoization)
+| ~250 ms | █     | [Day 03](03), Part 1, Python (brute force)
+| ~150 ms | ▌     | [Day 01](01), Part 2, Python
 | <100 ms | ▏     | [Day 01](01), Part 1, Python
 | <100 ms | ▏     | [Day 03](03), Part 2, Python (greedy algorithm)
 | <100 ms | ▏     | [Day 04](04), Part 1, Python

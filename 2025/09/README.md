@@ -178,4 +178,4 @@ Instead, a much more elegant approach is now used that doesn't even start to ras
 The non-golf version runs in 2-3 seconds, but for some reason, CPython 3.13 (which is the version I've been using at the time of writing) is unreasonably slow when running the golf version, even though it's doing basically the same things. I actually spent 16 not strictly necessary bytes to bring runtime down from almost a minute to what I have now. (Remove the `if k<1:break` line and see for yourself.) I've yet to find an explanation for this performance regression, but in the meantime, I take solace in the fact that at least PyPy runs everything in less than a second.
 
 * Part 1, Python: 135 bytes, <100 ms
-* Part 2, Python: 343 bytes, ~10 s
+* Part 2, Python: 343 bytes, ~25 s

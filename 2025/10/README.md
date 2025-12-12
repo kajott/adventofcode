@@ -104,6 +104,6 @@ Each line in the input describes a linear system of integers; most are undercons
 But it still feels like cheating. So I took another three(!) nights to solve the task "properly": a modified Gauss-Jordan algorithm that works on integers transforms the problem matrix into a (probably scaled) identity matrix with 0 to 3 extra columns tacked on at the right side. To resolve those, a simplex search could be used (which is likely what the solver libraries do), or a well-constrained brute force search. Since it's only up to 3 variables, and the ranges can be limited by computing the maximum amount of "button presses" until any of the "joltages" is exceeded, the resulting performance is absolutely fine.
 The code size, however, isn't. It's almost certain that there are algorithmic optimizations with which I could get the size down and probably even break the kilobyte barrier, but since I already invested an inordinate amount of time on this entire endeavour, I didn't poke any further and just edited my non-golf approach down.
 
-* Part 1, Python: 303 bytes, ~150 ms
-* Part 2, Python (using SciPy): 240 bytes, ~300 ms
-* Part 2, Python (handwritten algebra): 1046 bytes, ~500 ms
+* Part 1, Python: 303 bytes, ~400 ms
+* Part 2, Python (using SciPy): 240 bytes, ~600 ms
+* Part 2, Python (handwritten algebra): 1046 bytes, ~1.5 s

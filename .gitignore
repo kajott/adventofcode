@@ -14,3 +14,4 @@ graph.*
 *.OUT
 input*.txt
 !input.txt
+abfall*
