@@ -4,7 +4,7 @@ Just across the hall, you find a large factory. Fortunately, the Elves here have
 
 ## Part 1
 
-The Elves do have the manual for the machines, but the section detailing the initialization procedure was eaten by a [Shiba Inu](https://en.wikipedia.org/wiki/Shiba_Inu). All that remains of the manual are some indicator light diagrams, button wiring schematics, and [joltage](3) requirements for each machine.
+The Elves do have the manual for the machines, but the section detailing the initialization procedure was eaten by a [Shiba Inu](https://en.wikipedia.org/wiki/Shiba_Inu). All that remains of the manual are some indicator light diagrams, button wiring schematics, and [joltage](../03) requirements for each machine.
 
 For example:
 

@@ -10,7 +10,7 @@ You explain your need to get further underground. "Well, you could at least take
 
 ## Part 1
 
-There are batteries nearby that can supply emergency power to the escalator for just such an occasion. The batteries are each labeled with their [joltage](/2020/day/10) rating, a value from `1` to `9`. You make a note of their joltage ratings (your puzzle input). For example:
+There are batteries nearby that can supply emergency power to the escalator for just such an occasion. The batteries are each labeled with their [joltage](../../2020/10) rating, a value from `1` to `9`. You make a note of their joltage ratings (your puzzle input). For example:
 
     987654321111111
     811111111111119
