@@ -569,6 +569,13 @@
 |  255 bytes | █▎    |  ~1.5 s | █▏    | [2025, Day 08](2025/08), Part 2, Python
 |  135 bytes | ▊     | <100 ms | ▏     | [2025, Day 09](2025/09), Part 1, Python
 |  343 bytes | █▋    |   ~10 s | █▉    | [2025, Day 09](2025/09), Part 2, Python
+|  303 bytes | █▍    | ~150 ms | ▎     | [2025, Day 10](2025/10), Part 1, Python
+|  240 bytes | █▏    | ~300 ms | ▌     | [2025, Day 10](2025/10), Part 2, Python (using SciPy)
+| 1046 bytes | ████▋ | ~500 ms | ▊     | [2025, Day 10](2025/10), Part 2, Python (handwritten algebra)
+|  131 bytes | ▊     | <100 ms | ▏     | [2025, Day 11](2025/11), Part 1, Python
+|  208 bytes | █     | <100 ms | ▏     | [2025, Day 11](2025/11), Part 2, Python (tagging)
+|  247 bytes | █▎    | <100 ms | ▏     | [2025, Day 11](2025/11), Part 2, Python (partial paths)
+|  198 bytes | █     | <100 ms | ▏     | [2025, Day 12](2025/12), Part 1, Python
 
 
 ## Solutions by Size
@@ -577,6 +584,7 @@
 |-----------:|:------|:-------------------
 | 1128 bytes | █████ | [2019, Day 17](2019/17), Part 2, Python
 | 1106 bytes | ████▉ | [2019, Day 25](2019/25), Part 1, Python
+| 1046 bytes | ████▋ | [2025, Day 10](2025/10), Part 2, Python (handwritten algebra)
 | 1000 bytes | ████▌ | [2021, Day 23](2021/23), Part 2, Python
 |  982 bytes | ████▍ | [2021, Day 23](2021/23), Part 1, Python
 |  879 bytes | ███▉  | [2020, Day 20](2020/20), Part 2, Python
@@ -774,6 +782,7 @@
 |  305 bytes | █▌    | [2018, Day 11](2018/11), Part 2, Python (pre-summed matrix)
 |  303 bytes | █▍    | [2017, Day 08](2017/08), Part 2, Python
 |  303 bytes | █▍    | [2018, Day 11](2018/11), Part 2, Python (SAT)
+|  303 bytes | █▍    | [2025, Day 10](2025/10), Part 1, Python
 |  299 bytes | █▍    | [2017, Day 17](2017/17), Part 2, C (full simulation with circular list)
 |  298 bytes | █▍    | [2015, Day 13](2015/13), Part 2, Python
 |  297 bytes | █▍    | [2021, Day 16](2021/16), Part 1, Python
@@ -850,6 +859,7 @@
 |  251 bytes | █▎    | [2024, Day 18](2024/18), Part 1, Python
 |  250 bytes | █▎    | [2022, Day 21](2022/21), Part 1, Python
 |  247 bytes | █▎    | [2024, Day 08](2024/08), Part 1, Python
+|  247 bytes | █▎    | [2025, Day 11](2025/11), Part 2, Python (partial paths)
 |  246 bytes | █▎    | [2018, Day 07](2018/07), Part 1, Python
 |  246 bytes | █▎    | [2023, Day 01](2023/01), Part 2, Python
 |  246 bytes | █▎    | [2024, Day 09](2024/09), Part 2, Python (minimum size)
@@ -858,6 +868,7 @@
 |  241 bytes | █▏    | [2022, Day 20](2022/20), Part 1, Python (linked list)
 |  241 bytes | █▏    | [2024, Day 23](2024/23), Part 2, Python
 |  240 bytes | █▏    | [2015, Day 19](2015/19), Part 2, Python (dumb DFS)
+|  240 bytes | █▏    | [2025, Day 10](2025/10), Part 2, Python (using SciPy)
 |  239 bytes | █▏    | [2024, Day 11](2024/11), Part 2, Python (type-and-frequency)
 |  238 bytes | █▏    | [2023, Day 08](2023/08), Part 2, Python
 |  238 bytes | █▏    | [2024, Day 22](2024/22), Part 2, Python
@@ -903,6 +914,7 @@
 |  208 bytes | █     | [2016, Day 07](2016/07), Part 2, Python
 |  208 bytes | █     | [2019, Day 22](2019/22), Part 1, Python (full deck simulation)
 |  208 bytes | █     | [2021, Day 10](2021/10), Part 1, Python
+|  208 bytes | █     | [2025, Day 11](2025/11), Part 2, Python (tagging)
 |  206 bytes | █     | [2024, Day 19](2024/19), Part 2, Python
 |  204 bytes | █     | [2018, Day 09](2018/09), Part 1, Python (array)
 |  204 bytes | █     | [2020, Day 16](2020/16), Part 1, Python
@@ -923,6 +935,7 @@
 |  199 bytes | █     | [2024, Day 05](2024/05), Part 1, Python
 |  198 bytes | █     | [2016, Day 14](2016/14), Part 1, Python
 |  198 bytes | █     | [2024, Day 14](2024/14), Part 1, Python
+|  198 bytes | █     | [2025, Day 12](2025/12), Part 1, Python
 |  197 bytes | █     | [2017, Day 12](2017/12), Part 2, Python
 |  197 bytes | █     | [2018, Day 03](2018/03), Part 1, Python
 |  197 bytes | █     | [2019, Day 02](2019/02), Part 2, Python
@@ -1046,6 +1059,7 @@
 |  132 bytes | ▊     | [2017, Day 04](2017/04), Part 2, Python
 |  131 bytes | ▊     | [2016, Day 19](2016/19), Part 1, Python
 |  131 bytes | ▊     | [2025, Day 06](2025/06), Part 1, Python (safe)
+|  131 bytes | ▊     | [2025, Day 11](2025/11), Part 1, Python
 |  130 bytes | ▋     | [2018, Day 21](2018/21), Part 1, Python (host computation)
 |  129 bytes | ▋     | [2018, Day 02](2018/02), Part 1, Python
 |  128 bytes | ▋     | [2015, Day 03](2015/03), Part 2, Python
@@ -1321,6 +1335,7 @@
 | ~500 ms | ▊     | [2023, Day 14](2023/14), Part 2, Python (string processing)
 | ~500 ms | ▊     | [2024, Day 12](2024/12), Part 1, Python
 | ~500 ms | ▊     | [2025, Day 02](2025/02), Part 2, Python (string maninpulation)
+| ~500 ms | ▊     | [2025, Day 10](2025/10), Part 2, Python (handwritten algebra)
 | ~400 ms | ▋     | [2018, Day 14](2018/14), Part 1, Python
 | ~400 ms | ▋     | [2021, Day 07](2021/07), Part 2, Python
 | ~400 ms | ▋     | [2023, Day 03](2023/03), Part 2, Python (list of spans)
@@ -1343,6 +1358,7 @@
 | ~300 ms | ▌     | [2024, Day 04](2024/04), Part 1, Python
 | ~300 ms | ▌     | [2024, Day 05](2024/05), Part 2, Python
 | ~300 ms | ▌     | [2024, Day 12](2024/12), Part 2, Python
+| ~300 ms | ▌     | [2025, Day 10](2025/10), Part 2, Python (using SciPy)
 | ~250 ms | ▌     | [2019, Day 17](2019/17), Part 1, Python
 | ~250 ms | ▌     | [2020, Day 09](2020/09), Part 2, Python
 | ~250 ms | ▌     | [2021, Day 05](2021/05), Part 2, Python
@@ -1384,6 +1400,7 @@
 | ~150 ms | ▎     | [2023, Day 18](2023/18), Part 1, Python (BFS filling)
 | ~150 ms | ▎     | [2024, Day 05](2024/05), Part 1, Python
 | ~150 ms | ▎     | [2024, Day 15](2024/15), Part 1, Python
+| ~150 ms | ▎     | [2025, Day 10](2025/10), Part 1, Python
 | ~100 ms | ▏     | [2015, Day 09](2015/09), Part 1, Python
 | ~100 ms | ▏     | [2015, Day 09](2015/09), Part 2, Python
 | ~100 ms | ▏     | [2016, Day 17](2016/17), Part 1, Python
@@ -1699,3 +1716,7 @@
 | <100 ms | ▏     | [2025, Day 07](2025/07), Part 2, Python (dictionary)
 | <100 ms | ▏     | [2025, Day 07](2025/07), Part 2, Python (list)
 | <100 ms | ▏     | [2025, Day 09](2025/09), Part 1, Python
+| <100 ms | ▏     | [2025, Day 11](2025/11), Part 1, Python
+| <100 ms | ▏     | [2025, Day 11](2025/11), Part 2, Python (tagging)
+| <100 ms | ▏     | [2025, Day 11](2025/11), Part 2, Python (partial paths)
+| <100 ms | ▏     | [2025, Day 12](2025/12), Part 1, Python
