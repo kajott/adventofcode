@@ -41,6 +41,8 @@ Here are a few more examples:
 
 Given your starting numbers, _what will be the `2020`th number spoken?_
 
+Your puzzle input was `6,4,12,1,20,0,16`.
+
 Your puzzle answer was `475`.
 
 ## Part 2
@@ -56,6 +58,8 @@ Impressed, the Elves issue you a challenge: determine the `30000000`th number sp
 *   Given `3,1,2`, the `30000000`th number spoken is `362`.
 
 Given your starting numbers, _what will be the `30000000`th number spoken?_
+
+Your puzzle input was still `6,4,12,1,20,0,16`.
 
 Your puzzle answer was `11261`.
 

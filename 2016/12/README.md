@@ -44,7 +44,7 @@ If you instead _initialize register `c` to be `1`_, what value is now left in re
 Your puzzle answer was `9227657`.
 
 
-## Solution Note
+## Solution Notes
 
 A simple simulation task that takes quite a lot of time to run, especially for part 2. An experimental transpiler that converts the "assembunny" code into C can compute each part's result in less than 100 milliseconds -- that is, *including* the transpilation and C compilation steps!
 

@@ -67,7 +67,7 @@ _How many non-canceled characters are within the garbage_ in your puzzle input?
 Your puzzle answer was `4322`.
 
 
-## Solution Nots
+## Solution Notes
 
 A rather easy puzzle that can employ regular expressions to do most of the heavy lifting -- so much so, that part 2 is even simpler to do than part 1.
 
