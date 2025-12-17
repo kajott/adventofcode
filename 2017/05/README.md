@@ -1,4 +1,4 @@
-# 2017, Day 5: A Maze of Twisty Trampolines, All Alike
+# [2017, Day 5: A Maze of Twisty Trampolines, All Alike](https://adventofcode.com/2017/day/5)
 
 
 ## Solution Notes

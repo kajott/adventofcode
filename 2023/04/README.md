@@ -1,4 +1,4 @@
-# 2023, Day 4: Scratchcards
+# [2023, Day 4: Scratchcards](https://adventofcode.com/2023/day/4)
 
 
 ## Solution Notes

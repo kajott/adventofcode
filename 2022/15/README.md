@@ -1,4 +1,4 @@
-# 2022, Day 15: Beacon Exclusion Zone
+# [2022, Day 15: Beacon Exclusion Zone](https://adventofcode.com/2022/day/15)
 
 
 ## Solution Notes

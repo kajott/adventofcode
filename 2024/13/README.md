@@ -1,4 +1,4 @@
-# 2024, Day 13: Claw Contraption
+# [2024, Day 13: Claw Contraption](https://adventofcode.com/2024/day/13)
 
 
 ## Solution Notes

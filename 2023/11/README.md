@@ -1,4 +1,4 @@
-# 2023, Day 11: Cosmic Expansion
+# [2023, Day 11: Cosmic Expansion](https://adventofcode.com/2023/day/11)
 
 
 ## Solution Notes

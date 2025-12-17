@@ -1,4 +1,4 @@
-# 2022, Day 10: Cathode-Ray Tube
+# [2022, Day 10: Cathode-Ray Tube](https://adventofcode.com/2022/day/10)
 
 
 ## Solution Notes

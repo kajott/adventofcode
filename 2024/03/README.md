@@ -1,4 +1,4 @@
-# 2024, Day 3: Mull It Over
+# [2024, Day 3: Mull It Over](https://adventofcode.com/2024/day/3)
 
 
 ## Solution Notes

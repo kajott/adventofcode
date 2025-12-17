@@ -1,4 +1,4 @@
-# 2024, Day 4: Ceres Search
+# [2024, Day 4: Ceres Search](https://adventofcode.com/2024/day/4)
 
 
 ## Solution Notes

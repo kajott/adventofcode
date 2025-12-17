@@ -1,4 +1,4 @@
-# 2023, Day 18: Lavaduct Lagoon
+# [2023, Day 18: Lavaduct Lagoon](https://adventofcode.com/2023/day/18)
 
 
 ## Solution Notes

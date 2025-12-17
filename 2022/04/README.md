@@ -1,4 +1,4 @@
-# 2022, Day 4: Camp Cleanup
+# [2022, Day 4: Camp Cleanup](https://adventofcode.com/2022/day/4)
 
 
 ## Solution Notes

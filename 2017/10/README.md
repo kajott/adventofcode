@@ -1,4 +1,4 @@
-# 2017, Day 10: Knot Hash
+# [2017, Day 10: Knot Hash](https://adventofcode.com/2017/day/10)
 
 
 ## Solution Notes

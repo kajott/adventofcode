@@ -1,4 +1,4 @@
-# 2023, Day 22: Sand Slabs
+# [2023, Day 22: Sand Slabs](https://adventofcode.com/2023/day/22)
 
 
 ## Solution Notes

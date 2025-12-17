@@ -1,4 +1,4 @@
-# 2024, Day 19: Linen Layout
+# [2024, Day 19: Linen Layout](https://adventofcode.com/2024/day/19)
 
 
 ## Solution Notes

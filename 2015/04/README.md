@@ -1,4 +1,4 @@
-# 2015, Day 4: The Ideal Stocking Stuffer
+# [2015, Day 4: The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4)
 
 
 ## Solution Notes

@@ -1,4 +1,4 @@
-# 2016, Day 5: How About a Nice Game of Chess?
+# [2016, Day 5: How About a Nice Game of Chess?](https://adventofcode.com/2016/day/5)
 
 
 ## Solution Notes

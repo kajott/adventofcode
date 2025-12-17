@@ -1,4 +1,4 @@
-# 2018, Day 12: Subterranean Sustainability
+# [2018, Day 12: Subterranean Sustainability](https://adventofcode.com/2018/day/12)
 
 
 ## Solution Notes

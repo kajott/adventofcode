@@ -1,4 +1,4 @@
-# 2025, Day 8: Playground
+# [2025, Day 8: Playground](https://adventofcode.com/2025/day/8)
 
 
 ## Solution Notes

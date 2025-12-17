@@ -1,4 +1,4 @@
-# 2020, Day 5: Binary Boarding
+# [2020, Day 5: Binary Boarding](https://adventofcode.com/2020/day/5)
 
 
 ## Solution Notes

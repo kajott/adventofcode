@@ -1,4 +1,4 @@
-# 2016, Day 6: Signals and Noise
+# [2016, Day 6: Signals and Noise](https://adventofcode.com/2016/day/6)
 
 
 ## Solution Notes

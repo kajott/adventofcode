@@ -1,4 +1,4 @@
-# 2016, Day 20: Firewall Rules
+# [2016, Day 20: Firewall Rules](https://adventofcode.com/2016/day/20)
 
 
 ## Solution Notes

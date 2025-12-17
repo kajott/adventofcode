@@ -1,4 +1,4 @@
-# 2024, Day 6: Guard Gallivant
+# [2024, Day 6: Guard Gallivant](https://adventofcode.com/2024/day/6)
 
 
 ## Solution Notes

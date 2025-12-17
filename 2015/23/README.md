@@ -1,4 +1,4 @@
-# 2015, Day 23: Opening the Turing Lock
+# [2015, Day 23: Opening the Turing Lock](https://adventofcode.com/2015/day/23)
 
 
 ## Solution Notes

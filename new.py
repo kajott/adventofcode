@@ -4,11 +4,12 @@ Generate a new daily puzzle directory and populate it with template files.
 """
 import argparse
 import os
+import re
 import sys
 import time
 
 FileTemplates = [
-    ("aoc{year}_{day}_part1.py", r"""
+    ("aoc<%year%>_<%day%>_part1.py", r"""
 # any numbers in the entire file
 import re;N=re.findall(r'\d+',open("input2.txt").read())
 
@@ -28,15 +29,22 @@ E=enumerate;M={x+1j*y:c for y,l in E(open("input2.txt"))for x,c in E(l.strip())}
 for l in open("input2.txt"):
  0
 """.lstrip()),
-    "aoc{year}_{day}_part2.py",
-    ("README.md", """
+
+    "aoc<%year%>_<%day%>_part2.py",
+    ("README.md", """# [<%year%>, Day <%rawday%>](https://adventofcode.com/<%year%>/day/<%rawday%>)
+
 
 ## Solution Notes
 
 """),
-    "input.txt",
+
     "input2.txt",
 ]
+
+
+def apply_template(template: str, data: dict):
+    return re.sub(r'<%([^%]+)%>', lambda m: str(data.get(m.group(1), m.group(1))), template)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
@@ -76,7 +84,8 @@ if __name__ == "__main__":
             day += 1
         else:
             parser.error(f"day directory ('{daydir}') already exists")
-    day = f"{day:02d}"
+    rawday, day = day, f"{day:02d}"
+    data = { 'year': year, 'day': day, 'rawday': rawday }
 
     print("creating directory:", daydir)
     try:
@@ -97,7 +106,7 @@ if __name__ == "__main__":
             filename, contents = filespec, ""
         else:
             filename, contents = filespec
-        filename = filename.format(year=year, day=day)
+        filename = apply_template(filename, data)
         files.append(filename)
         filename = os.path.join(daydir, filename)
         if contents:
@@ -105,7 +114,7 @@ if __name__ == "__main__":
         else:
             print("creating empty file:", filename)
         with open(filename, 'w') as f:
-            f.write(contents)
+            f.write(apply_template(contents, data))
 
     print("done - you may now want to do:")
     print(f"    cd {daydir}")

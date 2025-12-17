@@ -1,4 +1,4 @@
-# 2022, Day 12: Hill Climbing Algorithm
+# [2022, Day 12: Hill Climbing Algorithm](https://adventofcode.com/2022/day/12)
 
 
 ## Solution Notes

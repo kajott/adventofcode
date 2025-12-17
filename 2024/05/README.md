@@ -1,4 +1,4 @@
-# 2024, Day 5: Print Queue
+# [2024, Day 5: Print Queue](https://adventofcode.com/2024/day/5)
 
 
 ## Solution Notes

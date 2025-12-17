@@ -1,4 +1,4 @@
-# 2024, Day 14: Restroom Redoubt
+# [2024, Day 14: Restroom Redoubt](https://adventofcode.com/2024/day/14)
 
 
 ## Solution Notes

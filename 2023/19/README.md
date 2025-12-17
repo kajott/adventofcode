@@ -1,4 +1,4 @@
-# 2023, Day 19: Aplenty
+# [2023, Day 19: Aplenty](https://adventofcode.com/2023/day/19)
 
 
 ## Solution Notes

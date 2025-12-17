@@ -1,4 +1,4 @@
-# 2022, Day 18: Boiling Boulders
+# [2022, Day 18: Boiling Boulders](https://adventofcode.com/2022/day/18)
 
 
 ## Solution Notes

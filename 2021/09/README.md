@@ -1,4 +1,4 @@
-# 2021, Day 9: Smoke Basin
+# [2021, Day 9: Smoke Basin](https://adventofcode.com/2021/day/9)
 
 
 ## Solution Notes

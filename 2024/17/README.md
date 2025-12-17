@@ -1,4 +1,4 @@
-# 2024, Day 17: Chronospatial Computer
+# [2024, Day 17: Chronospatial Computer](https://adventofcode.com/2024/day/17)
 
 
 ## Solution Notes

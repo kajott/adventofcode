@@ -1,4 +1,4 @@
-# 2017, Day 4: High-Entropy Passphrases
+# [2017, Day 4: High-Entropy Passphrases](https://adventofcode.com/2017/day/4)
 
 
 ## Solution Notes

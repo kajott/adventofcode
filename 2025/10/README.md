@@ -1,4 +1,4 @@
-# 2025, Day 10: Factory
+# [2025, Day 10: Factory](https://adventofcode.com/2025/day/10)
 
 
 ## Solution Notes

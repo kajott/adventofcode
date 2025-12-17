@@ -1,4 +1,4 @@
-# 2024, Day 15: Warehouse Woes
+# [2024, Day 15: Warehouse Woes](https://adventofcode.com/2024/day/15)
 
 
 ## Solution Notes

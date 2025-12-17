@@ -1,4 +1,4 @@
-# 2023, Day 9: Mirage Maintenance
+# [2023, Day 9: Mirage Maintenance](https://adventofcode.com/2023/day/9)
 
 
 ## Solution Notes

@@ -1,4 +1,4 @@
-# 2023, Day 6: Wait For It
+# [2023, Day 6: Wait For It](https://adventofcode.com/2023/day/6)
 
 
 ## Solution Notes

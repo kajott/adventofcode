@@ -1,4 +1,4 @@
-# 2025, Day 12: Christmas Tree Farm
+# [2025, Day 12: Christmas Tree Farm](https://adventofcode.com/2025/day/12)
 
 
 ## Solution Notes

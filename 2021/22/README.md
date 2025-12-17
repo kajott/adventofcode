@@ -1,4 +1,4 @@
-# 2021, Day 22: Reactor Reboot
+# [2021, Day 22: Reactor Reboot](https://adventofcode.com/2021/day/22)
 
 
 ## Solution Notes

@@ -1,4 +1,4 @@
-# 2018, Day 9: Marble Mania
+# [2018, Day 9: Marble Mania](https://adventofcode.com/2018/day/9)
 
 
 ## Solution Notes

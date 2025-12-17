@@ -1,4 +1,4 @@
-# 2017, Day 6: Memory Reallocation
+# [2017, Day 6: Memory Reallocation](https://adventofcode.com/2017/day/6)
 
 
 ## Solution Notes

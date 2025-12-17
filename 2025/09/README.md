@@ -1,4 +1,4 @@
-# 2025, Day 9: Movie Theater
+# [2025, Day 9: Movie Theater](https://adventofcode.com/2025/day/9)
 
 
 ## Solution Notes

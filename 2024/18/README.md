@@ -1,4 +1,4 @@
-# 2024, Day 18: RAM Run
+# [2024, Day 18: RAM Run](https://adventofcode.com/2024/day/18)
 
 
 ## Solution Notes

@@ -1,4 +1,4 @@
-# 2021, Day 23: Amphipod
+# [2021, Day 23: Amphipod](https://adventofcode.com/2021/day/23)
 
 
 ## Solution Notes

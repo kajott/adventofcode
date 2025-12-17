@@ -1,4 +1,4 @@
-# 2023 Day 20: Pulse Propagation
+# [2023 Day 20: Pulse Propagation](https://adventofcode.com/2023/day/20)
 
 
 ## Solution Notes

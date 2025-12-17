@@ -1,4 +1,4 @@
-# 2022, Day 9: Rope Bridge
+# [2022, Day 9: Rope Bridge](https://adventofcode.com/2022/day/9)
 
 
 ## Solution Notes

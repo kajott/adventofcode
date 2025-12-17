@@ -1,4 +1,4 @@
-# 2017, Day 7: Recursive Circus
+# [2017, Day 7: Recursive Circus](https://adventofcode.com/2017/day/7)
 
 
 ## Solution Notes

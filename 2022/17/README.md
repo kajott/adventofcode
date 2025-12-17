@@ -1,4 +1,4 @@
-# 2022, Day 17: Pyroclastic Flow
+# [2022, Day 17: Pyroclastic Flow](https://adventofcode.com/2022/day/17)
 
 
 ## Solution Notes
