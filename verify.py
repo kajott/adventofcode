@@ -273,7 +273,6 @@ def get_run_result(file, lines=0, expect=None):
     # summarize
     if res:
         log_error("error running %s with %s: %s" % (file.path, ' '.join(interpreter), res))
-        raise ValueError("meh")
         return 0, size, False
     if len(output) > lines:
         output = output[-lines:]
@@ -292,14 +291,19 @@ def check_dir(root, files):
     if not files:
         return  # directory doesn't contain any relevant files
 
-    # read and parse the README file (search for puzzle answers and solution notes)
-    readme_path = os.path.normpath(os.path.join(root, "README.md"))
-    with open(readme_path, "rb") as f:
-        readme = f.read().decode(encoding='utf-8', errors='replace')
-    answers = re.findall(r'^your puzzle answer was `([^`]+)`', readme, flags=re.I+re.M)
+    # read and parse the TASK file (search for puzzle answers)
+    task_path = os.path.normpath(os.path.join(root, "TASK.md"))
+    with open(task_path, "rb") as f:
+        task = f.read().decode(encoding='utf-8', errors='replace')
+    answers = re.findall(r'^your puzzle answer was `([^`]+)`', task, flags=re.I+re.M)
     if not answers:
         log_warning("directory '%s' doesn't contain any puzzle answers, ignoring" % root)
         return
+
+    # read and parse the README file (search for solution notes)
+    readme_path = os.path.normpath(os.path.join(root, "README.md"))
+    with open(readme_path, "rb") as f:
+        readme = f.read().decode(encoding='utf-8', errors='replace')
     notes = SolutionNote.findall(readme, readme_path)
     create = False
     if not(notes):

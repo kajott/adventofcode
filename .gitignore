@@ -13,5 +13,6 @@ graph.*
 *.lst
 *.OUT
 input*.txt
-!input.txt
+TASK.md
 abfall*
+aoc_private.zip
