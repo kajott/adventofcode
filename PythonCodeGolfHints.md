@@ -20,11 +20,11 @@ On the other hand, if an expression is long enough, it should get its own variab
 
 ## Embrace functional programming
 
-One of the things that make Python such a useful language is the combination of imperative, object-oriented and functional approaches. This can also be used to great effect when golfing; generator expressions, list comprehensions, `map`/`filter`/`reduce`, `sorted`/`enumerate`, `min`/`max`/`sum` and `any`/`all` are very useful tools!
+One of the things that make Python such a useful language is the combination of imperative, object-oriented and functional approaches. This can also be used to great effect when golfing; generator expressions, list comprehensions, `map`/`filter`/`functools.reduce`, `sorted`/`enumerate`, `min`/`max`/`sum`/`math.prod` and `any`/`all` are very useful tools!
 
 Some experimentation is needed: Sometimes `map` is the right way to do things, sometimes an equivalent list comprehension is shorter. <br>
 `filter` is rarely worthwile, because unless the filter condition is just a function call with no parameters other than the value in question, the combination `filter(lambda x:[...],D)` is longer than `[x for x in D if [...]]`. <br>
-For similar reasons, `reduce` is only worthwile when there's actually a (non-trivial) reduction function or the number of items isn't known beforehand. For example, to compute the product of numbers in a list, `reduce(lambda a,b:a*b,X)` is only shorter if there's an unknown or too large number of items; for up to five items, `a,b,c,d,e=X;a*b*c*d*e` is shorter.
+For similar reasons, `reduce` is only worthwile if the `functools` module is imported anyway, **and** when there's actually a (non-trivial) reduction function or the number of items isn't known beforehand.
 
 
 
@@ -186,10 +186,11 @@ There's no denying that the `defaultdict` class in the `collections` module is g
 
 ## But do use `functools.cache`
 
+
 There are also counterexamples where relying on a library function can be shorter. For a depth-first search with memoization,
 
-    import functools as F
-    @F.cache
+    from functools import*
+    @cache
     def D(x,y,z):
      return [...]
 
@@ -284,12 +285,6 @@ They are immutable and can thus be used as keys in dictionaries and sets. Don't 
 
 
 
-## Use the `translate` string method
-
-When parsing inputs, it's sometimes useful to clean certain characters first. For a single character, `x.replace(',','')`  is fine, but starting from two characters `x.translate(None,",.")` is shorter.
-
-
-
 ## Use dictionaries as sets
 
 If a sets is only used for inserting elements and checking element presence with the `in` operator and not any of the other set operations (`|`, `&`, `-`), it's better to use a dictionary instead:
@@ -318,3 +313,17 @@ If the initial values of these variables don't depend on the parameters and are 
      [...]
 
 This only really saves space if it eliminates an entire line of code though.
+
+
+
+## Use assignment expressions
+
+Since around version 3.9, Python allows assigning variables as part of an expression. This can turn constructs like
+
+    a=F(x);b=G(a);c=a*b
+
+into a much shorter
+
+    c=G(a:=F(x))*a
+
+There are limits though: Python does not (yet?) allow assignment expressions to be used inside the `for` part of list comprehensions.
