@@ -1,5 +1,11 @@
 # [2023, Day 8: Haunted Wasteland](https://adventofcode.com/2023/day/8)
 
+The input consists of (typically) 750 assignments of a random three-letter node identifier to two other node identifiers, plus a sequence of (typically) 280 left/right directions. The sequence is cyclic, i.e. it is to be interpreted as if it repeats infinitely.
+
+**Part 1** asks for the number of steps between a specific starting node, following the left/right instruction sequence to choose the next node at any junction, until it arrives at a specific stop node.
+
+**Part 2** asks for the number of steps when starting at a certain set of nodes _simultaneously_ and following the sequence until *all* simultaneous iterations arrive at a certain set of stop nodes.
+
 
 ## Solution Notes
 

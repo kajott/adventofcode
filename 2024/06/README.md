@@ -1,5 +1,13 @@
 # [2024, Day 6: Guard Gallivant](https://adventofcode.com/2024/day/6)
 
+The input consists of a (typically) 130x130 grid, sparsely populated with obstacles and a starting position and direction of a "guard".
+
+The guard moves by taking a step forward if it can, and otherwise take a 90-degree right turn.
+
+**Part 1** asks how many different spots of the grid are visited by the guard before leaving the grid.
+
+**Part 2** asks how many different positions could be chosen for an additional obstacle that would put the guard on a looping path.
+
 
 ## Solution Notes
 

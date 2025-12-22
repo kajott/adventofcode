@@ -1,5 +1,11 @@
 # [2023, Day 14: Parabolic Reflector Dish](https://adventofcode.com/2023/day/14)
 
+The input consists of a (typically) 100x100 grid, populated with two types of objects, movable and stationary.
+
+**Part 1** asks for the positions of the movable objects after they have been moves as far upwards as possible, until they hit the edge or a stationary object.
+
+**Part 2** asks for the positions of the movable objects after a billion "cycles", each consisting of moving the objects all the way up, then left, then down, then right.
+
 
 ## Solution Notes
 

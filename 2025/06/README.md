@@ -1,5 +1,11 @@
 # [2025, Day 6: Trash Compactor](https://adventofcode.com/2025/day/6)
 
+The input consists of (typically) four lines of (typically) 1000 numbers of 1 to 4 digits with whitespace inbetween, plus an additional line with either plus signs (`+`) or stars (`*`). The numbers and signs are aligned to form full columns.
+
+**Part 1** asks for the results of the additions or multiplication of each **column**.
+
+**Part 2** changes the interpretation of the numbers themselves to be column-oriented, i.e. each operand to the addition or multiplication is itself spread out over the four lines.
+
 
 ## Solution Notes
 

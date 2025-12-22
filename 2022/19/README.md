@@ -1,5 +1,13 @@
 # [2022, Day 19: Not Enough Minerals](https://adventofcode.com/2022/day/19)
 
+The input consists of (typically) 30 "blueprints". Each blueprint describes the resource costs for four types of "robots": *Ore* robots cost some ore, *clay* robots cost some ore, *obsidian* robots cost some ore and some clay, *geode* robots cost some ore and some obsidian.
+
+Each robot produces one item of its resource type per time unit. A scenario starts with 1 ore robot and nothing else. At each time step, existing resources can be used to build another robot of some type, which will then start producing its type of resources in the following time step. Only one robot can be built per time step. There can be any number of robots.
+
+**Part 1** asks for the highest number of geodes that's possible to produce with each blueprint in 24 timesteps.
+
+**Part 2** asks for the highest number of geodes that's possible to produce with the first three blueprints in **32** timesteps.
+
 
 ## Solution Notes
 

@@ -1,5 +1,13 @@
 # [2020, Day 10: Adapter Array](https://adventofcode.com/2020/day/10)
 
+The input consists of (typically) 100 1-to-3-digit numbers.
+
+A valid sequence of numbers is defined as starting with 0, ending with the maximum of all numbers in the input plus 3, and with every number inbetween being one from the input, and being 1 to 3 higher than its predecessor.
+
+**Part 1** asks to arrange _all_ numbers of the input into a valid sequence, and gather statistics of how often each increment appears in the sequence.
+
+**Part 2** asks how many valid sequences there can be.
+
 
 ## Solution Notes
 

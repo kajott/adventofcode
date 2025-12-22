@@ -1,5 +1,11 @@
 # [2019, Day 4: Secure Container](https://adventofcode.com/2019/day/4)
 
+The input consists of a single range of 6-digit numbers. Withing this range, numbers shall be searched that have any digit repeating at least twice in succession, and that have all digits in monotonically increasing order.
+
+**Part 1** asks for the total count of numbers that fulfill these criteria.
+
+**Part 2** asks the same, but with the repeating digit rule changed from "at least two repetitions" to "exactly two repetitions".
+
 
 ## Solution Notes
 

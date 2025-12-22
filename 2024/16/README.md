@@ -1,5 +1,13 @@
 # [2024, Day 16: Reindeer Maze](https://adventofcode.com/2024/day/16)
 
+The input consists of a (typically) 140x140 maze with each cell containing a wall or walkable space, and two marked positions "Start" and "End".
+
+While traversing the maze, taking a 90-degree turn is 1000 times as costly as moving one step forward.
+
+**Part 1** asks for the lowest possible cost for a path through the maze. There are multiple different possible lowest-cost paths; only the cost itself is requested.
+
+**Part 2** asks how many cells are occupied by _any_ of the lowest-cost paths.
+
 
 ## Solution Notes
 

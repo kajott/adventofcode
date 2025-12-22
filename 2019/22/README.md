@@ -1,5 +1,16 @@
 # [2019, Day 22: Slam Shuffle](https://adventofcode.com/2019/day/22)
 
+The input consists of (typically) 100 instructions of how to shuffle a deck of initially ordered numbered cards.
+
+There are three different shuffling instructions:
+- `deal into new stack`: reverse the card order
+- `cut N`: move `N` cards from to top to the bottom of the deck if `N` is positive, or from the bottom to the top if `N` is negative
+- `deal with increment N`: re-arrange cards such that the card at index `i` in the stack is mapped to index `i*N` modulo the number of cards
+
+**Part 1** asks for the position of card number 2019 after one round of shuffling a 10007-card deck with all the instructions from the input.
+
+**Part 2** asks for the position of card number 2020 after 101,741,582,076,661 rounds of shuffling a deck of 119,315,717,514,047 cards.
+
 
 ## Solution Notes
 

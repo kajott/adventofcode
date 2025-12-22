@@ -1,5 +1,11 @@
 # [2023, Day 12: Hot Springs](https://adventofcode.com/2023/day/12)
 
+The input consists of (typically) 1000 lines, each containing a pattern of 10-20 characters, consisting of dots (`.`), hashes (`#`) and question marks (`?`), and a list of 2-6 single-digit numbers. The numbers describe contiguous runs of hash characters (with at least one dot inbetween) if the question marks were "resolved".
+
+**Part 1** asks for how many possible solutions there are for each line.
+
+**Part 2** asks the same, but the patterns and numbers are repeated five times, with an extra `?` inserted between pattern repetitions.
+
 
 ## Solution Notes
 

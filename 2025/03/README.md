@@ -1,5 +1,11 @@
 # [2025, Day 3: Lobby](https://adventofcode.com/2025/day/3)
 
+The input consists of many strings of digits, with lengths of (typically) 100 digits per string.
+
+**Part 1** asks for the maximum number that can be formed from each string by picking two digits, _without_ re-arranging the digits.
+
+**Part 2** is the same, but with a selection of **12** digits per input string.
+
 
 ## Solution Notes
 

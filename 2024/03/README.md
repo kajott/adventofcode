@@ -1,5 +1,11 @@
 # [2024, Day 3: Mull It Over](https://adventofcode.com/2024/day/3)
 
+The input consists of (typically) 20 kB of gibberish containing fragments of apparent computer code, 3-digit numbers and random symbols inbetween.
+
+**Part 1** asks to find instances of `mul(A,B)` "instructions", with `A` and `B` being numbers.
+
+**Part 2** is the same, but it specifies that matches between `don't()` and `do()` shall be ignored.
+
 
 ## Solution Notes
 

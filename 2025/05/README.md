@@ -1,5 +1,11 @@
 # [2025, Day 5: Cafeteria](https://adventofcode.com/2025/day/5)
 
+The input consists of (typically) 180 ranges of 15-digit numbers, and (typically) 1000 more 15-digit numbers.
+
+**Part 1** asks how many of the single numbers are located within any of the ranges.
+
+**Part 2** asks for the total size of all ranges, not counting any overlaps.
+
 
 ## Solution Notes
 

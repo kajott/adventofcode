@@ -1,5 +1,11 @@
 # [2020, Day 17: Conway Cubes](https://adventofcode.com/2020/day/17)
 
+The input consists of a (typically) 8x8 binary grid.
+
+**Part 1** asks to simulate 6 generations of Conway's Game of Life, but extended to **3** dimensions. The rules are the same, except that instead of a 8-cell 2D neighborhood, a 26-cell 3D neighborhood is evaluated.
+
+**Part 1** asks to simulate 6 generations of Conway's Game of Life, but extended to **4** dimensions by the same principle.
+
 
 ## Solution Notes
 

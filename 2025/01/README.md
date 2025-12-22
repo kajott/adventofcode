@@ -1,5 +1,11 @@
 # [2025, Day 1: Secret Entrance](https://adventofcode.com/2025/day/1)
 
+The task simulates a rotary dial with 100 positions (0...99), starting at position 50. The input contains (typically) several thousand rotation commands like `L42`, `R1234` etc.
+
+**Part 1** asks how often the dial stops at position 0 after a rotation.
+
+**Part 2** asks how often the dial reaches position 0 at *any* point in time (including _during_ a rotation).
+
 
 ## Solution Notes
 

@@ -1,5 +1,13 @@
 # [2023, Day 17: Clumsy Crucible](https://adventofcode.com/2023/day/17)
 
+The input consists of a (typically) 140x140 grid of digits that specify the cost of traversing each cell. The goal is to go from the upper-left corner to the lower-right corner of the grid.
+
+Motion is restricted: Backwards motion is not allowed, and after going three steps in any direction, a 90-degree turn must be made.
+
+**Part 1** asks for the lowest-cost path through the grid.
+
+**Part 2** asks the same, but changes the motion criteria: between two 90-degree turns, between 4 and 10 steps must be made into the current direction.
+
 
 ## Solution Notes
 

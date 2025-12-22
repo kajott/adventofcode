@@ -1,5 +1,13 @@
 # [2021, Day 23: Amphipod](https://adventofcode.com/2021/day/23)
 
+The task is about a simulation of objects moving around on a small maze-like map that consists of an 11-cell long (initially empty) hallway with four side rooms attached at cells 3, 5, 7 and 9. These side rooms are 2 cells deep; each initially contains two objects identified by letters `A` to `D` (the input).
+
+Objects can be moved in any cardinal direction, but with different costs per step: `A` has a cost of 1, `B` 10, `C` 100 and `D` 1000. The goal is to re-arrange the objects such that the first room contains all `A`s, the second room all `B`s, etc. There are several restrictions to object movement; in essence, objects may only move into the hallway once and then go to their destination room. Objects also must not block the hallway entrance.
+
+**Part 1** asks for the minimum cost to reach the goal.
+
+**Part 2** asks the same, but it increases the size of the rooms to 4 and populates them with a fixed set of 4x2 new objects.
+
 
 ## Solution Notes
 

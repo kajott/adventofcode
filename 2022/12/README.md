@@ -1,5 +1,13 @@
 # [2022, Day 12: Hill Climbing Algorithm](https://adventofcode.com/2022/day/12)
 
+The input consists of a (typically) 80x40 grid of letters `a` to `z`, describing the heightmap, and two marked positions for start and end.
+
+The traversal rules are that with every time step, the player can move in any of the four cardinal directions, but only if the target height is at most one higher than the current height.
+
+**Part 1** asks for the length of the shortest path from start to end,
+
+**Part 2** asks for the length of the shortest path from **any** point with lowest elevation (`a`) to the end.
+
 
 ## Solution Notes
 

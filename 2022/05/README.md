@@ -1,5 +1,13 @@
 # [2022, Day 5: Supply Stacks](https://adventofcode.com/2022/day/5)
 
+The input consists of a description of the initial state of (typically) 9 stacks, each containing 3-8 objects named by a single letter each. In addition, there are (typically) 500 instructions about how many objects to move from which stack to which other stack.
+
+Even though multiple objects can be moved in a single instruction, the objects are still moved one after the other, i.e. they will arrive at their destination in reversed order.
+
+**Part 1** asks for the object names at the top of each stack after the instructions have been executed.
+
+**Part 2** asks the same, but this time, multiple objects do **not** reverse their order while being moved.
+
 
 ## Solution Notes
 

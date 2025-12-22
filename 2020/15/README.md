@@ -1,5 +1,13 @@
 # [2020, Day 15: Rambunctious Recitation](https://adventofcode.com/2020/day/15)
 
+The input consists of (typically) 7 1-to-2-digit numbers.
+
+The list of numbers is extended by one item at a time using the following rule: The last number in the list is examined. If this is the only occurrence of that number in the list, a zero is appended. Otherwise, the difference in index between the last two occurrences is appended.
+
+**Part 1** asks for the 2020th number.
+
+**Part 2** asks for the number at index 30 million.
+
 
 ## Solution Notes
 

@@ -1,5 +1,11 @@
 # [2023, Day 22: Sand Slabs](https://adventofcode.com/2023/day/22)
 
+The input consists of (typically) 1250 pairs of 3D coordinates (single-digit for X and Y, 3-digit for Z) that describe cuboid objects in space. The objects are falling down onto the Z=0 plane, one step at the time, until they come to a rest.
+
+**Part 1** asks for how many of the objects could be removed without causing any other bricks to fall down further.
+
+**Part 2** asks, for every object, how many other objects would continue falling down if it was removed.
+
 
 ## Solution Notes
 

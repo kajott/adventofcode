@@ -1,5 +1,11 @@
 # [2020, Day 5: Binary Boarding](https://adventofcode.com/2020/day/5)
 
+The input consists of (typically) 900 strings of 10 letters, which are described as a fancy encoding of a binary address.
+
+**Part 1** asks for the highest such address in the input.
+
+**Part 2** asks for an address that does _not_ appear in the input, but its predecessor and successors do.
+
 
 ## Solution Notes
 

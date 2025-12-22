@@ -1,5 +1,17 @@
 # [2019, Day 19: Tractor Beam](https://adventofcode.com/2019/day/19)
 
+This puzzle uses the Intcode virtual machine that has been fully specified in [day 9](../09), and which is going to be used a lot during AoC 2019.
+
+The input for this task consists of an Intcode core dump of (typically) 420 words.
+
+The program asks for a 2D coordinate via two input instructions and reports whether the corresponding grid cell is marked or not. Coordinates are all positive.
+
+The puzzle description hints at the regular shape of the expected "image": Only the area between two lines starting at the origin is marked.
+
+**Part 1** asks for the number of marked cells in the first 50x50 square.
+
+**Part 2** asks for the coordinates of the fully marked 100x100 square closest to the origin.
+
 
 ## Solution Notes
 

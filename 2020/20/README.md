@@ -1,5 +1,15 @@
 # [2020, Day 20: Jurassic Jigsaw](https://adventofcode.com/2020/day/20)
 
+The input consists of (typically) 144 "puzzle tiles", each identified by a 4-digit number and described as a (typically) 10x10 binary grid.
+
+Tiles can be rotated and flipped.
+
+The cells around the edge of a tile overlap, i.e. a fitting tile has exactly the same pattern on its edge as the tile that it fits into. The edges themselves are not even part of the "image" that the puzzle shows and can be removed after assembly.
+
+**Part 1** asks for the IDs of the corner tiles.
+
+**Part 2** asks to find a specific 2D pattern in the assembled puzzle.
+
 
 ## Solution Notes
 

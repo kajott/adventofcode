@@ -1,5 +1,11 @@
 # [2022, Day 3: Rucksack Reorganization](https://adventofcode.com/2022/day/3)
 
+The input consists of (typically) 300 strings of 16 to 48 mixed-case characters.
+
+**Part 1** asks, for each input string, which character appears in both halves of the string.
+
+**Part 2** asks for the common character in each triplet of input strings.
+
 
 ## Solution Notes
 

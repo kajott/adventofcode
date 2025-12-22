@@ -1,5 +1,11 @@
 # [2023, Day 24: Never Tell Me The Odds](https://adventofcode.com/2023/day/24)
 
+The input consists of (typically) 300 3D positions (15-digit) and velocities (1-to-3-digit, signed) of objects that move with constant linear velocity.
+
+**Part 1** asks for how many of these objects would collide within a defined 2D area, disregarding the Z coordinate completely, at some point in time.
+
+**Part 2** asks for the position (not velocity) of an additional object that would eventually collide with **all** other objects at some point in time, in full 3D, without coordinate range constraints.
+
 
 ## Solution Notes
 

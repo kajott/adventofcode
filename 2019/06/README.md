@@ -1,5 +1,11 @@
 # [2019, Day 6: Universal Orbit Map](https://adventofcode.com/2019/day/6)
 
+The input describes a graph of (typically) 2200 edges. Nodes have random 3-letter alphanumeric names.
+
+**Part 1** asks for the sum of path lengths between each node and one specific common node.
+
+**Part 2** asks for the path lengths between two other specific nodes.
+
 
 ## Solution Notes
 

@@ -1,5 +1,13 @@
 # [2025, Day 8: Playground](https://adventofcode.com/2025/day/8)
 
+The input consists of (typically) 1000 5-digit 3D coordinates.
+
+The points described by these coordinates are to be pairwise connected together into clusters, ordered by the distance of the points in a pair in ascending Euclidean metric.
+
+**Part 1** asks for the sizes of the three largest clusters after joining the closest 1000 pairs of points.
+
+**Part 2** asks to continue joining pairs until all points belong to the same cluster.
+
 
 ## Solution Notes
 

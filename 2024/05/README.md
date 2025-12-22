@@ -1,5 +1,13 @@
 # [2024, Day 5: Print Queue](https://adventofcode.com/2024/day/5)
 
+The input consists of (typically) 1200 pairs of 2-digit numbers and (typically) 180 lists of (typically) 5 to 23 such 2-digit numbers.
+
+The 2-digit numbers are task numbers, and the initial input of the task specifies constraints on which tasks need to be complete before which other task. The lists of numbers specify the order in which tasks shall be processed.
+
+**Part 1** asks which of the task lists are correctly fulfilling the constraints.
+
+**Part 2** asks to correct the task order in the lists that do **not** fulfill the constraints.
+
 
 ## Solution Notes
 

@@ -1,5 +1,13 @@
 # [2021, Day 22: Reactor Reboot](https://adventofcode.com/2021/day/22)
 
+The input consists of (typically) 420 lines that describe an axis-aligned cuboid in 3D space, along with an "on" or "off" marker. Coordinates are signed. For the first 20 lines, they are in the 1-to-2-digit range; for the rest of the file, they are in the 5-digit range.
+
+The goal is to run through all the lines and consider all cells within a cuboid as on or off as indicated.
+
+**Part 1** asks for how many cells are on at the end, in a 100^3 subcube of the entire space.
+
+**Part 2** asks the same, but without any coordinate range restrictions.
+
 
 ## Solution Notes
 

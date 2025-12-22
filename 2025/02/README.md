@@ -1,5 +1,11 @@
 # [2025, Day 2: Gift Shop](https://adventofcode.com/2025/day/2)
 
+The input consists of several ranges of numbers with 2 to 10 digits, and (typically) few to a few thousand numbers in each range.
+
+In **part 1**, these ranges shall be searched for numbers that consist of some string of digits repeated twice, e.g. `123123`, but _not_ `1231234` (because of the extra digit at the end).
+
+In **part 2**, these ranges shall be searched for numbers that consist of some string of digits repeated an arbitrary amount of times, e.g. `121212`, but not `1212123`.
+
 
 ## Solution Notes
 

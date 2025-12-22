@@ -1,5 +1,13 @@
 # [2020, Day 11: Seating System](https://adventofcode.com/2020/day/11)
 
+The input consists of a (typically) 100x90 grid, populated with obstacles. Each cell in the grid can either be empty space, be "occupied", or contain an obstacle.
+
+At each time step, empty space with no occupied neighbors in horizontal, vertical or diagonal direction becomes occupied, and occupied space with 4 or more occupied neighbors become empty again. Otherwise, nothing changes.
+
+**Part 1** asks to run this simulation until the grid stabilizes.
+
+**Part 2** asks the same, but the neighborhood rules change such that they ignore any run of obstacles in the 8 directions.
+
 
 ## Solution Notes
 

@@ -1,5 +1,11 @@
 # [2022, Day 15: Beacon Exclusion Zone](https://adventofcode.com/2022/day/15)
 
+The input consists of (typically) 25 pairs of a "sensor" and a "beacon" each, both represented by signed 7-digit 2D coordinates. Around each sensor, there is a diamond-shaped zone that touches its associated beacon; in that zone, no other beacon can be located. (In other words, there's no beacon that's closer to a sensor's associated beacon in Manhattan metric.)
+
+**Part 1** asks for the number of positions that can not contain a beacon at a specific row of the map.
+
+**Part 2** asks for the one position in a certain rectangular region of the map where a beacon could be located that's not associated to any sensor.
+
 
 ## Solution Notes
 

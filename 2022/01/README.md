@@ -1,5 +1,11 @@
 # [2022, Day 1: Calorie Counting](https://adventofcode.com/2022/day/1)
 
+The input consists of (typically) 250 lists of 1 to 15 4-to-5-digit numbers.
+
+**Part 1** asks for the maximum element sum of all lists.
+
+**Part 2** asks for the maximum alement sum of the top-3 lists.
+
 
 ## Solution Notes
 

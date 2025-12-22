@@ -1,5 +1,13 @@
 # [2021, Day 4: Giant Squid](https://adventofcode.com/2021/day/4)
 
+The input consists of (typically) 100 5x5 grids of 1-to-2-digit numbers representing Bingo cards, and (typically) 100 such numbers representing the order in which numbers are drawn.
+
+The Bingo rules are simplified: diagonals don't count.
+
+**Part 1** asks which Bingo card is the first to win.
+
+**Part 2** asks which Bingo card is the _last_ to win anything.
+
 
 ## Solution Notes
 

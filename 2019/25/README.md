@@ -1,5 +1,15 @@
 # [2019, Day 25: Cryostasis](https://adventofcode.com/2019/day/25)
 
+This puzzle uses the Intcode virtual machine that has been fully specified in [day 9](../09), and which has been used a lot during AoC 2019.
+
+The input for this task consists of an Intcode core dump of (typically) 4780 words.
+
+The program runs a simple text adventure game, expecting commands like `north`/`south`/`east`/`west`, `take` objects, `drop` objects, or list the inventory (`inv`).
+
+The descriptions of what to do inside the game are deliberately vague: The player is on a space ship and has to pick up certain objects to pass through a weight sensor; after that, a password will be revealed.
+
+The task asks for this password.
+
 
 ## Solution Notes
 

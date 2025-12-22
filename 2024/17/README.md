@@ -1,5 +1,13 @@
 # [2024, Day 17: Chronospatial Computer](https://adventofcode.com/2024/day/17)
 
+The task describes a simple virtual machine with 3 registers, 8 different instructions, and 8 addressing modes for some of the instructions. One of the instructions can be used to output a register value modulo 8.
+
+The input consists of a short program of (typically) 16 instructions and initial register values.
+
+**Part 1** asks for the output after a run of the program.
+
+**Part 2** asks for the initial value of one of the registers that is needed so the program outputs a copy of itself.
+
 
 ## Solution Notes
 

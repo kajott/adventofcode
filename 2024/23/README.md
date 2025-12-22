@@ -1,5 +1,11 @@
 # [2024, Day 23: LAN Party](https://adventofcode.com/2024/day/23)
 
+The input descibes an acyclic graph with (typically) 3500 edges.
+
+**Part 1** asks how many sets of three mutually connected nodes are in the graph.
+
+**Part 2** asks for the largest set of connected nodes.
+
 
 ## Solution Notes
 

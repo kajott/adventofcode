@@ -1,5 +1,13 @@
 # [2022, Day 9: Rope Bridge](https://adventofcode.com/2022/day/9)
 
+The input consists of a sequence of (tyically) 2000 move instructions in any of the four cardinal directions, each associated with a length between 1 and 19.
+
+These instructions are to be played back for the head of a simulated rope. The _tail_ of the rope always needs to follow the head. It can be at the same location as the head or any of its 8 neighbor cells, but not farther away. If it is, its position is readjusted to the the closest of the 4 neighbors of the head in cardinal directions.
+
+**Part 1** asks for how many distinct cells the tail touches while the head performs the motions described in the input.
+
+**Part 2** asks the same, but now there's not just one head and one tail, but eight additional segments inbetween, and each segment follows the previous segment with the same rules as in part 1.
+
 
 ## Solution Notes
 

@@ -1,5 +1,11 @@
 # [2024, Day 9: Disk Fragmenter](https://adventofcode.com/2024/day/9)
 
+The input consists of a (typically) 10,000-digit string that signifies the layout of files on a hypothetical disk volume. Every other digit specifies the size of a file in blocks, and the digits inbetween specify how much space is between the blocks.
+
+**Part 1** asks for the disk layout after moving blocks from the end into the gaps between files, allowing the moved files to be fragmented.
+
+**Part 2** is the same, except that entire files must be moved, not just individual blocks.
+
 
 ## Solution Notes
 

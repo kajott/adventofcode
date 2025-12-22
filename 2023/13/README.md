@@ -1,5 +1,11 @@
 # [2023, Day 13: Point of Incidence](https://adventofcode.com/2023/day/13)
 
+The input consists of (typically) 100 2D grids of varying sizes between 7 and 17 rows and columns, densely populated with objects.
+
+**Part 1** asks to find a horizontal or vertical symmetry axis in all of the grids.
+
+**Part 2** asks the same, but considering an "off by one" error where an object has to be inserted or removed at exactly one place before checking for symmetry.
+
 
 ## Solution Notes
 

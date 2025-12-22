@@ -1,5 +1,11 @@
 # [2021, Day 15: Chiton](https://adventofcode.com/2021/day/15)
 
+The input consists of a (typically) 100x100 grid of digits 1 to 9. A path is to be found from the upper-left corner to the lower-right corner.
+
+**Part 1** asks for the lowest possible sum of a path through the grid.
+
+**Part 2** asks the same, but the grid is repeated 5 times to the right and to the bottom, with each extra copy having its digits increased by 1, wrapping 9 over to 1.
+
 
 ## Solution Notes
 

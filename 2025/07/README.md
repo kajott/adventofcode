@@ -1,5 +1,13 @@
 # [2025, Day 7: Laboratories](https://adventofcode.com/2025/day/7)
 
+The input consists of a (typically) 140x140 grid, sparsely populated by the letter `S` near the center of the first line and several caret (`^`) signs in a triangular shape in the lines beneath.
+
+The idea is that a "beam" of light starts at the `S` position and moves downwards. Each time it hits a splitter (`^`), it is split into two beams left and right of the splitter.
+
+**Part 1** asks how many times the beam hits a splitter while going down the grid.
+
+**Part 2** asks how many different paths a beam could take through the grid, in total.
+
 
 ## Solution Notes
 

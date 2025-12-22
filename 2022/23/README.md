@@ -1,5 +1,13 @@
 # [2022, Day 23: Unstable Diffusion](https://adventofcode.com/2022/day/23)
 
+The input consists of a (typically) 70x70 grid, densely populated with objects ("elves").
+
+In each time step, each elf first determines where to go next. If it doesn't have any neighbors in the 8 surrounding cells, it stays put. Otherwise, it moves up if all three vertical and diagonal neighbor cells above it are free, down if all three neighbor cells below it are free, left if the left neighbors are free, or right if there are no right neighbors. The order of precedence is up>down>left>right initially, but rotates by one item with each time step. Each elf only executes on its movement if they are the only elf trying to go to the destination cell; otherwise, they keep their position.
+
+**Part 1** asks to simulate 10 time steps.
+
+**Part 2** asks for the number of time steps until no elf moves any more.
+
 
 ## Solution Notes
 

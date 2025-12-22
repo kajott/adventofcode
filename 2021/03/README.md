@@ -1,5 +1,11 @@
 # [2021, Day 3: Binary Diagnostic](https://adventofcode.com/2021/day/3)
 
+The input consists of (typically) 1000 12-bit binary strings.
+
+**Part 1** asks to perform a majority and minority vote for each bit position.
+
+For **part 2**, the majority and minority votes are supposed to be performed at the first bit (MSB) and all non-matching numbers shall be discarded before advancing to the next lower bit, until only one number is left.
+
 
 ## Solution Notes
 

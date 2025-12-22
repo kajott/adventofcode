@@ -1,5 +1,11 @@
 # [2021, Day 1: Sonar Sweep](https://adventofcode.com/2021/day/1)
 
+The input consists of (typically) 2000 3-to-4-digit numbers, roughly (but not strictly) ordered by value.
+
+**Part 1** asks how many numbers were actually greater than their predecessors.
+
+**Part 2** asks the same, but not on the numbers themselves, but a three-number sliding average,
+
 
 ## Solution Notes
 

@@ -1,5 +1,11 @@
 # [2023, Day 3: Gear Ratios](https://adventofcode.com/2023/day/3)
 
+The input consists of a (typically) 140x140 grid, sparsely populated with three-digit numbers (spanning 3 horizontally adjacent grid cells) and several types of single-cell symbols.
+
+**Part 1** asks for of all numbers that are horizontally, vertically or diagonally directly adjacent to any of the symbols.
+
+**Part 1** asks for all numbers that are adjacent to one _specific_ type of symbol, and only if that symbol has exactly two such adjacent numbers.
+
 
 ## Solution Notes
 

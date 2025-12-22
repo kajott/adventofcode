@@ -1,5 +1,11 @@
 # [2024, Day 14: Restroom Redoubt](https://adventofcode.com/2024/day/14)
 
+The input consists of (typically) 500 2D position + velocity pairs for objects on a 101x103 grid. Objects change their position by their velocity vector in each time step, with coordinate wrap-around on both axes.
+
+**Part 1** asks for a very specific variance-like metric of the object positions after 100 time steps.
+
+**Part 2** asks for the time step when the objects form the image of a Christmas tree the first time.
+
 
 ## Solution Notes
 

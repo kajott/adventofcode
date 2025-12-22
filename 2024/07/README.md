@@ -1,5 +1,11 @@
 # [2024, Day 7: Bridge Repair](https://adventofcode.com/2024/day/7)
 
+The input consists of (typically) 850 "equations", each consisting of 5 to 12 single-digit to 3-digit numbers and a 4-to-12-digit result.
+
+**Part 1** asks how which equations can be made true by performing additions or multiplications between the numbers, disregarding operator precedent.
+
+**Part 2** asks the same, but with a third possible operator: number-as-string concatenation.
+
 
 ## Solution Notes
 

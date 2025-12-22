@@ -1,5 +1,11 @@
 # [2021, Day 10: Syntax Scoring](https://adventofcode.com/2021/day/10)
 
+The input consists of (typically) 110 lines of 90-110 random brackets of various types (`(`/`)`, `[`/`]`, `{`/`}`, `<`/`>`). The brackets never match properly, there are always glitches: The line may be truncated, and/or closing brackets may not match the correct opening brace type.
+
+**Part 1** asks to find the first invalid closing bracket, if any, in each line.
+
+**Part 2** asks to complete the incomplete lines.
+
 
 ## Solution Notes
 

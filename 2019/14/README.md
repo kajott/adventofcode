@@ -1,5 +1,11 @@
 # [2019, Day 14: Space Stoichiometry](https://adventofcode.com/2019/day/14)
 
+The input consists of (typically) 60 pseudo-chemical reaction equations, with up to 8 resources ("chemicals") with 1-to-2-digit numbers on the left, and a single resource with a 1-digit number on the right side. Resources are identified by random 5-letter strings. There's one specific resource that can be used to synthesize all others (indirectly), and one specific resource that is the production goal.
+
+**Part 1** asks for the minimum amount of the input resource to produce one item of the output resource.
+
+**Part 2** asks for the maximum amount of the output resource that can be produced with 10^12 items of the input resource.
+
 
 ## Solution Notes
 

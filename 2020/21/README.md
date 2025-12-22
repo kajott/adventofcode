@@ -1,5 +1,13 @@
 # [2020, Day 21: Allergen Assessment](https://adventofcode.com/2020/day/21)
 
+The input consists of (typically) 30 lines, each with ca. 10 random 4-to-9-letter words ("ingredients"), plus "allergen" information in plain English (e.g. `contains fish, peanuts, eggs`). The allergen lists are incomplete: there may be additional allergens in each line.
+
+The task is to find out which random word corresponds to which plain-English allergen.
+
+**Part 1** asks how many ingredients are _not_ allergens.
+
+**Part 2** asks for the mapping of the English allergen names to their random-letter-word counterparts.
+
 
 ## Solution Notes
 

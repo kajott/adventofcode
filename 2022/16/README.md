@@ -1,5 +1,13 @@
 # [2022, Day 16: Proboscidea Volcanium](https://adventofcode.com/2022/day/16)
 
+The input consists of the specifications of (typically) 50 "valves" with random 2-letter identifiers. Each valve has a "flow rate" (a number between 0 and 25) and a list of other valves that can be reached from it. The goal is to maximize the flow rate in a certain time frame.
+
+The player starts at valve `AA`. At each time step, they can either open the valve they are currently located at, or move to one of the connected valves. After a valve has been opened, it contributes its flow rate to the total with each following time step.
+
+**Part 1** asks for the maximum reachable total flow after 30 time steps.
+
+**Part 1** asks for the maximum reachable total flow after 26 time steps if there are **two** players.
+
 
 ## Solution Notes
 

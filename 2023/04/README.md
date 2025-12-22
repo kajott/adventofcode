@@ -1,5 +1,11 @@
 # [2023, Day 4: Scratchcards](https://adventofcode.com/2023/day/4)
 
+The input consists of (typically) 225 "cards" with 10 1-to-2-digit "winning" numbers on one side and another 25 such "drawn" numbers on the other.
+
+**Part 1** asks for how many of the drawn numbers are in the set of winning numbers for each card.
+
+For **part 2**, the rules are changed: if the are N matches in card K, additional copies of cards K+1 to K+N are created that can then, in turn, win additional cards. The task asks for the total number of cards in the stack after all these duplications.
+
 
 ## Solution Notes
 

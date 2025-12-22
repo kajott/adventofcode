@@ -1,5 +1,11 @@
 # [2023, Day 5: If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5)
 
+The input consists of (typically) 20 10-digit numbers of "seed IDs" and seven maps that map IDs from one namespace to the next. Each map consists of (typically) 10-50 triples of IDs. These triples specify a source ID range (start + length pair) and a destination starting ID.
+
+**Part 1** asks for the minimum ID in the final namespace when mapping the seed IDs.
+
+**Part 2** asks the same, but the seed IDs are interpreted as start + length pairs of entire ID ranges.
+
 
 ## Solution Notes
 

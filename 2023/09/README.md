@@ -1,5 +1,11 @@
 # [2023, Day 9: Mirage Maintenance](https://adventofcode.com/2023/day/9)
 
+The input consists of (typically) 200 series of (typically) 21 signed numbers in the 1-to-8-digit range.
+
+**Part 1** asks to extrapolate an extra value at the end of each series by performing repeated pairwise differentiation and, once all differences are zero, integration to construct the extra value.
+
+**Part 2** asks to extrapolate an extra value at the _beginning_ of each series with the same approach.
+
 
 ## Solution Notes
 

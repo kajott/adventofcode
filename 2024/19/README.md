@@ -1,5 +1,11 @@
 # [2024, Day 19: Linen Layout](https://adventofcode.com/2024/day/19)
 
+The input consists of (typically) 400 strings of (typically) 40 to 60 characters, and a list of (typically) 450 shorter substrings of (typically) 2 to 8 characters.
+
+**Part 1** asks how many of the long strings can be built by concatenating any number of the short strings and no other letters.
+
+**Part 2** asks, for each of the longer strings, how many different arrangements of the shorter strings can be used to create each the longer string.
+
 
 ## Solution Notes
 

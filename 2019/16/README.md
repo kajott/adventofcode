@@ -1,5 +1,13 @@
 # [2019, Day 16: Flawed Frequency Transmission](https://adventofcode.com/2019/day/16)
 
+The input consists of a single (typically) 650-digit string, the "signal".
+
+The task calls for repeated application of a matrix-vector multiplication modulo 10. The matrix is constructed by using the sequence `0 1 0 -1` and repeating it as often as required to fit the input. In addition, each item is repeated as many times as the row number indicates, i.e. in the second row, the sequence is `0 0 1 1 0 0 -1 -1`, in the third it's `0 0 0 1 1 1 0 0 0 -1 -1 -1` etc. The final matrix is constructed by removing the very first instance of the initial `0` from that sequence.
+
+**Part 1** asks for the first 8 digits of the result after applying this transform 100 times.
+
+For **part 2**, the input message is repeated 10,000 times. The tasks asks for an 8-digit excerpt at the result at some 7-digit offset (which is actually the first few digits of the input), again after applying the transform 100 times.
+
 
 ## Solution Notes
 

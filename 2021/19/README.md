@@ -1,5 +1,13 @@
 # [2021, Day 19: Beacon Scanner](https://adventofcode.com/2021/day/19)
 
+The input consists of (typically) 25 relative signed 3-digit 3D coordinates of "beacons" detected by each of (typically) 30 "scanners", i.e. the scanner is at the origin of the coordinate system for each beacon list. Scanners don't detect each other. Scanners (and their corresponding beacon coordinate systems) can also be rotated in any combination of axes in 90-degree steps.
+
+The goal is to assemble the entire map. If two scanners are close enough to each other, they will receive 12 of the same beacons.
+
+**Part 1** asks for the total number of beacons in the map.
+
+**Part 2** akss for the largest distance between any two scanners.
+
 
 ## Solution Notes
 

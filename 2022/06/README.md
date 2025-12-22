@@ -1,5 +1,11 @@
 # [2022, Day 6: Tuning Trouble](https://adventofcode.com/2022/day/6)
 
+The input consists of a (typically) 4096-bytestring of random lowercase characters.
+
+**Part 1** asks for the first position of a 4-character substring that doesn't contain any repeated characters in it.
+
+**Part 2** asks the same, but for a substring of **14** characters.
+
 
 ## Solution Notes
 

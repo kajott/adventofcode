@@ -1,5 +1,11 @@
 # [2022, Day 21: Monkey Math](https://adventofcode.com/2022/day/21)
 
+The input consists of (typically) 2880 lines of assignments to variables with random 4-letter names. In each line, a variable is assigned either a constant 1-to-2 digit number, or a sum, difference, product or quotient of two other variables.
+
+**Part 1** asks for the result of a specific variable.
+
+For **part 2**, the operator of that specific variable is changed to "check for equality". The task is to determine the value of another specific variable such that the equality check passes.
+
 
 ## Solution Notes
 

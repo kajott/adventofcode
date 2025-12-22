@@ -1,5 +1,11 @@
 # [2021, Day 9: Smoke Basin](https://adventofcode.com/2021/day/9)
 
+The input consists of a (typically) 100x100 grid of digits.
+
+**Part 1** asks to find all local minima, i.e. all cells that are less than the surrounding cells in the four cardinal directions.
+
+**Part 1** asks for the sizes of the three largest areas that are delimited by 9's.
+
 
 ## Solution Notes
 

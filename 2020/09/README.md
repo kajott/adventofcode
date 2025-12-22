@@ -1,5 +1,13 @@
 # [2020, Day 9: Encoding Error](https://adventofcode.com/2020/day/9)
 
+The input consists of (typically) 1000 numbers, starting at 1 to 2 digits, and growing in magnitude up to 14 digits.
+
+The numbers are supposed to form a sequence where every number should be the sum of any two other numbers in the 25 slots preceding it.
+
+**Part 1** asks for the first number in the sequence that does _not_ follow this constraint.
+
+**Part 2** asks to find a continuous run of numbers in the sequence that sums up to the number found in part 1.
+
 
 ## Solution Notes
 

@@ -1,5 +1,13 @@
 # [2024, Day 22: Monkey Market](https://adventofcode.com/2024/day/22)
 
+The input contains (typically) 2400 24-bit numbers.
+
+A PRNG / hash function is defined that maps a 24-bit number to another.
+
+**Part 1** asks to run the PRNG function 2000 times on each of the input numbers (seeds).
+
+In **part 2**, only the last (decimal) digit of the number sequences play a role, and in particular the _deltas_ between successive iterations. The task is to find the sequence of four deltas that maximizes the last digit of the PRNG sequence at the point right before the delta sequence, across all seeds.
+
 
 ## Solution Notes
 

@@ -1,5 +1,15 @@
 # [2019, Day 13: Care Package](https://adventofcode.com/2019/day/13)
 
+This puzzle uses the Intcode virtual machine that has been fully specified in [day 9](../09), and which is going to be used a lot during AoC 2019.
+
+The input for this task consists of an Intcode core dump of (typically) 2200 words.
+
+The program simulates a Breakout-like game, using output instructions to draw sprites onto a virtual screen with a coarse grid. Each draw command consists of three outputs: X coordinate, Y coordinate and sprite ID. Five sprites are defined: empty (0), fixed wall (1), destructible block (2), paddle (3), ball (4). If the coordinate is X=-1 Y=0, a score is sent instead of the sprite ID.
+
+**Part 1** asks to run the unmodified program, which draws the initial screen and exits, and count the block tiles (sprite ID 2).
+
+For **part 2**, a memory location needs to be modified to enable the actual game simulation. Afterwards, the program also accepts input, specifically relative motion instructions for the paddle (-1/0/+1). The task asks for the score after the last block has been successfully removed.
+
 
 ## Solution Notes
 

@@ -1,5 +1,15 @@
 # [2024, Day 21: Keypad Conundrum](https://adventofcode.com/2024/day/21)
 
+The task simulates a keypad with ten number buttons, an Enter button, and a forbidden position in a 3x4 grid. The input contains (typically) 5 3-digit numbers (plus Enter) that shall be entered into this keypad.
+
+The keypad may not be used directly, but only with a "cursor" that can be moved in the four cardinal directions plus a "press key" command.
+
+This cursor, in turn, is controlled by _another_ 3x2-grid keypad, containing the four direction buttons, an Enter button, and a forbidden position.
+
+The cursor may not be moved over the forbidden position.
+
+**Parts 1 and 2** ask for the shortest possible sequence to enter the requested numbers in an arrangement of a numeric keypad controlled by **3** and **25** levels of nested directional keypads, respectively.
+
 
 ## Solution Notes
 

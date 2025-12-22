@@ -1,5 +1,13 @@
 # [2019, Day 12: The N-Body Problem](https://adventofcode.com/2019/day/12)
 
+The input consists of four signed 1-to-2-digit 3D coordinates. These are the initial positions of objects whose initial velocity is zero.
+
+With each time step, velocities are updated and finally added to the positions. The velocity update step considers every pair of objects and each X/Y/Z axis and changes velocities by +/- 1 such that the objects are pulled closer together. For pairs of objects that have the same position on an axis, velocity isn't changed for that axis.
+
+**Part 1** asks to simulate the system for 1000 time steps.
+
+**Part 2** asks after how many time steps the entire system loops.
+
 
 ## Solution Notes
 

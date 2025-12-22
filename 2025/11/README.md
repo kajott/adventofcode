@@ -1,5 +1,11 @@
 # [2025, Day 11: Reactor](https://adventofcode.com/2025/day/11)
 
+The input describes a directed graph of (typically) 600 nodes with random 3-letter identifiers. Each node is connected to 2 to 10 other nodes.
+
+**Part 1** asks for the number of different paths from one specific node to another.
+
+**Part 2** asks the same, but going through two other specific nodes, in any order.
+
 
 ## Solution Notes
 

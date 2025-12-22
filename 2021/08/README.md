@@ -1,5 +1,13 @@
 # [2021, Day 8: Seven Segment Search](https://adventofcode.com/2021/day/8)
 
+The input consists of (typically) 200 lines, each consisting of 10 "signal patterns" and 4 "output digits", each consisting of 2 to 7 letters between `a` and `g`, in random order.
+
+The "signal patterns" correspond to the seven segments of a classical digital numeric display, except that the segment assignments are randomized per input line. The "output digits" denote which segments light up to form a 4-digit number.
+
+**Part 1** asks how often the digits 1, 4, 7 and 8 are appearing in the output.
+
+**Part 2** asks to fully decode the four displayed digits for each line.
+
 
 ## Solution Notes
 

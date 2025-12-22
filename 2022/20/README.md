@@ -1,5 +1,11 @@
 # [2022, Day 20: Grove Positioning System](https://adventofcode.com/2022/day/20)
 
+The input consists of (typically) 5000 signed 4-digit numbers. The numbers specify how many spots that number shall move to the left or right in the (cyclic) list in one time step.
+
+**Part 1** asks to simulate one such time step.
+
+**Part 2** asks to simulate 10 time steps, with each number in the input multiplied by some large constant first.
+
 
 ## Solution Notes
 

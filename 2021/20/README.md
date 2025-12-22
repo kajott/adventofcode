@@ -1,5 +1,11 @@
 # [2021, Day 20: Trench Map](https://adventofcode.com/2021/day/20)
 
+The input consists of a 512-element binary map and a (typically) 100x100 grid, densely populated with objects.
+
+At each time step, the presence or absence of an object in any spot of the grid is defined by looking at the 3x3 neighborhood of each cell, encoding the presence or absence of an object in each of the 9 cells into a number, and using that as an index into the binary map.
+
+**Parts 1 and 2** ask to simulate 2 and 50 time steps, respectively.
+
 
 ## Solution Notes
 

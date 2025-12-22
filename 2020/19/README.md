@@ -1,5 +1,11 @@
 # [2020, Day 19: Monster Messages](https://adventofcode.com/2020/day/19)
 
+The input consists of (typically) 420 binary strings of length 24 to 88, plus a set of (typically) 130 matching rules, identified by a number. Each rule can either be a single-digit binary literal, a concatenation of two other rules, or a choice of _two_ concatenations of other rules.
+
+**Part 1** asks which of the strings match a specific rule.
+
+**Part 2** asks the same, but it replaces two existing rules by new ones. Both new rules are OR rules, however the second option is a single other rule in one case, and a concatenation of _three_ other rules in the other case.
+
 
 ## Solution Notes
 

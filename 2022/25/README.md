@@ -1,5 +1,9 @@
 # [2022, Day 25: Full of Hot Air](https://adventofcode.com/2022/day/25)
 
+The input consists of (typically) 135 numbers of 2 to 19 digits in balanced quinary, i.e. each digit can have the values -2 / -1 / 0 / +1 / +2.
+
+The tasks asks for adding all the numbers and outputting them in balanced quinary again.
+
 
 ## Solution Notes
 

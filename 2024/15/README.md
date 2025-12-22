@@ -1,5 +1,13 @@
 # [2024, Day 15: Warehouse Woes](https://adventofcode.com/2024/day/15)
 
+A [Sokoban](https://en.wikipedia.org/wiki/Sokoban) simulation on a (typically) 50x50 grid with fixed (unmoveable) and moveable obstacles, and a player starting position. Moveable obstacles, also multiple in a row or column, can be pushed.
+
+The input consists of the initial state of the grid, and a sequence of (typically) 20,000 move instructions in the four cardinal directions.
+
+**Part 1** asks for the positions of the moveable obstacles after the move instructions have been executed.
+
+**Part 2** is the same, but with the maze extended to double width (but not height). Fixed obstacles and free cells are duplicated, and movable obstacles are turned into two inseparable halves.
+
 
 ## Solution Notes
 

@@ -1,5 +1,9 @@
 # [2023, Day 25: Snowverload](https://adventofcode.com/2023/day/25)
 
+The input consists of (typically) 1200 lines with the names of 2 to 7 nodes in an undirected graph. The names are random 3-letter identifiers.
+
+The nodes form a graph consisting of two large clusters, connected together by just three edges. The task is to find these and determine the sizes of the large clusters.
+
 
 ## Solution Notes
 

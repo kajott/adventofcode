@@ -1,5 +1,11 @@
 # [2023, Day 23: A Long Walk](https://adventofcode.com/2023/day/23)
 
+The input consists of a (typically) 140x140 maze with each cell containing a wall or walkable space. There is an entry in the lop-left corner and an exit in the bottom-right corner. A few walkable spaces are marked with constraints that allow traversal in left-to-right or bottom-to-top direction only.
+
+**Part 1** asks for the **longest** path through the maze that doesn't visit any cell twice.
+
+**Part 2** asks the same, but now disregarding the direction constraints.
+
 
 ## Solution Notes
 

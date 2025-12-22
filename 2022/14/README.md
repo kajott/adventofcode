@@ -1,5 +1,13 @@
 # [2022, Day 14: Regolith Reservoir](https://adventofcode.com/2022/day/14)
 
+The input consists of (typically) 140 polygons of 2 to 27 2-to-3-digit 2D coordinates. All lines in the polygons are either horizontal or vertical. Together, they define fixed obstacles in a 2D map.
+
+The task is about simulating falling sand. Sand moves downwards if it can, down-right if it can't, down-left if even that path is blocked, and comes to rest if can go nowhere else.
+
+**Part 1** asks how many units of sand come to rest before the first unit of sand starts running off the bottom of the map.
+
+**Part 2** introduces a floor at a fixed height and asks how many units of sand come to rest until a certain point in the map is occupied by resting sand.
+
 
 ## Solution Notes
 

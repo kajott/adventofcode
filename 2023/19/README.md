@@ -1,5 +1,11 @@
 # [2023, Day 19: Aplenty](https://adventofcode.com/2023/day/19)
 
+The input consists of a (typically) 200 4D 2-to-4-digit coordinates and a list of (typically) 550 named processing rules. Each rule contains a list of comparisons, and a fallback rule that shall be used if none of the comparisons matched. Each comparison compares one of the coordinates against a constant and continues to some other rule if the result is true. There is one specially-named rule where processing starts. Two special pseudo-rules terminate the comparison process with an "accept" or "reject" result.
+
+**Part 1** asks which of the coordinates would be accepted after running the comparison process.
+
+**Part 2** asks for the volume of the 4D hypercuboid that would be accepted.
+
 
 ## Solution Notes
 

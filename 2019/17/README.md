@@ -1,5 +1,17 @@
 # [2019, Day 17: Set and Forget](https://adventofcode.com/2019/day/17)
 
+This puzzle uses the Intcode virtual machine that has been fully specified in [day 9](../09), and which is going to be used a lot during AoC 2019.
+
+The input for this task consists of an Intcode core dump of (typically) 1450 words.
+
+The program generates an ASCII map of a single self-intersecting path on a (typically) 50x40 grid,
+
+**Part 1** asks to identify all intersections in that path.
+
+The objective of **part 2** is to provide the program with instructions to walk the entire path from start to end. Individual Instructions can be either `L` or `R` for turns, or a number for moving forwards; multiple instructions are joined with commas. However, the instructions can be at most 20 characters long. To overcome this limitation, subsequences of (again, at most 20) characters can be stored into three subprograms `A`, `B` and `C`, which can then be called from the main program like any normal instruction.
+
+**Part 2** asks for the result produced by the Intcode program after successfully walking the entire path.
+
 
 ## Solution Notes
 

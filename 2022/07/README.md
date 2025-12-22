@@ -1,5 +1,11 @@
 # [2022, Day 7: No Space Left On Device](https://adventofcode.com/2022/day/7)
 
+The input consists of a (typically) 1000-line trace of a terminal session on a UNIX-like system. The only commands that occur are `cd ..`, `cd` with some single directory name, and `ls`. The output of `ls` only lists file names and sizes; subdirectories are listed as `dir` instead of a size. File and directory names are random character sequences following the 8.3 scheme.
+
+**Part 1** asks for all directories with a total size of less than some fixed threshold.
+
+**Part 2** asks for the smallest directory with a total size _above_ some threshold.
+
 
 ## Solution Notes
 

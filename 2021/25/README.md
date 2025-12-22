@@ -1,5 +1,11 @@
 # [2021, Day 25: Sea Cucumber](https://adventofcode.com/2021/day/25)
 
+The input consists of a (typically) 140x140 grid, densely populated with objects ("sea cucumbers") moving either right (`>`) or down (`v`).
+
+With each time step, all right-moving objects move first, followed by all downwards-moving objects. Objects wrap around the grid edges on both axes. If an object's target cell is occupied, it stays put.
+
+The task asks for home many time steps it takes until all objects are deadlocked and won't move any longer.
+
 
 ## Solution Notes
 

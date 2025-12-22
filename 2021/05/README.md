@@ -1,5 +1,11 @@
 # [2021, Day 5: Hydrothermal Venture](https://adventofcode.com/2021/day/5)
 
+The input consists of (typically) 500 pairs of 2-to-3-digit 2D coordinates, describing lines.
+
+**Part 1** asks for the number of places where at least two lines overlap, while ignoring all lines that aren't purely horizontal or vertical.
+
+**Part 2** asks the same, but for *all* lines in the input, which includes lines at 45-degree angles.
+
 
 ## Solution Notes
 

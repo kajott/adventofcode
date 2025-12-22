@@ -1,5 +1,13 @@
 # [2024, Day 11: Plutonian Pebbles](https://adventofcode.com/2024/day/11)
 
+The input consists of (typically) 8 numbers between 0 and 9999999.
+
+An operation is specified that describes how the numbers shall be changed, or occasionally even split into two numbers.
+
+**Part 1** asks for the length of the list of numbers after 25 iterations of the operation.
+
+**Part 2** asks for the length of the list after **75** iterations.
+
 
 ## Solution Notes
 

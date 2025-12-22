@@ -1,5 +1,13 @@
 # [2025, Day 9: Movie Theater](https://adventofcode.com/2025/day/9)
 
+The input consists of (typically) 500 5-digit 2D coordinates.
+
+**Part 1** asks for the maximum area of a rectangle that's defined by a pair of these coordinates.
+
+For part 2, it is revealed that the coordinates actually describe a polygon consisting of only vertical and horizontal edges.
+
+**Part 2** also asks for the maximum area of a rectangle defined by any two of the points, except that the rectangle must be fully contained within the polygon.
+
 
 ## Solution Notes
 

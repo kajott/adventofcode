@@ -1,5 +1,11 @@
 # [2021, Day 24: Arithmetic Logic Unit](https://adventofcode.com/2021/day/24)
 
+The input consists of (typically) 250 instructions of a virtual machine with four registers and six instructions: 2-operand addition, multiplication, division and modulo, 2-operand comparison for equality (writes 0 or 1 into the target register), 1-operand input. All destination operands are registers, all source operands are either registers or signed immediates.
+
+The program in the input is described as checking a 14-digit number (provided digit by digit via 14 input instructions) and leaving a zero in some specific register at the end if the check passed.
+
+**Parts 1 and 2** ask for the highest and lowest numbers that pass the check, respectively.
+
 
 ## Solution Notes
 

@@ -1,5 +1,11 @@
 # [2024, Day 2: Red-Nosed Reports](https://adventofcode.com/2024/day/2)
 
+The input consists of (typically) 1000 lists of 5 to 8 numbers of 1 or 2 digits each.
+
+**Part 1** asks how many of the lists are either strictly monotonically decreasing or increasing, **and** only have deltas of 1 to 3 between adjacent numbers.
+
+**Part 2** relaxes the definition and also allows lists that fulfull **part 1**'s constraints if any of the constituent numbers is removed from the list.
+
 
 ## Solution Notes
 

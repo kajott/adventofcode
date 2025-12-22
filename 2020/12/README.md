@@ -1,5 +1,11 @@
 # [2020, Day 12: Rain Risk](https://adventofcode.com/2020/day/12)
 
+The input consists of (typically) 790 motion instructions, each consisting of a direction and a 1-to-3-digit distance. The directions can be to rotate left or right in 90-degree steps and moving forward, but they can _also_ be direct motion in any of the four cardinal directions, not changing the heading of the player.
+
+**Part 1** asks for the player position after executing the instructions.
+
+**Part 2** asks the same, but this time, not the player itself is controlled by the instructions, but a direction vector that's always relative to the player position. Cardinal direction motion only modifies the vector, rotation rotates the vector around the current player position, and the "forward" direction actually moves the player by the vector, multiplied by the distance.
+
 
 ## Solution Notes
 

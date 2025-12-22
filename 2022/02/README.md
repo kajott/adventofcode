@@ -1,5 +1,11 @@
 # [2022, Day 2: Rock Paper Scissors](https://adventofcode.com/2022/day/2)
 
+The input consists of (typically) 255 pairs of letters: The first is one of `ABC`, the second one of `XYZ`. They map to Rock (`A`, `X`), Paper (`B`, `Y`) and Scissors (`C`, `Z`), respectively.
+
+**Part 1** asks to simulate all the games and compute some "score" based on the outcomes of each game.
+
+**Part 2** asks the same, but changes the meaning of the second letter to lose (`X`) / draw (`Y`) / win (`Z`).
+
 
 ## Solution Notes
 

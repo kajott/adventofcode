@@ -1,5 +1,11 @@
 # [2019, Day 10: Monitoring Station](https://adventofcode.com/2019/day/10)
 
+The input consists of a (typically) 36x36 grid, populated with objects.
+
+**Part 1** asks to find the object from which the highest amount of other objects can be "seen" in direct line of sight. Visibility is blocked by other objects, i.e. if three objects are colinear, only the one at the center can see both others.
+
+In **part 2**, objects are removed, one after another, in angular sweeps around the object selected in part 1. If multiple objects are in a line, only the closest one is removed during a sweep; further ones will only removed after an additional 360 degrees of rotation. The task asks for the coordinate of the 200th removed object.
+
 
 ## Solution Notes
 

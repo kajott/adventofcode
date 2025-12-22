@@ -1,5 +1,11 @@
 # [2024, Day 4: Ceres Search](https://adventofcode.com/2024/day/4)
 
+The input consists of a (typically) 140x140 grid of the letters `A`, `M`, `S` and `X`.
+
+**Part 1** asks how many times the word `XMAS` appears in the grid, in any direction, including reversed and diagonal.
+
+**Part 2** asks how many times a quincunx consisting of the letters `MAS` in both diagonals appears in the grid.
+
 
 ## Solution Notes
 

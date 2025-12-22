@@ -1,5 +1,13 @@
 # [2022, Day 13: Distress Signal](https://adventofcode.com/2022/day/13)
 
+The input consists of (typically) 150 pairs of nested lists. Each list contains 0 to 5 elements, and each element can either be a number between 0 and 10, or a nested list, up to 4 levels deep.
+
+The task establishes rules for comparing two items: Numbers are compared as such, lists are compared element-wise, with the end of the list acting as an infinitely small pseudo-value. A list-vs.-number comparison works by converting the number to a single-element list first.
+
+**Part 1** asks to compare each pair of lists according to the rules.
+
+**Part 2** asks to sort all of the ~300 lists contained in the input (disregarding the pairs), plus two constant additional lists, and determine the positions of these two extra lists in the sorted result.
+
 
 ## Solution Notes
 

@@ -1,5 +1,13 @@
 # [2021, Day 11: Dumbo Octopus](https://adventofcode.com/2021/day/11)
 
+The input consists of a 10x10 grid of digits.
+
+In each time step, each cell increases by 1. If a cell goes above 9, it "flashes" and increases the surrounding eight cells, possibly causing these to flash too. Finally, all cells that flashed are reset to zero.
+
+**Part 1** asks for the total amount of flashes after 100 time steps.
+
+**Part 2** asks for the first time step where all cells flash.
+
 
 ## Solution Notes
 

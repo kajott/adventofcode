@@ -1,5 +1,13 @@
 # [2023, Day 11: Cosmic Expansion](https://adventofcode.com/2023/day/11)
 
+The input consists of a (typically) 140x140 grid, sparsely populated with objects.
+
+The grid has to be pre-processed by duplicating every row and column that does not contain any objects.
+
+**Part 1** asks for the sum of distances between each pair of objects after this pre-processing step.
+
+**Part 2** asks the same, but the pre-processing adds not just two, but one million copies of each empty row and column to the grid.
+
 
 ## Solution Notes
 

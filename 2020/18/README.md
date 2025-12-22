@@ -1,5 +1,13 @@
 # [2020, Day 18: Operation Order](https://adventofcode.com/2020/day/18)
 
+The input consists of (typically) 375 lines of simple math problems, using only single-digit numbers, the `+` and `*` operators and up to two levels of nested braces.
+
+The semantics of the `+` and `*` operators are the usual addition and multiplication, respectively; however the operator precedence rules changed.
+
+**Part 1** asks for the sum of all results with **no** operator precedence (i.e. `+` and `*` are evaluated stricly left-to-right).
+
+**Part 2** asks for the sum of all results with **inverted** operator precedence (i.e. `+` and is evaluated _before_ `*`).
+
 
 ## Solution Notes
 

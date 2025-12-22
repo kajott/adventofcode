@@ -1,5 +1,11 @@
 # [2023, Day 10: Pipe Maze](https://adventofcode.com/2023/day/10)
 
+The input consists of a (typically) 140x140 grid, filled with the characters '|', '-', 'L', 'J', 'F', '7', denoting the directions and bends of pipes, '.' (empty space), and exactly one 'S' (start position). The start position is part of one large loop of pipes. There are other pipes present in the input, but these do not form loops.
+
+**Part 1** asks for the distance to the farthest point in the loop, starting at `S` and going along the pipes.
+
+**Part 2** asks for the area of the enclosed space _inside_ the loop, not accounting for any outside space.
+
 
 ## Solution Notes
 

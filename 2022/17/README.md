@@ -1,5 +1,13 @@
 # [2022, Day 17: Pyroclastic Flow](https://adventofcode.com/2022/day/17)
 
+The input consists of (typically) 10,000 left/right directions.
+
+The puzzle is about the simulation of a Tetris-like game with five block shapes (tetrominos and pentominos) that look like `-` (four-wide horizontal beam), `+`, `L` (but mirrored), `I` (for-high vertical beam) and `.` (2x2 block) that are spawned in turn. The playfield is 7 cells wide and infinitely high. Blocks spawn at a defined height above the currently highest "fixed" block. Blocks can't be rotated, but they move into one of the directions from the input between falling down one unit. The input is to be considered cyclic. Otherwise, typical Tetris rules apply.
+
+**Part 1** asks for the height of the stack after 2022 blocks have stopped falling.
+
+**Part 2** asks the same, but after 1x10^12 blocks.
+
 
 ## Solution Notes
 

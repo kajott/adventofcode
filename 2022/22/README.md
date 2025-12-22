@@ -1,5 +1,13 @@
 # [2022, Day 22: Monkey Map](https://adventofcode.com/2022/day/22)
 
+The input consists of a (typically) 150x200 grid, itself consisting of 3x4 blocks of 50x50 cells that are either completely invalid, or valid and sparsely populated with obstacles.
+
+In addition, the input contains a (typically) 5.5k-letter string describing movement instructions. It consists of 1-to-2-digit numbers describing how many steps to go forward, interleaved with `L` or `R` 90-degree turning instructions. The path starts at the top-left valid free spot, facing right. When moving into "invalid" space, the position wraps around to the first valid position on the opposite end of the map.
+
+**Part 1** asks to run the movement instructions and determine the final position and direction.
+
+**Part 2** asks the same, but it is revealed that the maze is actually the net of a cube, and when going into invalid space, the path shall continue on the appropriate spot on the respective cube face.
+
 
 ## Solution Notes
 

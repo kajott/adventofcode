@@ -1,5 +1,13 @@
 # [2023, Day 18: Lavaduct Lagoon](https://adventofcode.com/2023/day/18)
 
+The input consists of (typically) 600 lines that each contain a direction (left/right/up/down), a length between 1 and 10, and a HTML/CSS hexadecimal color code.
+
+The input is to be interpreted as a series of move instructions that walk along the outline of a complex non-convex 2D shape.
+
+**Part 1** asks for the area (_not_ the perimeter!) of the shape.
+
+**Part 2** asks the same, but the instructions are replaced by what seems to be the color codes: 20 bits for the length, 2 reserved bits, 2 bits for the direction.
+
 
 ## Solution Notes
 

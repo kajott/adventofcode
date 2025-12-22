@@ -1,5 +1,9 @@
 # [2025, Day 12: Christmas Tree Farm](https://adventofcode.com/2025/day/12)
 
+The input consists of a set of six "puzzle pieces", each one described as a densely-populated 3x3 grid, and a list of (typically) 1000 puzzles, each one consisting of a target grid size and a list of six 2-digit numbers, describing how many of the pieces of each type shall be put into the target grid. Pieces can be arbitrarily rotated and flipped.
+
+The task asks how many of the puzzles listed in the input are actually solvable.
+
 
 ## Solution Notes
 

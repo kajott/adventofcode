@@ -1,5 +1,11 @@
 # [2024, Day 12: Garden Groups](https://adventofcode.com/2024/day/12)
 
+The input consists of a (typically) 140x140 grid of letters A..Z, containing many differently-sized contiguous areas of the same letters.
+
+**Part 1** asks for the area and perimeter of all contiguous areas.
+
+**Part 2** does the same, but instead of the perimeter, only the number of sides shall be counted; i.e. arbitrarily long runs of perimeter in a direction only count as one.
+
 
 ## Solution Notes
 

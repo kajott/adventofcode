@@ -1,5 +1,11 @@
 # [2021, Day 12: Passage Pathing](https://adventofcode.com/2021/day/12)
 
+The input describes an undirected graph with (typically) 30 edges. Node mostly have random 2-letter names, some lowercase ("small"), some uppercase ("large"). Two nodes are named "start" and "end".
+
+**Part 1** asks how many different paths there are from start to end, whereby small nodes may only be visited at most once.
+
+**Part 2** asks the same, but exactly one small node may be visited *twice*.
+
 
 ## Solution Notes
 

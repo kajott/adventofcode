@@ -1,5 +1,11 @@
 # [2024, Day 24: Crossed Wires](https://adventofcode.com/2024/day/24)
 
+The input describes a circuit of (typically) 200 AND, OR and XOR logic gates, and (typically 90) binary input signals with their initial states.
+
+**Part 1** asks for the output of the (typically) 40 output signals.
+
+**Part 2** asks for the gates that need to be wired differently so the entire circuit turns into a working binary adder.
+
 
 ## Solution Notes
 

@@ -1,5 +1,11 @@
 # [2023, Day 1: Trebuchet?!](https://adventofcode.com/2023/day/1)
 
+The input consists of (typically) 1000 random strings of letters and digits, of 4 to about 30 characters each.
+
+**Part 1** asks for the first and last digit found in each of these strings.
+
+**Part 2** asks for the first and last *numeral* (i.e. a substring of `one`, `two`, `three` etc.) found in these strings.
+
 
 ## Solution Notes
 

@@ -1,5 +1,11 @@
 # [2023 Day 20: Pulse Propagation](https://adventofcode.com/2023/day/20)
 
+The input consists of a netlist of (typically) 60 binary gates, named with random 2-letter identifiers. The gates are pulse-activated, not level activated. Each gate is either a flip-flop that toggles when receiving a low pulse, or a NAND gate that emits a high pulse when it receives any pulse on its two inputs, or a low pulse if the last two pulses received on both inputs were high. Each gate's output is connected to 1 to 7 other gates. A special third type of gate, the "broadcaster", exists only once in the circuit and broadcasts an incoming pulse across all its outputs.
+
+**Part 1** asks for the total numbers of high and low pulses processed by the entire circuit after sending 1000 low pulses into the broadcaster.
+
+**Part 2** asks how many low pulses need to be sent into the broadcaster until a certain gate in the circuit receives a low pulse.
+
 
 ## Solution Notes
 

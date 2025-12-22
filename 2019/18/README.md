@@ -1,5 +1,13 @@
 # [2019, Day 18: Many-Worlds Interpretation](https://adventofcode.com/2019/day/18)
 
+The input describes a (typically) 80x80 maze, visibly subdivided into four quadrants, with a marked starting position in the center. Scattered around the maze are 52 other marked spots, one lowercase and one uppercase for each letter. The uppercase marks can only be passed after the corresponding lowercase mark has been visited at least once.
+
+**Part 1** asks for the shortest path that visits all the lowercase marks.
+
+For **part 2**, the center area of the maze, which contains the starting position, is replaced by a pattern that segregates the quadrants from each other, turning the map into four independent mazes, each with their own starting position. In each time step, only one of the four positions can move, "unlocking" of uppercase marks still works across mazes.
+
+**Part 2** asks for the shortest path that visits all the lowercase marks under these changed conditions.
+
 
 ## Solution Notes
 

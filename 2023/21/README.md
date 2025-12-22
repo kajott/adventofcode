@@ -1,5 +1,11 @@
 # [2023, Day 21: Step Counter](https://adventofcode.com/2023/day/21)
 
+The input consists of a (typically) 130x130 grid, sparsely populated with objects, and a start position for the player. The player can move into the four cardinal directions at a time step, unless they're hitting an object.
+
+**Part 1** asks for how many different positions in the grid could be reached after 64 time steps.
+
+**Part 2** asks the same, but after 26501365 time steps, and with the grid repeating infinitely along both axes.
+
 
 ## Solution Notes
 

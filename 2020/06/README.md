@@ -1,5 +1,11 @@
 # [2020, Day 6: Custom Customs](https://adventofcode.com/2020/day/6)
 
+The input consists of (typically) 500 groups of 1 to 5 strings of 1 to 24 random letters each.
+
+**Part 1** asks, for each group, how many different letters appear across all strings of the group.
+
+**Part 2** asks, for each group, how many letters appear in every string of the group.
+
 
 ## Solution Notes
 

@@ -1,5 +1,11 @@
 # [2022, Day 24: Blizzard Basin](https://adventofcode.com/2022/day/24)
 
+The input consists of a (typically) 122x27 grid, with solid obstacles around the edges, and densely populated with four types of moving obstacles ("blizzards"). These obstacles move in one of the four cardinal directions with each time step. When they move into one of the solid walls at the edges, they reappear at the opposize end of the grid. Multiple obstacles can occupy a cell without them interacting in any way.
+
+**Part 1** asks for the least number of time steps between the start at the upper-left corner and the goal at the lower-right corner of the grid.
+
+**Part 2** asks for the least number of time steps to go from the start to the goal, then back to the start, and then to the goal again.
+
 
 ## Solution Notes
 

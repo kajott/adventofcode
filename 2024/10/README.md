@@ -1,5 +1,13 @@
 # [2024, Day 10: Hoof It](https://adventofcode.com/2024/day/10)
 
+The input consists of a (typically) 60x60 grid of digits representing a heightmap.
+
+The map contains many paths; each valid path starts at a `0`, goes to a neighboring `1`, then a `2`, etc., and ends at a `9`.
+
+**Part 1** asks for how many `9`'s are reachable from each `0`.
+
+**Part 2** asks how many different paths there are that start at each `0`.
+
 
 ## Solution Notes
 

@@ -1,5 +1,11 @@
 # [2022, Day 4: Camp Cleanup](https://adventofcode.com/2022/day/4)
 
+The input consists of (typically) 1000 pairs of ranges, with numbers in the single to double digits.
+
+**Part 1** asks for how many pairs there are where one range fully contains the other.
+
+**Part 2** asks for how many pairs there are where there's any overlap in the ranges.
+
 
 ## Solution Notes
 

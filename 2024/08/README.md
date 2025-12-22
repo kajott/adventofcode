@@ -1,5 +1,13 @@
 # [2024, Day 8: Resonant Collinearity](https://adventofcode.com/2024/day/8)
 
+The input consists of a (typically) 50x50 grid, sparsely populated with objects of up to 36 types. There are multiple objects for each type.
+
+For each pair of two objects of the same type, two locations are marked by using the difference vector between the two objects and adding that to the second object's position, or subtracting from the first object's position.
+
+**Part 1** asks how many unique marked locations there are on the map.
+
+**Part 2** asks the same, but it extends the marking rule such that all locations that are exactly colinear with any pair of two objects of the same type are marked, i.e. any integer multiple of the difference vector is marked, including the objects' locations themselves.
+
 
 ## Solution Notes
 

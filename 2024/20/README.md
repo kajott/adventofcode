@@ -1,5 +1,13 @@
 # [2024, Day 20: Race Condition](https://adventofcode.com/2024/day/20)
 
+The input is a (typically) 140x140 maze with each cell containing a wall or walkable space, and two marked positions "Start" and "End".
+
+During traversal of the maze, "cheats" can be enabled that temporarily make it possible to walk through walls for at most 2 steps at one (and only one) point in a run.
+
+**Part 1** asks how many of these cheats would save at least 100 steps in total.
+
+**Part 2** is the same, except that a cheat can last up to 20 steps.
+
 
 ## Solution Notes
 

@@ -1,5 +1,13 @@
 # [2024, Day 13: Claw Contraption](https://adventofcode.com/2024/day/13)
 
+The task simulates a (unreasonably large) [claw machine](https://en.wikipedia.org/wiki/Claw_machine) operating on an infinite integer 2D grid. Each game starts with the claw at the origin. The machine is operated with two buttons, A and B, that move the claw some amount of cells forward in **both** axes. A is 3 times as expensive as B.
+
+The input describes (typically) 320 scenarios, each consisting of the coordinates of the prize (goal) and the X/Y increments of the two buttons. Increments are typically in the double-digits, prize positions are 3 to 5 digits.
+
+**Part 1** asks for the minimum cost to get all the prizes.
+
+**Part 2** is the same, but all prize coordinates are increased by 10^13.
+
 
 ## Solution Notes
 

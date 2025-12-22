@@ -1,5 +1,14 @@
 # [2025, Day 10: Factory](https://adventofcode.com/2025/day/10)
 
+The input consists of (typically) 165 lines, each one consisting of
+- a binary pattern of 4 to 10 elements (A)
+- a list of 3 to 11 sets containing 1 to 9 single-digit numbers (B)
+- a list of 4 to 10 numbers (always exactly as many as in the binary pattern) between 1 and (typically) 270 (C)
+
+For **part 1**, inputs (B) are described as "buttons" that toggle one or more of the elements in a binary pattern. The task asks for the minimum amount of button presses required to arrive at pattern (A) when starting in an all-off state. Inputs (C) are ignored.
+
+For **part 2**, inputs (B) are described as buttons that **increment** one or more elements in a list of numbers as long as inputs A and C, starting at an all-zero state. The task asks for the minimum amount of button presses to arrive at the numbers (C). Inputs (A) are ignored.
+
 
 ## Solution Notes
 
